@@ -1,0 +1,22 @@
+.columns_overall_score{
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
+.columns_overall_score svg{
+    height: 22px;
+    width: auto;
+    fill: #585858;
+}
+.columns_overall_score.r4w_score_poor{
+    color:#fc5252;
+}
+.columns_overall_score.r4w_score_mediocre{
+    color:#ff7f00;
+}
+.columns_overall_score.r4w_score_good{
+    color:#8bc34a;
+}
+.columns_overall_score.r4w_score_perfect{
+    color:#4fae33;
+}

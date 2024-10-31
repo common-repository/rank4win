@@ -1,0 +1,27 @@
+#aab85762-8b8b-45ba-8851-21119dd6248f .ph-item {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: initial;
+    width: max-content;
+}
+#aab85762-8b8b-45ba-8851-21119dd6248f .ph-line {
+    flex: inherit;
+    flex-flow: inherit;
+    padding: 0;
+    width: 100%;
+}
+#aab85762-8b8b-45ba-8851-21119dd6248f .ph_advbox_keyword {
+    height: 15px;
+    background-color: #ced4da;
+    width: 190px;
+    margin-left: 0;
+    margin-right: 20px;
+}
+#aab85762-8b8b-45ba-8851-21119dd6248f .ph_advbox_title {
+    height: 15px;
+    background-color: #ced4da;
+    width: 130px;
+    margin-left: 0;
+    margin-right: 20px;
+}

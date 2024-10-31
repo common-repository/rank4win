@@ -1,0 +1,24 @@
+r4w_mark_cnt {
+    border-left: 2px solid #FA6742;
+    padding: 5px;
+    background: #FA67422e;
+}
+.r4w_mark_info{
+    position: absolute;
+    display: initial;
+    margin-top: -32px;
+    background: #FA6742;
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: -7px;
+    text-decoration: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+} 

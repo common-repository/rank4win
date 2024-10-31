@@ -1,0 +1,1 @@
+<span class="columns_overall_score [@class]">[@score]</span>

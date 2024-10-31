@@ -1,0 +1,4901 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rank4win\n"
+"POT-Creation-Date: 2020-09-20 18:43+0200\n"
+"PO-Revision-Date: 2020-09-20 19:46+0200\n"
+"Last-Translator: Jrm Tdc <jrm@tiensdonc.com>\n"
+"Language-Team: Maher Wannes <wannes@dailycom.me>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rank4win.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: tpl/account/contained.tpl:9
+#, fuzzy
+msgid "Account and subscription management"
+msgstr "Account and subscription management"
+
+#: tpl/account/contained.tpl:10
+#, fuzzy
+msgid ""
+"Manage your account and this information, manage your subscription and "
+"recover your bills"
+msgstr ""
+"Manage your account and this information, manage your subscription and "
+"recover your bills"
+
+#: tpl/account/contained.tpl:16
+#, fuzzy
+msgid "Account"
+msgstr "Account"
+
+#: tpl/account/contained.tpl:17 tpl/account/tab_invoice/contained.tpl:3
+#, fuzzy
+msgid "Your invoices"
+msgstr "Your invoices"
+
+#: tpl/account/contained.tpl:18
+#, fuzzy
+msgid "Your wordpress"
+msgstr "Your wordpress"
+
+#: tpl/account/contained.tpl:19
+#, fuzzy
+msgid "Sign in with another account"
+msgstr "Sign in with another account"
+
+#: tpl/account/contained.tpl:36 tpl/account/tab_account/contained.tpl:5
+#, fuzzy
+msgid "Account Details"
+msgstr "Account Details"
+
+#: tpl/account/contained.tpl:43
+#, fuzzy
+msgid ""
+"Be sure to keep all your information up-to-date and rectify it at the "
+"slightest change"
+msgstr ""
+"Be sure to keep all your information up-to-date and rectify it at the "
+"slightest change"
+
+#: tpl/account/contained.tpl:48
+#, fuzzy
+msgid "Type of account"
+msgstr "Type of account"
+
+#: tpl/account/contained.tpl:50
+#, fuzzy
+msgid "Individual"
+msgstr "Individual"
+
+#: tpl/account/contained.tpl:51
+#, fuzzy
+msgid "Professional"
+msgstr "Professional"
+
+#: tpl/account/contained.tpl:56
+#, fuzzy
+msgid "Firstname"
+msgstr "Firstname"
+
+#: tpl/account/contained.tpl:60
+#, fuzzy
+msgid "Lastname"
+msgstr "Lastname"
+
+#: tpl/account/contained.tpl:66 _inc/class/class.execjs.php:4470
+#, fuzzy
+msgid "Company Name"
+msgstr "Company Name"
+
+#: tpl/account/contained.tpl:70
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:165
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:276
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:423
+#, fuzzy
+msgid "Address"
+msgstr "Address"
+
+#: tpl/account/contained.tpl:74
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:200
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:304
+#, fuzzy
+msgid "Phone"
+msgstr "Phone"
+
+#: tpl/account/contained.tpl:80
+#, fuzzy
+msgid "Update"
+msgstr "Update"
+
+#: tpl/account/tab_account/contained.tpl:15
+#, fuzzy
+msgid "Manage your account"
+msgstr "Manage your account"
+
+#: tpl/account/tab_account/stripe_preview.tpl:2
+#, fuzzy
+msgid "Update your payment card"
+msgstr "Update your payment card"
+
+#: tpl/account/tab_account/stripe_preview.tpl:11
+#, fuzzy
+msgid "Add your credit card"
+msgstr "Add your credit card"
+
+#: tpl/account/tab_account/stripe_preview.tpl:14
+#, fuzzy
+msgid ""
+"Please contact your bank or credit card issuer to find out why your credit "
+"card is not accepted"
+msgstr ""
+"Please contact your bank or credit card issuer to find out why your credit "
+"card is not accepted"
+
+#: tpl/account/tab_account/stripe_preview.tpl:26
+#: tpl/subscription/stripe_preview.tpl:46
+#: tpl/tools/tab_deploy/stripe_preview.tpl:29
+#, fuzzy
+msgid "Authorization in progress"
+msgstr "Authorization in progress"
+
+#: tpl/account/tab_account/stripe_preview.tpl:27
+#: tpl/subscription/stripe_preview.tpl:47
+#: tpl/tools/tab_deploy/stripe_preview.tpl:30
+#, fuzzy
+msgid "Please wait a moment"
+msgstr "Please wait a moment"
+
+#: tpl/account/tab_account/sub_cancelsub.tpl:3
+#: tpl/account/tab_account/sub_subscribes.tpl:8
+#: tpl/account/tab_account/sub_unsubscribed.tpl:3 _inc/class/class.app.php:978
+#, fuzzy
+msgid "Subscription"
+msgstr "Subscription"
+
+#: tpl/account/tab_account/sub_cancelsub.tpl:9
+#, fuzzy
+msgid "Reactivate subscription"
+msgstr "Reactivate subscription"
+
+#: tpl/account/tab_account/sub_issue.tpl:6
+#, fuzzy
+msgid "Try again"
+msgstr "Try again"
+
+#: tpl/account/tab_account/sub_subscribes.tpl:16
+#: tpl/account/tab_account/sub_subscribes.tpl:46
+#, fuzzy
+msgid "Cancelled the subscription"
+msgstr "Cancelled the subscription"
+
+#: tpl/account/tab_account/sub_subscribes.tpl:17
+#, fuzzy
+msgid "Update payment information"
+msgstr "Update payment information"
+
+#: tpl/account/tab_account/sub_subscribes.tpl:27
+#, fuzzy
+msgid "Are you leaving us"
+msgstr "Are you leaving us"
+
+#: tpl/account/tab_account/sub_subscribes.tpl:39
+#, fuzzy
+msgid "What are the reasons for terminating your subscription"
+msgstr "What are the reasons for terminating your subscription"
+
+#: tpl/account/tab_account/sub_subscribes.tpl:44
+#, fuzzy
+msgid "Keep my subscription"
+msgstr "Keep my subscription"
+
+#: tpl/account/tab_account/sub_trialing.tpl:3
+#, fuzzy
+msgid "You benefit from a trial period"
+msgstr "You benefit from a trial period"
+
+#: tpl/account/tab_account/sub_unsubscribed.tpl:4
+#, fuzzy
+msgid "You currently have no subscription, you benefit from the free offer"
+msgstr "You currently have no subscription, you benefit from the free offer"
+
+#: tpl/account/tab_account/sub_unsubscribed.tpl:7
+#, fuzzy
+msgid "Choose a subscription"
+msgstr "Choose a subscription"
+
+#: tpl/account/tab_invoice/contained.tpl:6
+#, fuzzy
+msgid "Date"
+msgstr "Date"
+
+#: tpl/account/tab_invoice/contained.tpl:7
+#, fuzzy
+msgid "Bill number"
+msgstr "Bill number"
+
+#: tpl/account/tab_invoice/contained.tpl:8
+#, fuzzy
+msgid "Amount"
+msgstr "Amount"
+
+#: tpl/account/tab_invoice/loop_invoice.tpl:12
+#, fuzzy
+msgid "Download pdf"
+msgstr "Download pdf"
+
+#: tpl/account/tab_wordpress/contained.tpl:3
+#, fuzzy
+msgid "List of your wordpress"
+msgstr "List of your wordpress"
+
+#: tpl/account/tab_wordpress/contained.tpl:17
+#: tpl/account/tab_wordpress/contained.tpl:38
+#: tpl/account/tab_wordpress/contained.tpl:59
+#, fuzzy
+msgid "Add a subscription to this wordpress"
+msgstr "Add a subscription to this wordpress"
+
+#: tpl/account/tab_wordpress/contained.tpl:24
+#, fuzzy
+msgid ""
+"Linking this wordpress to your subscription uses an available location. "
+"Deleting the wordpress from your subscription will only take effect on your "
+"next bill"
+msgstr ""
+"Linking this wordpress to your subscription uses an available location. "
+"Deleting the wordpress from your subscription will only take effect on your "
+"next bill"
+
+#: tpl/account/tab_wordpress/contained.tpl:27
+#, fuzzy
+msgid "Add this wordpress to your subscription"
+msgstr "Add this wordpress to your subscription"
+
+#: tpl/account/tab_wordpress/contained.tpl:45
+#, fuzzy
+msgid ""
+"Your current subscription does not allow you to benefit from wordpress, add "
+"an additional wordpress or change your subscription"
+msgstr ""
+"Your current subscription does not allow you to benefit from wordpress, add "
+"an additional wordpress or change your subscription"
+
+#: tpl/account/tab_wordpress/contained.tpl:48
+#, fuzzy
+msgid "Change your subscription"
+msgstr "Change your subscription"
+
+#: tpl/account/tab_wordpress/contained.tpl:66
+#, fuzzy
+msgid ""
+"You do not have any subscription, subscribe to one of our offers, you can "
+"then associate a wordpress to your subscription"
+msgstr ""
+"You do not have any subscription, subscribe to one of our offers, you can "
+"then associate a wordpress to your subscription"
+
+#: tpl/account/tab_wordpress/contained.tpl:69 _inc/fcnt/fcnt.locale.php:45
+#: _inc/fcnt/fcnt.locale.php:47 _inc/fcnt/fcnt.locale.php:79
+#: _inc/fcnt/fcnt.locale.php:83 _inc/fcnt/fcnt.locale.php:165
+#: _inc/fcnt/fcnt.locale.php:167 _inc/fcnt/fcnt.locale.php:184
+#: _inc/fcnt/fcnt.locale.php:186 _inc/fcnt/fcnt.locale.php:202
+#: _inc/fcnt/fcnt.locale.php:204 _inc/fcnt/fcnt.locale.php:277
+#: _inc/fcnt/fcnt.locale.php:279
+#, fuzzy
+msgid "Subscribe to a subscription"
+msgstr "Subscribe to a subscription"
+
+#: tpl/account/tab_wordpress/loop_wordpress.tpl:9
+#, fuzzy
+msgid "Wordpress associated with the account"
+msgstr "Wordpress associated with the account"
+
+#: tpl/account/tab_wordpress/loop_wordpress.tpl:13
+#, fuzzy
+msgid "Wordpress associated with the subscription"
+msgstr "Wordpress associated with the subscription"
+
+#: tpl/analysis/contained.tpl:10
+#, fuzzy
+msgid "Analysis and summary of your website"
+msgstr "Analysis and summary of your website"
+
+#: tpl/analysis/contained.tpl:11
+#, fuzzy
+msgid ""
+"Our tools analyze your site and Internet route to provide you with data on "
+"your reputation and that of your competitors"
+msgstr ""
+"Our tools analyze your site and Internet route to provide you with data on "
+"your reputation and that of your competitors"
+
+#: tpl/analysis/contained.tpl:20 _inc/fcnt/fcnt.locale.php:424
+#, fuzzy
+msgid "Summary"
+msgstr "Summary"
+
+#: tpl/analysis/contained.tpl:21
+#: tpl/analysis/tab_analysis_website/contained.tpl:3
+#, fuzzy
+msgid "Website analysis"
+msgstr "Website analysis"
+
+#: tpl/analysis/contained.tpl:22
+#: tpl/analysis/tab_analysis_research/contained.tpl:4
+#, fuzzy
+msgid "Organic research analysis"
+msgstr "Organic research analysis"
+
+#: tpl/analysis/contained.tpl:23
+#: tpl/analysis/tab_analysis_competition/contained.tpl:4
+#, fuzzy
+msgid "Competition analysis"
+msgstr "Competition analysis"
+
+#: tpl/analysis/tab_summary/score_loop.tpl:10
+#, fuzzy
+msgid "with no score"
+msgstr "with no score"
+
+#: tpl/analysis/tab_summary/score_loop.tpl:11
+#, fuzzy
+msgid "with a very poor score"
+msgstr "with a very poor score"
+
+#: tpl/analysis/tab_summary/score_loop.tpl:12
+#, fuzzy
+msgid "with a bad score"
+msgstr "with a bad score"
+
+#: tpl/analysis/tab_summary/score_loop.tpl:13
+#, fuzzy
+msgid "with a good score"
+msgstr "with a good score"
+
+#: tpl/analysis/tab_summary/score_loop.tpl:14
+#, fuzzy
+msgid "with a perfect score"
+msgstr "with a perfect score"
+
+#: tpl/analysis/tab_summary/score_loop.tpl:15
+#, fuzzy
+msgid "Improve your score"
+msgstr "Improve your score"
+
+#: tpl/auth_forgot/contained.tpl:10
+#, fuzzy
+msgid "Dont have an account"
+msgstr "Dont have an account"
+
+#: tpl/auth_forgot/contained.tpl:11 tpl/auth_login/contained.tpl:9
+#, fuzzy
+msgid "Sign up here"
+msgstr "Sign up here"
+
+#: tpl/auth_forgot/contained.tpl:15
+#, fuzzy
+msgid ""
+"Please enter your email address and we will send you an email to reset your "
+"password"
+msgstr ""
+"Please enter your email address and we will send you an email to reset your "
+"password"
+
+#: tpl/auth_forgot/contained.tpl:18 tpl/auth_login/contained.tpl:14
+#: tpl/auth_register/contained.tpl:19
+#, fuzzy
+msgid "Email Address"
+msgstr "Email Address"
+
+#: tpl/auth_forgot/contained.tpl:24
+#, fuzzy
+msgid "Reset Password"
+msgstr "Reset Password"
+
+#: tpl/auth_forgot/contained.tpl:27 tpl/auth_register/contained.tpl:12
+#, fuzzy
+msgid "Already have an account"
+msgstr "Already have an account"
+
+#: tpl/auth_forgot/contained.tpl:28 tpl/auth_register/contained.tpl:13
+#, fuzzy
+msgid "Login here"
+msgstr "Login here"
+
+#: tpl/auth_login/contained.tpl:22 tpl/auth_register/contained.tpl:25
+#, fuzzy
+msgid "Password"
+msgstr "Password"
+
+#: tpl/auth_login/contained.tpl:23 _inc/class/class.app.php:986
+#, fuzzy
+msgid "Forgot"
+msgstr "Forgot"
+
+#: tpl/auth_login/contained.tpl:31
+#, fuzzy
+msgid "Login Now"
+msgstr "Login Now"
+
+#: tpl/auth_login/contained.tpl:35 tpl/auth_otp/contained.tpl:51
+#: tpl/auth_register/contained.tpl:41
+#, fuzzy
+msgid "Terms of Service"
+msgstr "Terms of Service"
+
+#: tpl/auth_login/contained.tpl:36 tpl/auth_otp/contained.tpl:53
+#: tpl/auth_register/contained.tpl:43
+#, fuzzy
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: tpl/auth_otp/contained.tpl:11
+#, fuzzy
+msgid "Verification code"
+msgstr "Verification code"
+
+#: tpl/auth_otp/contained.tpl:25
+#, fuzzy
+msgid "Check your code"
+msgstr "Check your code"
+
+#: tpl/auth_otp/contained.tpl:28 tpl/auth_otp/contained.tpl:33
+#, fuzzy
+msgid "New password"
+msgstr "New password"
+
+#: tpl/auth_otp/contained.tpl:39
+#, fuzzy
+msgid "Confirm new password"
+msgstr "Confirm new password"
+
+#: tpl/auth_otp/contained.tpl:47
+#, fuzzy
+msgid "Change your password"
+msgstr "Change your password"
+
+#: tpl/auth_register/contained.tpl:31
+#, fuzzy
+msgid "Confirm Password"
+msgstr "Confirm Password"
+
+#: tpl/auth_register/contained.tpl:37
+#, fuzzy
+msgid "Create Account"
+msgstr "Create Account"
+
+#: tpl/auth_wordpress/contained.tpl:10
+#, fuzzy
+msgid "This wordpress is not associated with your Rank4Win account"
+msgstr "This wordpress is not associated with your Rank4Win account"
+
+#: tpl/auth_wordpress/contained.tpl:11
+#, fuzzy
+msgid "To continue, you must link this wordpress to your account"
+msgstr "To continue, you must link this wordpress to your account"
+
+#: tpl/auth_wordpress/contained.tpl:37
+#, fuzzy
+msgid "Associated this wordpress"
+msgstr "Associated this wordpress"
+
+#: tpl/box_answer/contained.tpl:12 tpl/editor/str_search.tpl:17
+#: _inc/fcnt/fcnt.locale.php:293 _inc/fcnt/fcnt.locale.php:379
+#, fuzzy
+msgid "Questioning"
+msgstr "Questioning"
+
+#: tpl/box_answer/contained.tpl:19
+#, fuzzy
+msgid ""
+"What people search on search engines. This will allow you to target useful "
+"topics and, at the same time, significantly increase your traffic as well as "
+"your notoriety with your readers"
+msgstr ""
+"What people search on search engines. This will allow you to target useful "
+"topics and, at the same time, significantly increase your traffic as well as "
+"your notoriety with your readers"
+
+#: tpl/box_keywords/button.tpl:3
+#, fuzzy
+msgid "Optimize my content"
+msgstr "Optimize my content"
+
+#: tpl/box_keywords/keyword_lexical.tpl:6
+#, fuzzy
+msgid "Add your lexical keywords"
+msgstr "Add your lexical keywords"
+
+#: tpl/box_keywords/keyword_lexical.tpl:13
+#, fuzzy
+msgid ""
+"Lexical keywords are terms related to your primary and secondary keywords, "
+"which are intended only to show search engines that you understand all the "
+"vocabulary surrounding the topic"
+msgstr ""
+"Lexical keywords are terms related to your primary and secondary keywords, "
+"which are intended only to show search engines that you understand all the "
+"vocabulary surrounding the topic"
+
+#: tpl/box_keywords/keyword_lexical.tpl:25
+#: tpl/box_keywords/keyword_secondary.tpl:26
+#: tpl/editor/keyword_secondary.tpl:26
+#, fuzzy
+msgid "Your keyword select"
+msgstr "Your keyword select"
+
+#: tpl/box_keywords/keyword_lexical.tpl:31 tpl/box_keywords/keyword_main.tpl:23
+#: tpl/box_keywords/keyword_secondary.tpl:32 tpl/editor/keyword_main.tpl:22
+#: tpl/editor/keyword_secondary.tpl:32
+#, fuzzy
+msgid "Continue"
+msgstr "Continue"
+
+#: tpl/box_keywords/keyword_main.tpl:7 tpl/editor/keyword_main.tpl:6
+#, fuzzy
+msgid "Add your main keyword"
+msgstr "Add your main keyword"
+
+#: tpl/box_keywords/keyword_main.tpl:14 tpl/editor/keyword_main.tpl:13
+#, fuzzy
+msgid ""
+"The first thing to do is to choose the \"right\" main keyword to position "
+"your web pages. Remember that this is a crucial phase for your SEO"
+msgstr ""
+"The first thing to do is to choose the \"right\" main keyword to position "
+"your web pages. Remember that this is a crucial phase for your SEO"
+
+#: tpl/box_keywords/keyword_main.tpl:19 tpl/editor/keyword_main.tpl:18
+#: _inc/fcnt/fcnt.locale.php:87 _inc/fcnt/fcnt.locale.php:289
+#: _inc/fcnt/fcnt.locale.php:316 tpl/columns_keywords/_root.php:23
+#, fuzzy
+msgid "Main keyword"
+msgstr "Main keyword"
+
+#: tpl/box_keywords/keyword_secondary.tpl:6 tpl/editor/keyword_secondary.tpl:6
+#, fuzzy
+msgid "Add your secondary keywords"
+msgstr "Add your secondary keywords"
+
+#: tpl/box_keywords/keyword_secondary.tpl:13
+#: tpl/editor/keyword_secondary.tpl:13
+#, fuzzy
+msgid ""
+"Secondary keywords are variations of your main keyword. They are useful for "
+"enriching the semantics of your content, not to mention that they are the "
+"best way for Google to notice you and appreciate your news"
+msgstr ""
+"Secondary keywords are variations of your main keyword. They are useful for "
+"enriching the semantics of your content, not to mention that they are the "
+"best way for Google to notice you and appreciate your news"
+
+#: tpl/box_keywords/keyword_secondary.tpl:19
+#: tpl/editor/keyword_secondary.tpl:19
+#, fuzzy
+msgid "Suggestion of keywords"
+msgstr "Suggestion of keywords"
+
+#: tpl/box_overall/contained.tpl:45 _inc/class/class.app.php:908
+#: _inc/class/class.app.php:1208 _inc/class/class.app.php:1209
+#: _inc/class/class.app.php:1210 _inc/class/class.app.php:1211
+#: _inc/class/class.app.php:1212 _inc/fcnt/fcnt.locale.php:314
+#: _inc/fcnt/fcnt.locale.php:378
+#, fuzzy
+msgid "Overall score"
+msgstr "Overall score"
+
+#: tpl/box_page/contained.tpl:15 tpl/box_page/tab_config.tpl:6
+#, fuzzy
+msgid "Configuration"
+msgstr "Configuration"
+
+#: tpl/box_page/contained.tpl:16
+#, fuzzy
+msgid "Search engine"
+msgstr "Search engine"
+
+#: tpl/box_page/tab_config.tpl:11
+#, fuzzy
+msgid "You can configure the page for search engines"
+msgstr "You can configure the page for search engines"
+
+#: tpl/box_page/tab_config.tpl:18
+#, fuzzy
+msgid "Allow search engines to index this page"
+msgstr "Allow search engines to index this page"
+
+#: tpl/box_page/tab_config.tpl:22
+#, fuzzy
+msgid "This option allows you to ask search engines to index this page"
+msgstr "This option allows you to ask search engines to index this page"
+
+#: tpl/box_page/tab_config.tpl:28
+#, fuzzy
+msgid "Allow search engines to follow the links in the page"
+msgstr "Allow search engines to follow the links in the page"
+
+#: tpl/box_page/tab_config.tpl:32
+#, fuzzy
+msgid "This option provides a guideline for links to search engine robots"
+msgstr "This option provides a guideline for links to search engine robots"
+
+#: tpl/box_page/tab_config.tpl:38
+#, fuzzy
+msgid "Customize meta robots"
+msgstr "Customize meta robots"
+
+#: tpl/box_page/tab_config.tpl:44
+#, fuzzy
+msgid "No archive"
+msgstr "No archive"
+
+#: tpl/box_page/tab_config.tpl:48
+#, fuzzy
+msgid "No index for images"
+msgstr "No index for images"
+
+#: tpl/box_page/tab_config.tpl:52
+#, fuzzy
+msgid "No meta data"
+msgstr "No meta data"
+
+#: tpl/box_page/tab_config.tpl:56
+#, fuzzy
+msgid "Canonical URL"
+msgstr "Canonical URL"
+
+#: tpl/box_page/tab_editorial.tpl:4 tpl/box_page/tab_editorial.tpl:12
+#, fuzzy
+msgid "Editorial content"
+msgstr "Editorial content"
+
+#: tpl/box_page/tab_editorial.tpl:5 tpl/box_page/tab_editorial.tpl:35
+#, fuzzy
+msgid "Editor instruction"
+msgstr "Editor instruction"
+
+#: tpl/box_page/tab_editorial.tpl:17
+#, fuzzy
+msgid ""
+"Based on the structure of your current site, we recommend that you follow "
+"this editorial content"
+msgstr ""
+"Based on the structure of your current site, we recommend that you follow "
+"this editorial content"
+
+#: tpl/box_page/tab_editorial.tpl:25
+#, fuzzy
+msgid "Import to page"
+msgstr "Import to page"
+
+#: tpl/box_page/tab_editorial.tpl:40
+#, fuzzy
+msgid "This is the information provided for the semantic structure"
+msgstr "This is the information provided for the semantic structure"
+
+#: tpl/box_page/tab_editorial.tpl:46 tpl/box_page/_root.php:490
+#, fuzzy
+msgid "Link"
+msgstr "Link"
+
+#: tpl/box_page/tab_editorial.tpl:53
+#, fuzzy
+msgid "Priority"
+msgstr "Priority"
+
+#: tpl/box_page/tab_editorial.tpl:61
+#, fuzzy
+msgid "Progression"
+msgstr "Progression"
+
+#: tpl/box_page/tab_editorial.tpl:67
+#, fuzzy
+msgid "Notes"
+msgstr "Notes"
+
+#: tpl/box_page/tab_editorial.tpl:71
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:145
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:242
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:340
+#, fuzzy
+msgid "Image"
+msgstr "Image"
+
+#: tpl/box_page/tab_facebook.tpl:10 tpl/box_page/tab_twitter.tpl:10
+#: tpl/settings/tab_social_networks/tab_facebook.tpl:7
+#: tpl/settings/tab_social_networks/tab_pinterest.tpl:7
+#: tpl/settings/tab_social_networks/tab_twitter.tpl:7
+#, fuzzy
+msgid ""
+"Allows you to set up the social network to provide a better user experience "
+"and optimize your sharings"
+msgstr ""
+"Allows you to set up the social network to provide a better user experience "
+"and optimize your sharings"
+
+#: tpl/box_page/tab_facebook.tpl:13 tpl/box_page/tab_metatag.tpl:19
+#: tpl/box_page/tab_twitter.tpl:13
+#: tpl/settings/tab_seo_settings/loop_taxonomy.tpl:42
+#: tpl/settings/tab_seo_settings/loop_type.tpl:42
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:70
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:127
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:89
+#: tpl/settings/tab_seo_settings/tab_special_page.tpl:20
+#: tpl/settings/tab_seo_settings/tab_special_page.tpl:39
+#, fuzzy
+msgid "Meta Title"
+msgstr "Meta Title"
+
+#: tpl/box_page/tab_facebook.tpl:25 tpl/box_page/tab_metatag.tpl:31
+#: tpl/box_page/tab_twitter.tpl:25
+#: tpl/settings/tab_seo_settings/loop_taxonomy.tpl:50
+#: tpl/settings/tab_seo_settings/loop_type.tpl:50
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:78
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:135
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:97
+#, fuzzy
+msgid "Meta Description"
+msgstr "Meta Description"
+
+#: tpl/box_page/tab_metatag.tpl:6 tpl/box_page/_root.php:273
+#: tpl/box_page/_root.php:356 tpl/box_page/_root.php:408
+#, fuzzy
+msgid "Metadata"
+msgstr "Metadata"
+
+#: tpl/box_page/tab_metatag.tpl:11
+#, fuzzy
+msgid "You can customize your meta title and description for the page"
+msgstr "You can customize your meta title and description for the page"
+
+#: tpl/box_page/tab_metatag.tpl:16
+#, fuzzy
+msgid "When no tag is specified, we use the default meta tags"
+msgstr "When no tag is specified, we use the default meta tags"
+
+#: tpl/box_page/tab_shortcode.tpl:4 tpl/box_page/_root.php:462
+#, fuzzy
+msgid "Links of sister pages"
+msgstr "Links of sister pages"
+
+#: tpl/box_page/tab_shortcode.tpl:8
+#, fuzzy
+msgid ""
+"You can use a shortcode to display the links of the sister pages, when there "
+"are sister pages, you can change the display name of the links"
+msgstr ""
+"You can use a shortcode to display the links of the sister pages, when there "
+"are sister pages, you can change the display name of the links"
+
+#: tpl/box_page/tab_shortcode.tpl:11
+#, fuzzy
+msgid "Shortcode to use to display sister pages links"
+msgstr "Shortcode to use to display sister pages links"
+
+#: tpl/box_page/tab_shortcode.tpl:18
+#, fuzzy
+msgid "Customize the text above the links"
+msgstr "Customize the text above the links"
+
+#: tpl/box_page/tab_shortcode.tpl:22
+#, fuzzy
+msgid ""
+"This option allows you to customize which will be displayed before the "
+"links. If you do not want to display anything before the links, just check "
+"this box without indicating any text"
+msgstr ""
+"This option allows you to customize which will be displayed before the "
+"links. If you do not want to display anything before the links, just check "
+"this box without indicating any text"
+
+#: tpl/box_page/tab_shortcode.tpl:25
+#, fuzzy
+msgid "Text above the links"
+msgstr "Text above the links"
+
+#: tpl/box_permalink/contained.tpl:4
+#, fuzzy
+msgid "The homepage slug will be removed from the permalink"
+msgstr "The homepage slug will be removed from the permalink"
+
+#: tpl/box_semantic/contained.tpl:9
+#, fuzzy
+msgid "Semantic analysis"
+msgstr "Semantic analysis"
+
+#: tpl/box_semantic/contained.tpl:16
+#, fuzzy
+msgid ""
+"Search engines might understand your texts differently than you would like. "
+"We will analyze and tell you what they understand"
+msgstr ""
+"Search engines might understand your texts differently than you would like. "
+"We will analyze and tell you what they understand"
+
+#: tpl/box_semantic/contained.tpl:19
+#, fuzzy
+msgid "Perform an analysis"
+msgstr "Perform an analysis"
+
+#: tpl/box_synonymous/contained.tpl:9 _inc/fcnt/fcnt.locale.php:295
+#, fuzzy
+msgid "Synonymous"
+msgstr "Synonymous"
+
+#: tpl/box_synonymous/contained.tpl:16
+#, fuzzy
+msgid ""
+"The synonyms can find terms more adapted to the context than those used "
+"spontaneously. It also avoids a repetition of words in the same text to "
+"improve the style of its writing"
+msgstr ""
+"The synonyms can find terms more adapted to the context than those used "
+"spontaneously. It also avoids a repetition of words in the same text to "
+"improve the style of its writing"
+
+#: tpl/editor/contained.tpl:47
+#, fuzzy
+msgid "Verification of the structure"
+msgstr "Verification of the structure"
+
+#: tpl/editor/contained.tpl:50
+#, fuzzy
+msgid ""
+"Before we move to the deployment stage we need to check your structure. Wait "
+"a few moments"
+msgstr ""
+"Before we move to the deployment stage we need to check your structure. Wait "
+"a few moments"
+
+#: tpl/editor/contained.tpl:59
+#, fuzzy
+msgid "A few problems"
+msgstr "A few problems"
+
+#: tpl/editor/contained.tpl:62
+#, fuzzy
+msgid ""
+"After analyzing your structure we have found that some pages do not have "
+"main keywords. Before deploying add the main keywords to your pages"
+msgstr ""
+"After analyzing your structure we have found that some pages do not have "
+"main keywords. Before deploying add the main keywords to your pages"
+
+#: tpl/editor/contained.tpl:63
+#, fuzzy
+msgid "List of pages with missing main keywords"
+msgstr "List of pages with missing main keywords"
+
+#: tpl/editor/contained.tpl:70
+#, fuzzy
+msgid "Your structure is ready for deployment"
+msgstr "Your structure is ready for deployment"
+
+#: tpl/editor/contained.tpl:73
+#, fuzzy
+msgid ""
+"After verification your structure is ready to be deployed on your wordpress"
+msgstr ""
+"After verification your structure is ready to be deployed on your wordpress"
+
+#: tpl/editor/contained.tpl:75
+#, fuzzy
+msgid "Deploy"
+msgstr "Deploy"
+
+#: tpl/editor/contained.tpl:90
+#, fuzzy
+msgid "The semantic structure is out of sync"
+msgstr "The semantic structure is out of sync"
+
+#: tpl/editor/contained.tpl:94
+#, fuzzy
+msgid ""
+"Currently, your diagram or semantic structure no longer corresponds to the "
+"physical tree structure of your WordPress pages. You may have changed a "
+"title or moved or even deleted pages physically"
+msgstr ""
+"Currently, your diagram or semantic structure no longer corresponds to the "
+"physical tree structure of your WordPress pages. You may have changed a "
+"title or moved or even deleted pages physically"
+
+#: tpl/editor/contained.tpl:95
+#, fuzzy
+msgid "That leaves you two possibilities"
+msgstr "That leaves you two possibilities"
+
+#: tpl/editor/contained.tpl:99
+#, fuzzy
+msgid "Update your diagram to match your new current tree structure"
+msgstr "Update your diagram to match your new current tree structure"
+
+#: tpl/editor/contained.tpl:103
+#, fuzzy
+msgid ""
+"Keep your diagram intact. In this case, remember that changes made to your "
+"pages will not be reflected in your diagram"
+msgstr ""
+"Keep your diagram intact. In this case, remember that changes made to your "
+"pages will not be reflected in your diagram"
+
+#: tpl/editor/contained.tpl:109
+#, fuzzy
+msgid "Update your diagram"
+msgstr "Update your diagram"
+
+#: tpl/editor/contained.tpl:110
+#, fuzzy
+msgid "Keeping your diagram intact"
+msgstr "Keeping your diagram intact"
+
+#: tpl/editor/str_editor.tpl:9
+#, fuzzy
+msgid "Protected mode"
+msgstr "Protected mode"
+
+#: tpl/editor/str_editor.tpl:13
+#, fuzzy
+msgid "Saved structure"
+msgstr "Saved structure"
+
+#: tpl/editor/str_editor.tpl:17
+#, fuzzy
+msgid "Backup in progress"
+msgstr "Backup in progress"
+
+#: tpl/editor/str_editor.tpl:21
+#, fuzzy
+msgid "Unsaved structure"
+msgstr "Unsaved structure"
+
+#: tpl/editor/str_search.tpl:15
+#, fuzzy
+msgid "Suggestion"
+msgstr "Suggestion"
+
+#: tpl/editor/str_search.tpl:16
+#, fuzzy
+msgid "Related"
+msgstr "Related"
+
+#: tpl/editorial/contained.tpl:1
+#, fuzzy
+msgid "Title 1 (H1): must contain the main keyword of the page"
+msgstr "Title 1 (H1): must contain the main keyword of the page"
+
+#: tpl/editorial/contained.tpl:2
+#, fuzzy
+msgid ""
+"This paragraph must be clear and effective. Remember that it must contain a "
+"link to the page"
+msgstr ""
+"This paragraph must be clear and effective. Remember that it must contain a "
+"link to the page"
+
+#: tpl/editorial/contained.tpl:3
+#, fuzzy
+msgid ""
+"The goal here is to make your visitor want to read your article in full. "
+"Remember that it must have the main keyword in bold, like this"
+msgstr ""
+"The goal here is to make your visitor want to read your article in full. "
+"Remember that it must have the main keyword in bold, like this"
+
+#: tpl/editorial/contained.tpl:4
+#, fuzzy, python-format
+msgid ""
+"Know that 95% of Internet users read a hat in full so it is not too late to "
+"do well"
+msgstr ""
+"Know that 95% of Internet users read a hat in full so it is not too late to "
+"do well"
+
+#: tpl/editorial/contained.tpl:10
+#, fuzzy
+msgid "Title 4 (H4) Blabla ....."
+msgstr "Title 4 (H4) Blabla ....."
+
+#: tpl/editorial/contained.tpl:11
+#, fuzzy
+msgid ""
+"In this paragraph you will develop further and make subpoints, subtitles, "
+"sub-arguments and prove to search engines that you master all the vocabulary "
+"of your theme"
+msgstr ""
+"In this paragraph you will develop further and make subpoints, subtitles, "
+"sub-arguments and prove to search engines that you master all the vocabulary "
+"of your theme"
+
+#: tpl/helper/contained.tpl:9
+#, fuzzy
+msgid "Identify and solve problems"
+msgstr "Identify and solve problems"
+
+#: tpl/helper/contained.tpl:10
+#, fuzzy
+msgid ""
+"If you have problems using our plugin, we can try to identify and fix them"
+msgstr ""
+"If you have problems using our plugin, we can try to identify and fix them"
+
+#: tpl/settings/contained.tpl:10
+#, fuzzy
+msgid "Set up the plugin according to your needs"
+msgstr "Set up the plugin according to your needs"
+
+#: tpl/settings/contained.tpl:11
+#, fuzzy
+msgid ""
+"You can set the plugin according to your needs, enable or disable certain "
+"functionality"
+msgstr ""
+"You can set the plugin according to your needs, enable or disable certain "
+"functionality"
+
+#: tpl/settings/contained.tpl:20 tpl/settings/tab_general/contained.tpl:5
+#: tpl/settings/tab_seo_settings/contained.tpl:15 _inc/fcnt/fcnt.locale.php:356
+#, fuzzy
+msgid "General settings"
+msgstr "General settings"
+
+#: tpl/settings/contained.tpl:21 tpl/settings/tab_seo_settings/contained.tpl:5
+#, fuzzy
+msgid "Seo settings"
+msgstr "Seo settings"
+
+#: tpl/settings/contained.tpl:22
+#: tpl/settings/tab_social_networks/contained.tpl:5
+#: _inc/fcnt/fcnt.locale.php:403
+#, fuzzy
+msgid "Social networks"
+msgstr "Social networks"
+
+#: tpl/settings/contained.tpl:23 tpl/settings/tab_tool/contained.tpl:5
+#, fuzzy
+msgid "Tools"
+msgstr "Tools"
+
+#: tpl/settings/contained.tpl:40 tpl/wizard/step/setting.tpl:54
+#, fuzzy
+msgid "Different backup on the cloud"
+msgstr "Different backup on the cloud"
+
+#: tpl/settings/contained.tpl:42 tpl/wizard/step/setting.tpl:56
+#, fuzzy
+msgid ""
+"The backup of your settings in the cloud is different from your settings "
+"stored on this wordpress"
+msgstr ""
+"The backup of your settings in the cloud is different from your settings "
+"stored on this wordpress"
+
+#: tpl/settings/contained.tpl:58 tpl/wizard/step/setting.tpl:72
+#, fuzzy
+msgid "Use cloud data"
+msgstr "Use cloud data"
+
+#: tpl/settings/contained.tpl:59 tpl/wizard/step/setting.tpl:73
+#, fuzzy
+msgid ""
+"Deletes the data on this wordpress and replace it with the data stored in "
+"the cloud"
+msgstr ""
+"Deletes the data on this wordpress and replace it with the data stored in "
+"the cloud"
+
+#: tpl/settings/contained.tpl:60 tpl/settings/contained.tpl:73
+#: tpl/wizard/step/setting.tpl:74 tpl/wizard/step/setting.tpl:87
+#, fuzzy
+msgid "Last backup"
+msgstr "Last backup"
+
+#: tpl/settings/contained.tpl:70 tpl/wizard/step/setting.tpl:84
+#, fuzzy
+msgid "Use the data of this wordpress"
+msgstr "Use the data of this wordpress"
+
+#: tpl/settings/contained.tpl:71 tpl/wizard/step/setting.tpl:85
+#, fuzzy
+msgid ""
+"Delete your backup in the cloud and replace it with the data stored on this "
+"wordpress"
+msgstr ""
+"Delete your backup in the cloud and replace it with the data stored on this "
+"wordpress"
+
+#: tpl/settings/contained.tpl:74 tpl/wizard/step/setting.tpl:88
+#, fuzzy
+msgid "new installation"
+msgstr "new installation"
+
+#: tpl/settings/tab_general/contained.tpl:14
+#: tpl/settings/tab_general/tab_language.tpl:3 tpl/wizard/step/setting.tpl:10
+#, fuzzy
+msgid "Language"
+msgstr "Language"
+
+#: tpl/settings/tab_general/contained.tpl:15 _inc/fcnt/fcnt.locale.php:358
+#, fuzzy
+msgid "Choice of language and country"
+msgstr "Choice of language and country"
+
+#: tpl/settings/tab_general/contained.tpl:21
+#: tpl/settings/tab_general/tab_analysis.tpl:3
+#, fuzzy
+msgid "Analysis"
+msgstr "Analysis"
+
+#: tpl/settings/tab_general/contained.tpl:22
+#, fuzzy
+msgid "Enable or disable analyzes"
+msgstr "Enable or disable analyzes"
+
+#: tpl/settings/tab_general/contained.tpl:28
+#: tpl/settings/tab_general/tab_feature.tpl:3
+#, fuzzy
+msgid "Feature"
+msgstr "Feature"
+
+#: tpl/settings/tab_general/contained.tpl:29
+#, fuzzy
+msgid "Feature Options"
+msgstr "Feature Options"
+
+#: tpl/settings/tab_general/contained.tpl:35
+#: tpl/settings/tab_general/tab_permalinks.tpl:3
+#, fuzzy
+msgid "Permalinks"
+msgstr "Permalinks"
+
+#: tpl/settings/tab_general/contained.tpl:36
+#, fuzzy
+msgid "Configuration of permalinks"
+msgstr "Configuration of permalinks"
+
+#: tpl/settings/tab_general/contained.tpl:42
+#, fuzzy
+msgid "Webmaster Tools"
+msgstr "Webmaster Tools"
+
+#: tpl/settings/tab_general/contained.tpl:43
+#, fuzzy
+msgid "Webmaster Tools Options"
+msgstr "Webmaster Tools Options"
+
+#: tpl/settings/tab_general/contained.tpl:49
+#: tpl/settings/tab_general/tab_support.tpl:3 _inc/fcnt/fcnt.define.php:98
+#, fuzzy
+msgid "Technical support"
+msgstr "Technical support"
+
+#: tpl/settings/tab_general/contained.tpl:50
+#: tpl/settings/tab_general/tab_support.tpl:17
+#, fuzzy
+msgid "Technical support chat"
+msgstr "Technical support chat"
+
+#: tpl/settings/tab_general/tab_analysis.tpl:8
+#, fuzzy
+msgid ""
+"You can enable / disable the analysis as well as the recommendation to a "
+"type of writing"
+msgstr ""
+"You can enable / disable the analysis as well as the recommendation to a "
+"type of writing"
+
+#: tpl/settings/tab_general/tab_feature.tpl:8
+#, fuzzy
+msgid "You can enable / disable features"
+msgstr "You can enable / disable features"
+
+#: tpl/settings/tab_general/tab_feature.tpl:17
+#, fuzzy
+msgid "Internal link counter (outgoing / incoming)"
+msgstr "Internal link counter (outgoing / incoming)"
+
+#: tpl/settings/tab_general/tab_feature.tpl:21
+#, fuzzy
+msgid ""
+"This option allows you to view the number of internal links (outbound and "
+"inbound) links for your articles / pages"
+msgstr ""
+"This option allows you to view the number of internal links (outbound and "
+"inbound) links for your articles / pages"
+
+#: tpl/settings/tab_general/tab_feature.tpl:27
+#, fuzzy
+msgid "XML Sitemaps"
+msgstr "XML Sitemaps"
+
+#: tpl/settings/tab_general/tab_feature.tpl:31
+#, fuzzy
+msgid ""
+"This option allows you to generate an xml file of the site map, you can see "
+"the file by clicking on icon Eye"
+msgstr ""
+"This option allows you to generate an xml file of the site map, you can see "
+"the file by clicking on icon Eye"
+
+#: tpl/settings/tab_general/tab_language.tpl:7 tpl/wizard/step/setting.tpl:14
+#, fuzzy
+msgid ""
+"The choice of the language and the country must correspond to your essays, "
+"our analysis will be based on these two criteria to optimize the results"
+msgstr ""
+"The choice of the language and the country must correspond to your essays, "
+"our analysis will be based on these two criteria to optimize the results"
+
+#: tpl/settings/tab_general/tab_language.tpl:11 tpl/wizard/step/setting.tpl:18
+#, fuzzy
+msgid "Choose language and country"
+msgstr "Choose language and country"
+
+#: tpl/settings/tab_general/tab_permalinks.tpl:8
+#, fuzzy
+msgid ""
+"The structure of your permalinks plays an important role in the SEO of your "
+"site. It allows the reader to know where this page is in your website and "
+"its content"
+msgstr ""
+"The structure of your permalinks plays an important role in the SEO of your "
+"site. It allows the reader to know where this page is in your website and "
+"its content"
+
+#: tpl/settings/tab_general/tab_permalinks.tpl:13
+#, fuzzy
+msgid ""
+"Be careful, enabling this option will change your permalink settings on your "
+"wordpress. You activate this option with full knowledge of the facts, we "
+"will not be liable for any damage"
+msgstr ""
+"Be careful, enabling this option will change your permalink settings on your "
+"wordpress. You activate this option with full knowledge of the facts, we "
+"will not be liable for any damage"
+
+#: tpl/settings/tab_general/tab_permalinks.tpl:20
+#, fuzzy
+msgid "Delete the homepage in the links"
+msgstr "Delete the homepage in the links"
+
+#: tpl/settings/tab_general/tab_permalinks.tpl:24
+#, fuzzy
+msgid ""
+"This option allows you to not display the name of the home page in the child "
+"links"
+msgstr ""
+"This option allows you to not display the name of the home page in the child "
+"links"
+
+#: tpl/settings/tab_general/tab_support.tpl:8
+#, fuzzy
+msgid ""
+"In case of problem you can reach rank4win support by chat, a technician will "
+"assist you to help you"
+msgstr ""
+"In case of problem you can reach rank4win support by chat, a technician will "
+"assist you to help you"
+
+#: tpl/settings/tab_general/tab_support.tpl:21
+#, fuzzy
+msgid ""
+"This option allows you to activate the rank4win technical support chat in "
+"the bottom right corner of the wordpress administration"
+msgstr ""
+"This option allows you to activate the rank4win technical support chat in "
+"the bottom right corner of the wordpress administration"
+
+#: tpl/settings/tab_general/tab_webmaster.tpl:3
+#, fuzzy
+msgid "Webmaster tools"
+msgstr "Webmaster tools"
+
+#: tpl/settings/tab_general/tab_webmaster.tpl:8
+#, fuzzy
+msgid ""
+"In order for your site to be properly verified by the different search "
+"engines please indicate the verification codes they provide you"
+msgstr ""
+"In order for your site to be properly verified by the different search "
+"engines please indicate the verification codes they provide you"
+
+#: tpl/settings/tab_general/tab_webmaster.tpl:13 _inc/fcnt/fcnt.locale.php:386
+#, fuzzy
+msgid "Google"
+msgstr "Google"
+
+#: tpl/settings/tab_general/tab_webmaster.tpl:22 _inc/fcnt/fcnt.locale.php:387
+#, fuzzy
+msgid "Bing"
+msgstr "Bing"
+
+#: tpl/settings/tab_general/tab_webmaster.tpl:31 _inc/fcnt/fcnt.locale.php:388
+#, fuzzy
+msgid "Baidu"
+msgstr "Baidu"
+
+#: tpl/settings/tab_general/tab_webmaster.tpl:40 _inc/fcnt/fcnt.locale.php:389
+#, fuzzy
+msgid "Yandex"
+msgstr "Yandex"
+
+#: tpl/settings/tab_seo_settings/contained.tpl:14
+#, fuzzy
+msgid "Basic configuration"
+msgstr "Basic configuration"
+
+#: tpl/settings/tab_seo_settings/contained.tpl:21
+#: tpl/settings/tab_seo_settings/loop_type.tpl:3
+#: tpl/settings/tab_tool/tab_reset.tpl:5
+#, fuzzy
+msgid "Types of content"
+msgstr "Types of content"
+
+#: tpl/settings/tab_seo_settings/contained.tpl:22
+#: tpl/settings/tab_seo_settings/contained.tpl:29
+#: tpl/settings/tab_seo_settings/contained.tpl:36
+#: tpl/settings/tab_seo_settings/contained.tpl:43
+#: tpl/settings/tab_seo_settings/contained.tpl:50
+#: tpl/settings/tab_social_networks/contained.tpl:15
+#: tpl/settings/tab_social_networks/contained.tpl:22
+#: tpl/settings/tab_social_networks/contained.tpl:29
+#: tpl/wizard/step/setting.tpl:4 _inc/class/class.app.php:624
+#: _inc/class/class.app.php:938 _inc/class/class.app.php:939
+#: tpl/wizard/_root.php:39
+#, fuzzy
+msgid "Settings"
+msgstr "Settings"
+
+#: tpl/settings/tab_seo_settings/contained.tpl:28 _inc/fcnt/fcnt.locale.php:396
+#, fuzzy
+msgid "Taxonomies"
+msgstr "Taxonomies"
+
+#: tpl/settings/tab_seo_settings/contained.tpl:35
+#, fuzzy
+msgid "Archive"
+msgstr "Archive"
+
+#: tpl/settings/tab_seo_settings/contained.tpl:42
+#, fuzzy
+msgid "Special page"
+msgstr "Special page"
+
+#: tpl/settings/tab_seo_settings/contained.tpl:49 _inc/fcnt/fcnt.locale.php:431
+#, fuzzy
+msgid "RSS"
+msgstr "RSS"
+
+#: tpl/settings/tab_seo_settings/kg_loop_hours.tpl:10
+#, fuzzy
+msgid "Opening time"
+msgstr "Opening time"
+
+#: tpl/settings/tab_seo_settings/kg_loop_hours.tpl:17
+#, fuzzy
+msgid "Closing times"
+msgstr "Closing times"
+
+#: tpl/settings/tab_seo_settings/loop_taxonomy.tpl:3
+#: tpl/settings/tab_tool/tab_reset.tpl:6 _inc/fcnt/fcnt.locale.php:436
+#, fuzzy
+msgid "Taxonomy"
+msgstr "Taxonomy"
+
+#: tpl/settings/tab_seo_settings/loop_taxonomy.tpl:8
+#, fuzzy
+msgid "You can customize your meta-title and the default description"
+msgstr "You can customize your meta-title and the default description"
+
+#: tpl/settings/tab_seo_settings/loop_taxonomy.tpl:19
+#, fuzzy
+msgid ""
+"This option allows you to manually edit the meta title and description while "
+"writing"
+msgstr ""
+"This option allows you to manually edit the meta title and description while "
+"writing"
+
+#: tpl/settings/tab_seo_settings/loop_type.tpl:8
+#, fuzzy
+msgid "You can customize your meta title and default description"
+msgstr "You can customize your meta title and default description"
+
+#: tpl/settings/tab_seo_settings/loop_type.tpl:19
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:66
+#, fuzzy
+msgid ""
+"This option allows you to manually edit the meta title and description in "
+"the edition of the page"
+msgstr ""
+"This option allows you to manually edit the meta title and description in "
+"the edition of the page"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:4
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:11
+#, fuzzy
+msgid "Author archives"
+msgstr "Author archives"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:5
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:100
+#, fuzzy
+msgid "Date archives"
+msgstr "Date archives"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:16
+#, fuzzy
+msgid ""
+"If a single author administers the site, we recommend that you do not "
+"display the archive, its archive page will be exactly the same as your home "
+"page"
+msgstr ""
+"If a single author administers the site, we recommend that you do not "
+"display the archive, its archive page will be exactly the same as your home "
+"page"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:23
+#, fuzzy
+msgid "View authors archives"
+msgstr "View authors archives"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:27
+#, fuzzy
+msgid "This option allows you to view the authors archives"
+msgstr "This option allows you to view the authors archives"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:33
+#, fuzzy
+msgid "Allow search engines to index the archives with publications"
+msgstr "Allow search engines to index the archives with publications"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:37
+#, fuzzy
+msgid ""
+"This option allows you to ask search engines to index the archives who have "
+"posts"
+msgstr ""
+"This option allows you to ask search engines to index the archives who have "
+"posts"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:43
+#, fuzzy
+msgid "Allow search engines to follow the links in the archives who have posts"
+msgstr ""
+"Allow search engines to follow the links in the archives who have posts"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:47
+#, fuzzy
+msgid ""
+"This option allows search engine robots to follow links from the archives "
+"who have posts"
+msgstr ""
+"This option allows search engine robots to follow links from the archives "
+"who have posts"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:53
+#, fuzzy
+msgid "Allow search engines to index the archives without publications"
+msgstr "Allow search engines to index the archives without publications"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:57
+#, fuzzy
+msgid ""
+"This option allows you to ask the search engines to index the archives who "
+"have no posts"
+msgstr ""
+"This option allows you to ask the search engines to index the archives who "
+"have no posts"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:63
+#, fuzzy
+msgid ""
+"Allow search engines to follow the links in the archives who have no posts"
+msgstr ""
+"Allow search engines to follow the links in the archives who have no posts"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:67
+#, fuzzy
+msgid ""
+"This option allows search engine robots to follow links from the archives "
+"who have no posts"
+msgstr ""
+"This option allows search engine robots to follow links from the archives "
+"who have no posts"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:88
+#, fuzzy
+msgid "View archives by dates"
+msgstr "View archives by dates"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:93
+#, fuzzy
+msgid ""
+"Date-based archives could, in some cases, also be considered duplicate "
+"content"
+msgstr ""
+"Date-based archives could, in some cases, also be considered duplicate "
+"content"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:104
+#, fuzzy
+msgid "This option allows you to view the archive by date"
+msgstr "This option allows you to view the archive by date"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:110
+#, fuzzy
+msgid "Allow search engines to index archive by dates"
+msgstr "Allow search engines to index archive by dates"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:114
+#, fuzzy
+msgid "This option allows you to ask search engines to index archives by dates"
+msgstr ""
+"This option allows you to ask search engines to index archives by dates"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:120
+#, fuzzy
+msgid "Allow search engines to follow the links in archive by dates"
+msgstr "Allow search engines to follow the links in archive by dates"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:124
+#, fuzzy
+msgid ""
+"This option allows search engine robots to follow links archive by dates"
+msgstr ""
+"This option allows search engine robots to follow links archive by dates"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:4
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:13
+#: tpl/wizard/step/setting.tpl:25
+#, fuzzy
+msgid "Setting"
+msgstr "Setting"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:5
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:34
+#, fuzzy
+msgid "Title separator"
+msgstr "Title separator"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:6
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:50
+#, fuzzy
+msgid "Home page"
+msgstr "Home page"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:7
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:107
+#, fuzzy
+msgid "Knowledge Graph / Schema.org"
+msgstr "Knowledge Graph / Schema.org"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:18
+#: tpl/wizard/step/setting.tpl:30
+#, fuzzy
+msgid ""
+"Be careful, it is possible that some search engines decide to index your "
+"wordpress even if you block indexing"
+msgstr ""
+"Be careful, it is possible that some search engines decide to index your "
+"wordpress even if you block indexing"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:25
+#: tpl/wizard/step/setting.tpl:37
+#, fuzzy
+msgid "Wordpress indexing"
+msgstr "Wordpress indexing"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:29
+#: tpl/wizard/step/setting.tpl:41
+#, fuzzy
+msgid ""
+"This option allows you to ask the search engines to index your entire "
+"wordpress"
+msgstr ""
+"This option allows you to ask the search engines to index your entire "
+"wordpress"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:39
+#, fuzzy
+msgid ""
+"You can use a separator between the title of your publication and the name "
+"of your site"
+msgstr ""
+"You can use a separator between the title of your publication and the name "
+"of your site"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:55
+#, fuzzy
+msgid "You can customize your meta title and description for the home page"
+msgstr "You can customize your meta title and description for the home page"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:62
+#, fuzzy
+msgid "Allow editing the meta tag in homepage"
+msgstr "Allow editing the meta tag in homepage"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:72
+#, fuzzy
+msgid "Allow search engines to index this home page"
+msgstr "Allow search engines to index this home page"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:76
+#, fuzzy
+msgid "This option allows you to ask the search engines to index the home page"
+msgstr ""
+"This option allows you to ask the search engines to index the home page"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:82
+#, fuzzy
+msgid "Allow search engines to follow the links in the home page"
+msgstr "Allow search engines to follow the links in the home page"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:86
+#, fuzzy
+msgid ""
+"This option allows search engine robots to follow links from the home page"
+msgstr ""
+"This option allows search engine robots to follow links from the home page"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:112
+#, fuzzy
+msgid ""
+"This feature provides users with easier access to information in search "
+"engines. This data will be displayed as metadata on your site"
+msgstr ""
+"This feature provides users with easier access to information in search "
+"engines. This data will be displayed as metadata on your site"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:117
+#, fuzzy
+msgid "Choose a type"
+msgstr "Choose a type"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:121
+#, fuzzy
+msgid "This option allows you to specify the type of your site"
+msgstr "This option allows you to specify the type of your site"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:127
+#: _inc/fcnt/fcnt.define.php:111
+#, fuzzy
+msgid "Person"
+msgstr "Person"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:130
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:255
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:332
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:388
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:477
+#, fuzzy
+msgid "Name"
+msgstr "Name"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:137
+#, fuzzy
+msgid "Job title"
+msgstr "Job title"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:158
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:262
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:395
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:491
+#, fuzzy
+msgid "URL"
+msgstr "URL"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:172
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:290
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:437
+#, fuzzy
+msgid "Zip/Postal Code"
+msgstr "Zip/Postal Code"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:179
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:283
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:430
+#, fuzzy
+msgid "City"
+msgstr "City"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:186
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:297
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:444
+#, fuzzy
+msgid "Country"
+msgstr "Country"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:193
+#, fuzzy
+msgid "Email"
+msgstr "Email"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:207
+#, fuzzy
+msgid "Birth Date"
+msgstr "Birth Date"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:216
+#: _inc/fcnt/fcnt.define.php:115 _inc/fcnt/fcnt.define.php:133
+#, fuzzy
+msgid "Organization"
+msgstr "Organization"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:220
+#, fuzzy
+msgid "Choose a organization"
+msgstr "Choose a organization"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:224
+#, fuzzy
+msgid "This option allows you to specify the type of organization"
+msgstr "This option allows you to specify the type of organization"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:230
+#, fuzzy
+msgid "Logo"
+msgstr "Logo"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:269
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:353
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:402
+#, fuzzy
+msgid "Description"
+msgstr "Description"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:312
+#, fuzzy
+msgid "Choose a contact type"
+msgstr "Choose a contact type"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:316
+#, fuzzy
+msgid "This option allows you to specify the contact type"
+msgstr "This option allows you to specify the contact type"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:322
+#: _inc/fcnt/fcnt.define.php:41 _inc/fcnt/fcnt.locale.php:394
+#, fuzzy
+msgid "Product"
+msgstr "Product"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:325
+#, fuzzy
+msgid "Brand"
+msgstr "Brand"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:360
+#, fuzzy
+msgid "Rating"
+msgstr "Rating"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:367
+#, fuzzy
+msgid "Based on how many reviews"
+msgstr "Based on how many reviews"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:376
+#: _inc/fcnt/fcnt.define.php:163
+#, fuzzy
+msgid "Event"
+msgstr "Event"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:380
+#, fuzzy
+msgid "Choose a event"
+msgstr "Choose a event"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:384
+#, fuzzy
+msgid "This option allows you to specify the type of event"
+msgstr "This option allows you to specify the type of event"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:409
+#, fuzzy
+msgid "Venue Name"
+msgstr "Venue Name"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:416
+#, fuzzy
+msgid "Venue URL"
+msgstr "Venue URL"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:451
+#, fuzzy
+msgid "Offer Description"
+msgstr "Offer Description"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:458
+#, fuzzy
+msgid "Offer URL"
+msgstr "Offer URL"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:465
+#, fuzzy
+msgid "Offer Price"
+msgstr "Offer Price"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:474
+#: _inc/fcnt/fcnt.define.php:90 _inc/fcnt/fcnt.define.php:127
+#, fuzzy
+msgid "Website"
+msgstr "Website"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:484
+#, fuzzy
+msgid "Alternate Name"
+msgstr "Alternate Name"
+
+#: tpl/settings/tab_seo_settings/tab_rss.tpl:3
+#, fuzzy
+msgid "RSS feed settings"
+msgstr "RSS feed settings"
+
+#: tpl/settings/tab_seo_settings/tab_rss.tpl:8
+#, fuzzy
+msgid ""
+"This feature is used to automatically add content to your RSS feeds, helping "
+"search engines identify your site as the origin of the content"
+msgstr ""
+"This feature is used to automatically add content to your RSS feeds, helping "
+"search engines identify your site as the origin of the content"
+
+#: tpl/settings/tab_seo_settings/tab_rss.tpl:12
+#, fuzzy
+msgid "Content to add before the article"
+msgstr "Content to add before the article"
+
+#: tpl/settings/tab_seo_settings/tab_rss.tpl:20
+#, fuzzy
+msgid "Content to add after the article"
+msgstr "Content to add after the article"
+
+#: tpl/settings/tab_seo_settings/tab_special_page.tpl:4
+#: _inc/fcnt/fcnt.locale.php:102
+#, fuzzy
+msgid "Search"
+msgstr "Search"
+
+#: tpl/settings/tab_seo_settings/tab_special_page.tpl:5
+#, fuzzy
+msgid "Error 404"
+msgstr "Error 404"
+
+#: tpl/settings/tab_seo_settings/tab_special_page.tpl:11
+#, fuzzy
+msgid "Page : Search"
+msgstr "Page : Search"
+
+#: tpl/settings/tab_seo_settings/tab_special_page.tpl:16
+#, fuzzy
+msgid ""
+"You can customize your meta title and default description for the search"
+msgstr ""
+"You can customize your meta title and default description for the search"
+
+#: tpl/settings/tab_seo_settings/tab_special_page.tpl:30
+#, fuzzy
+msgid "Page : Error 404"
+msgstr "Page : Error 404"
+
+#: tpl/settings/tab_seo_settings/tab_special_page.tpl:35
+#, fuzzy
+msgid ""
+"You can customize your meta title and default description for the error 404"
+msgstr ""
+"You can customize your meta title and default description for the error 404"
+
+#: tpl/settings/tab_social_networks/tab_facebook.tpl:13
+#: tpl/settings/tab_social_networks/tab_twitter.tpl:13
+#, fuzzy
+msgid "Allow editing the meta tag in Article / Page"
+msgstr "Allow editing the meta tag in Article / Page"
+
+#: tpl/settings/tab_social_networks/tab_facebook.tpl:17
+#, fuzzy
+msgid ""
+"This option allows you to manually edit the meta title and description for "
+"facebook when writing"
+msgstr ""
+"This option allows you to manually edit the meta title and description for "
+"facebook when writing"
+
+#: tpl/settings/tab_social_networks/tab_facebook.tpl:21
+#, fuzzy
+msgid "URL of the Facebook page"
+msgstr "URL of the Facebook page"
+
+#: tpl/settings/tab_social_networks/tab_facebook.tpl:30
+#, fuzzy
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: tpl/settings/tab_social_networks/tab_pinterest.tpl:11
+#, fuzzy
+msgid "Pinterest Page url"
+msgstr "Pinterest Page url"
+
+#: tpl/settings/tab_social_networks/tab_pinterest.tpl:20
+#, fuzzy
+msgid "Pinterest verification code"
+msgstr "Pinterest verification code"
+
+#: tpl/settings/tab_social_networks/tab_twitter.tpl:17
+#, fuzzy
+msgid ""
+"This option allows you to manually edit the meta title and description for "
+"twitter when writing"
+msgstr ""
+"This option allows you to manually edit the meta title and description for "
+"twitter when writing"
+
+#: tpl/settings/tab_social_networks/tab_twitter.tpl:21
+#, fuzzy
+msgid "Choose a card type"
+msgstr "Choose a card type"
+
+#: tpl/settings/tab_social_networks/tab_twitter.tpl:25
+#, fuzzy
+msgid "This option allows you to choose how to display in social feeds"
+msgstr "This option allows you to choose how to display in social feeds"
+
+#: tpl/settings/tab_social_networks/tab_twitter.tpl:30
+#, fuzzy
+msgid "Your username"
+msgstr "Your username"
+
+#: tpl/settings/tab_tool/contained.tpl:14
+#, fuzzy
+msgid "Export / Import"
+msgstr "Export / Import"
+
+#: tpl/settings/tab_tool/contained.tpl:15
+#, fuzzy
+msgid "Export and import settings"
+msgstr "Export and import settings"
+
+#: tpl/settings/tab_tool/contained.tpl:21 _inc/fcnt/fcnt.locale.php:428
+#, fuzzy
+msgid "File Editor"
+msgstr "File Editor"
+
+#: tpl/settings/tab_tool/contained.tpl:22
+#, fuzzy
+msgid "Tool for editing files"
+msgstr "Tool for editing files"
+
+#: tpl/settings/tab_tool/contained.tpl:28 _inc/fcnt/fcnt.locale.php:433
+#, fuzzy
+msgid "Reset"
+msgstr "Reset"
+
+#: tpl/settings/tab_tool/contained.tpl:29
+#: tpl/settings/tab_tool/tab_reset.tpl:26
+#: tpl/settings/tab_tool/tab_reset.tpl:45
+#: tpl/settings/tab_tool/tab_reset.tpl:64
+#, fuzzy
+msgid "Reset settings"
+msgstr "Reset settings"
+
+#: tpl/settings/tab_tool/tab_export_import.tpl:4 _inc/fcnt/fcnt.locale.php:418
+#, fuzzy
+msgid "Export"
+msgstr "Export"
+
+#: tpl/settings/tab_tool/tab_export_import.tpl:5 _inc/fcnt/fcnt.locale.php:419
+#, fuzzy
+msgid "Import"
+msgstr "Import"
+
+#: tpl/settings/tab_tool/tab_export_import.tpl:12
+#, fuzzy
+msgid "Export parameter configuration"
+msgstr "Export parameter configuration"
+
+#: tpl/settings/tab_tool/tab_export_import.tpl:17
+#, fuzzy
+msgid ""
+"This option allows you to export the ran4win plugin settings, for a backup "
+"or to be imported on another wordpress"
+msgstr ""
+"This option allows you to export the ran4win plugin settings, for a backup "
+"or to be imported on another wordpress"
+
+#: tpl/settings/tab_tool/tab_export_import.tpl:25
+#, fuzzy
+msgid "Import parameter configuration"
+msgstr "Import parameter configuration"
+
+#: tpl/settings/tab_tool/tab_export_import.tpl:30
+#, fuzzy
+msgid ""
+"This option allows you to import your settings that were exported by "
+"Rank4Win. Always try to have the same version between the export and import "
+"of the setting file"
+msgstr ""
+"This option allows you to import your settings that were exported by "
+"Rank4Win. Always try to have the same version between the export and import "
+"of the setting file"
+
+#: tpl/settings/tab_tool/tab_file_editor.tpl:11
+#: tpl/settings/tab_tool/tab_file_editor.tpl:29 tpl/settings/_root.php:1206
+#, fuzzy
+msgid "File"
+msgstr "File"
+
+#: tpl/settings/tab_tool/tab_file_editor.tpl:16
+#, fuzzy
+msgid ""
+"The \".htaccess\" file is a configuration file, which allows you to define "
+"rules on your wordpress such as the possibility to create an address "
+"structure for your permalinks and archives"
+msgstr ""
+"The \".htaccess\" file is a configuration file, which allows you to define "
+"rules on your wordpress such as the possibility to create an address "
+"structure for your permalinks and archives"
+
+#: tpl/settings/tab_tool/tab_file_editor.tpl:21 tpl/settings/_root.php:1224
+#, fuzzy
+msgid ""
+"Be careful when editing this file. These changes may prevent your wordpress, "
+"your themes or plugin from working properly. Make these changes only if you "
+"are safe without causing problems"
+msgstr ""
+"Be careful when editing this file. These changes may prevent your wordpress, "
+"your themes or plugin from working properly. Make these changes only if you "
+"are safe without causing problems"
+
+#: tpl/settings/tab_tool/tab_file_editor.tpl:34
+#, fuzzy
+msgid ""
+"The \"robots.txt\" file tells search engine crawlers the pages or files they "
+"can or can not browse from the wordpress"
+msgstr ""
+"The \"robots.txt\" file tells search engine crawlers the pages or files they "
+"can or can not browse from the wordpress"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:4 _inc/fcnt/fcnt.locale.php:434
+#, fuzzy
+msgid "Application"
+msgstr "Application"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:12
+#, fuzzy
+msgid "Reset application options"
+msgstr "Reset application options"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:17
+#, fuzzy
+msgid ""
+"Start from scratch and rediscover rank4win as in the early days, reset "
+"clears all app settings"
+msgstr ""
+"Start from scratch and rediscover rank4win as in the early days, reset "
+"clears all app settings"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:22
+#, fuzzy
+msgid ""
+"This action is irreversible, do not forget to bring your configuration "
+"before you start in this procedure"
+msgstr ""
+"This action is irreversible, do not forget to bring your configuration "
+"before you start in this procedure"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:31
+#, fuzzy
+msgid "Reset content types options"
+msgstr "Reset content types options"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:36
+#, fuzzy
+msgid "You can clear the options you have customize in content types"
+msgstr "You can clear the options you have customize in content types"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:41
+#: tpl/settings/tab_tool/tab_reset.tpl:60
+#, fuzzy
+msgid ""
+"Since this action is irreversible, do not forget to export your important "
+"data before you start this procedure"
+msgstr ""
+"Since this action is irreversible, do not forget to export your important "
+"data before you start this procedure"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:50
+#, fuzzy
+msgid "Reset taxonomy options"
+msgstr "Reset taxonomy options"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:55
+#, fuzzy
+msgid "You can clear the options you have customize in the taxonomy"
+msgstr "You can clear the options you have customize in the taxonomy"
+
+#: tpl/subscription/already_subscribed.tpl:4
+#, fuzzy
+msgid "Surprise"
+msgstr "Surprise"
+
+#: tpl/subscription/already_subscribed.tpl:7
+#, fuzzy
+msgid "Switch User"
+msgstr "Switch User"
+
+#: tpl/subscription/already_subscribed.tpl:8
+#, fuzzy
+msgid "Change plan"
+msgstr "Change plan"
+
+#: tpl/subscription/stripe_preview.tpl:11
+#, fuzzy
+msgid "Gift certificates and promotional codes"
+msgstr "Gift certificates and promotional codes"
+
+#: tpl/subscription/stripe_preview.tpl:17
+#, fuzzy
+msgid "Apply"
+msgstr "Apply"
+
+#: tpl/subscription/stripe_preview.tpl:18 tpl/tools/tab_deploy/contained.tpl:7
+#: tpl/tools/tab_str_semantic/contained.tpl:7 tpl/wizard/button.tpl:3
+#, fuzzy
+msgid "Cancel"
+msgstr "Cancel"
+
+#: tpl/subscription/stripe_preview.tpl:24
+#: tpl/tools/tab_deploy/stripe_preview.tpl:8
+#, fuzzy
+msgid "Credit or debit card"
+msgstr "Credit or debit card"
+
+#: tpl/subscription/stripe_preview.tpl:27
+#, fuzzy
+msgid "Use a promo code"
+msgstr "Use a promo code"
+
+#: tpl/subscription/stripe_preview.tpl:30
+#: tpl/tools/tab_deploy/stripe_preview.tpl:17
+#, fuzzy
+msgid "Submit Payment"
+msgstr "Submit Payment"
+
+#: tpl/subscription/stripe_preview.tpl:34
+#: tpl/tools/tab_deploy/stripe_preview.tpl:14
+#, fuzzy
+msgid ""
+"Please contact your bank or credit card issuer to find out why payment has "
+"not been made"
+msgstr ""
+"Please contact your bank or credit card issuer to find out why payment has "
+"not been made"
+
+#: tpl/subscription/stripe_preview.tpl:53
+#: tpl/tools/tab_deploy/stripe_preview.tpl:36
+#, fuzzy
+msgid ""
+"You can cancel your subscription at any time. By making the payment, you "
+"confirm that you have read and accept"
+msgstr ""
+"You can cancel your subscription at any time. By making the payment, you "
+"confirm that you have read and accept"
+
+#: tpl/subscription/stripe_preview.tpl:54
+#: tpl/tools/tab_deploy/stripe_preview.tpl:37
+#, fuzzy
+msgid "our general terms and conditions of sale"
+msgstr "our general terms and conditions of sale"
+
+#: tpl/subscription/stripe_preview.tpl:61
+#: tpl/tools/tab_deploy/stripe_preview.tpl:44
+#, fuzzy
+msgid "ttc"
+msgstr "ttc"
+
+#: tpl/tools/contained.tpl:9
+#, fuzzy
+msgid "Seo tools"
+msgstr "Seo tools"
+
+#: tpl/tools/contained.tpl:10
+#, fuzzy
+msgid "Tools for your webmarketing strategy"
+msgstr "Tools for your webmarketing strategy"
+
+#: tpl/tools/contained.tpl:19 tpl/tools/tab_str_semantic/contained.tpl:4
+#: tpl/box_page/_root.php:162
+#, fuzzy
+msgid "Semantic structure"
+msgstr "Semantic structure"
+
+#: tpl/tools/contained.tpl:20 tpl/tools/tab_deploy/list_loop.tpl:5
+#, fuzzy
+msgid "Deployment"
+msgstr "Deployment"
+
+#: tpl/tools/tab_deploy/contained.tpl:4
+#, fuzzy
+msgid "Your deployments"
+msgstr "Your deployments"
+
+#: tpl/tools/tab_deploy/contained.tpl:6
+#: tpl/tools/tab_str_semantic/contained.tpl:6
+#: tpl/tools/tab_str_semantic/contained.tpl:63
+#, fuzzy
+msgid "Create a new semantic structure"
+msgstr "Create a new semantic structure"
+
+#: tpl/tools/tab_deploy/contained.tpl:20
+#, fuzzy
+msgid "Deploy the semantic structure on wordpress"
+msgstr "Deploy the semantic structure on wordpress"
+
+#: tpl/tools/tab_deploy/contained.tpl:27
+#, fuzzy
+msgid ""
+"You can deploy your semantic structure on your wordpress, the pages will be "
+"created with an editorial template"
+msgstr ""
+"You can deploy your semantic structure on your wordpress, the pages will be "
+"created with an editorial template"
+
+#: tpl/tools/tab_deploy/contained.tpl:32
+#, fuzzy
+msgid "Structure to be deployed"
+msgstr "Structure to be deployed"
+
+#: tpl/tools/tab_deploy/contained.tpl:38
+#, fuzzy
+msgid "How to deploy your structure"
+msgstr "How to deploy your structure"
+
+#: tpl/tools/tab_deploy/contained.tpl:40
+#, fuzzy
+msgid "Delete and create new page"
+msgstr "Delete and create new page"
+
+#: tpl/tools/tab_deploy/contained.tpl:41
+#, fuzzy
+msgid "Rearrange and create new page"
+msgstr "Rearrange and create new page"
+
+#: tpl/tools/tab_deploy/contained.tpl:48
+#, fuzzy
+msgid ""
+"Delete existing pages and their contents before creating the pages of your "
+"semantic structure"
+msgstr ""
+"Delete existing pages and their contents before creating the pages of your "
+"semantic structure"
+
+#: tpl/tools/tab_deploy/contained.tpl:54
+#, fuzzy
+msgid ""
+"Rearrange existing pages without changing their content, new page pages will "
+"be created"
+msgstr ""
+"Rearrange existing pages without changing their content, new page pages will "
+"be created"
+
+#: tpl/tools/tab_deploy/contained.tpl:60
+#, fuzzy
+msgid ""
+"Create only the pages of your semantic structure, the existing pages will "
+"not delete or rearrange"
+msgstr ""
+"Create only the pages of your semantic structure, the existing pages will "
+"not delete or rearrange"
+
+#: tpl/tools/tab_deploy/contained.tpl:65
+#, fuzzy
+msgid "Order details"
+msgstr "Order details"
+
+#: tpl/tools/tab_deploy/contained.tpl:68
+#, fuzzy
+msgid "Price per page"
+msgstr "Price per page"
+
+#: tpl/tools/tab_deploy/contained.tpl:72
+#, fuzzy
+msgid "Number of pages"
+msgstr "Number of pages"
+
+#: tpl/tools/tab_deploy/contained.tpl:76
+#, fuzzy
+msgid "Deployment price"
+msgstr "Deployment price"
+
+#: tpl/tools/tab_deploy/contained.tpl:82
+#, fuzzy
+msgid "Pay and deploy"
+msgstr "Pay and deploy"
+
+#: tpl/tools/tab_deploy/contained.tpl:118
+#, fuzzy
+msgid "A deployment in progress"
+msgstr "A deployment in progress"
+
+#: tpl/tools/tab_deploy/contained.tpl:119
+#, fuzzy
+msgid ""
+"A semantic structure is being deployed on this wordpress. To avoid conflict, "
+"you must wait until the deployment is complete or stop the deployment to "
+"perform a new deployment"
+msgstr ""
+"A semantic structure is being deployed on this wordpress. To avoid conflict, "
+"you must wait until the deployment is complete or stop the deployment to "
+"perform a new deployment"
+
+#: tpl/tools/tab_deploy/contained.tpl:120
+#, fuzzy
+msgid "Stop the deployment"
+msgstr "Stop the deployment"
+
+#: tpl/tools/tab_deploy/stripe_preview.tpl:45
+#, fuzzy
+msgid "Options"
+msgstr "Options"
+
+#: tpl/tools/tab_deploy/stripe_preview.tpl:47
+#, fuzzy
+msgid "Number of pages to deploy"
+msgstr "Number of pages to deploy"
+
+#: tpl/tools/tab_deploy/stripe_preview.tpl:51
+#, fuzzy
+msgid "This payment allows you to deploy your semantic srucuture only once"
+msgstr "This payment allows you to deploy your semantic srucuture only once"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:20
+#, fuzzy
+msgid "Rename your semantic structure"
+msgstr "Rename your semantic structure"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:24
+#: tpl/tools/tab_str_semantic/contained.tpl:75
+#, fuzzy
+msgid "Name of the stucture"
+msgstr "Name of the stucture"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:28 _inc/class/class.execjs.php:2048
+#, fuzzy
+msgid "Rename"
+msgstr "Rename"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:40
+#, fuzzy
+msgid "Duplication of the semantic structure"
+msgstr "Duplication of the semantic structure"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:41
+#, fuzzy
+msgid "Please wait while duplicating your semantic structure"
+msgstr "Please wait while duplicating your semantic structure"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:70
+#, fuzzy
+msgid ""
+"Building a tree of pages with optimized contents answering a theme with "
+"keywords on the same subject, is the basis of the seo semantic cocoon"
+msgstr ""
+"Building a tree of pages with optimized contents answering a theme with "
+"keywords on the same subject, is the basis of the seo semantic cocoon"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:79
+#, fuzzy
+msgid "Content of the structure"
+msgstr "Content of the structure"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:81
+#, fuzzy
+msgid "Empty structure"
+msgstr "Empty structure"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:82
+#, fuzzy
+msgid "Wordpress-based structure"
+msgstr "Wordpress-based structure"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:86
+#, fuzzy
+msgid "Keyword Strategy"
+msgstr "Keyword Strategy"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:90
+#, fuzzy
+msgid "Create"
+msgstr "Create"
+
+#: tpl/update_available/contained.tpl:13 _inc/class/class.app.php:1018
+#, fuzzy
+msgid "Update available"
+msgstr "Update available"
+
+#: tpl/update_available/contained.tpl:14
+#, fuzzy
+msgid "This release includes new features and improvements"
+msgstr "This release includes new features and improvements"
+
+#: tpl/update_available/contained.tpl:15 _inc/class/class.app.php:1364
+#, fuzzy
+msgid "Update now"
+msgstr "Update now"
+
+#: tpl/wizard/button.tpl:9
+#, fuzzy
+msgid "Next step"
+msgstr "Next step"
+
+#: tpl/wizard/step/required.tpl:4 tpl/wizard/_root.php:35
+#, fuzzy
+msgid "System requirements"
+msgstr "System requirements"
+
+#: tpl/wizard/step/required.tpl:8
+#, fuzzy
+msgid ""
+"Here is the basic system requirements to install rank4win on your wordpress"
+msgstr ""
+"Here is the basic system requirements to install rank4win on your wordpress"
+
+#: tpl/wizard/step/required.tpl:9
+#, fuzzy
+msgid ""
+"If your hosting or WordPress does not meet this configuration, <b>you may "
+"have problems on your website</b> plus you were not getting the most out of "
+"rank4win, to continue <b> you need to upgrade your configuration</b>"
+msgstr ""
+"If your hosting or WordPress does not meet this configuration, <b>you may "
+"have problems on your website</b> plus you were not getting the most out of "
+"rank4win, to continue <b> you need to upgrade your configuration</b>"
+
+#: tpl/wizard/step/required.tpl:13
+#, fuzzy
+msgid "Hosting and performance"
+msgstr "Hosting and performance"
+
+#: tpl/wizard/step/required.tpl:17
+#, fuzzy
+msgid "Php version required"
+msgstr "Php version required"
+
+#: tpl/wizard/step/required.tpl:23
+#, fuzzy
+msgid "Wordpress version required"
+msgstr "Wordpress version required"
+
+#: tpl/wizard/step/required.tpl:29
+#, fuzzy
+msgid "Rank4win version required"
+msgstr "Rank4win version required"
+
+#: tpl/wizard/step/required.tpl:35
+#, fuzzy
+msgid "Available domain name"
+msgstr "Available domain name"
+
+#: tpl/wizard/step/required.tpl:41
+#, fuzzy
+msgid "HTTPS protocol"
+msgstr "HTTPS protocol"
+
+#: tpl/wizard/step/required.tpl:48
+#, fuzzy
+msgid "Plugin"
+msgstr "Plugin"
+
+#: tpl/wizard/step/required.tpl:51
+#, fuzzy
+msgid "No conflicts with an installed plugin"
+msgstr "No conflicts with an installed plugin"
+
+#: _inc/class/class.app.php:95
+#, fuzzy
+msgid ""
+"Your structure is being deployed, please wait until the end of the "
+"deployment before modifying your pages"
+msgstr ""
+"Your structure is being deployed, please wait until the end of the "
+"deployment before modifying your pages"
+
+#: _inc/class/class.app.php:137
+#, fuzzy
+msgid ""
+"This WordPress is not associated with your subscription! To take advantage "
+"of all the options and benefits of your subscription"
+msgstr ""
+"This WordPress is not associated with your subscription! To take advantage "
+"of all the options and benefits of your subscription"
+
+#: _inc/class/class.app.php:137
+#, fuzzy
+msgid "please, click here"
+msgstr "please, click here"
+
+#: _inc/class/class.app.php:218
+#, fuzzy
+msgid "Rank4Win: could we help you"
+msgstr "Rank4Win: could we help you"
+
+#: _inc/class/class.app.php:219
+#, fuzzy
+msgid ""
+"We notice that you may need help, if this is a mistake then we wish you a "
+"pleasant day"
+msgstr ""
+"We notice that you may need help, if this is a mistake then we wish you a "
+"pleasant day"
+
+#: _inc/class/class.app.php:220
+#, fuzzy
+msgid ""
+"Any modification by mistake or intentional will be detected by our teams, we "
+"reserve the right to close any account that we deem suspicious without any "
+"warning or refund"
+msgstr ""
+"Any modification by mistake or intentional will be detected by our teams, we "
+"reserve the right to close any account that we deem suspicious without any "
+"warning or refund"
+
+#: _inc/class/class.app.php:904
+#, fuzzy
+msgid "Internal links"
+msgstr "Internal links"
+
+#: _inc/class/class.app.php:922 _inc/class/class.app.php:931
+#: _inc/class/class.app.php:932
+#, fuzzy
+msgid "My account"
+msgstr "My account"
+
+#: _inc/class/class.app.php:946 _inc/class/class.app.php:947
+#, fuzzy
+msgid "Structures"
+msgstr "Structures"
+
+#: _inc/class/class.app.php:954 _inc/class/class.app.php:955
+#, fuzzy
+msgid "Positions & Analyses"
+msgstr "Positions & Analyses"
+
+#: _inc/class/class.app.php:962
+#, fuzzy
+msgid "Editor"
+msgstr "Editor"
+
+#: _inc/class/class.app.php:970
+#, fuzzy
+msgid "Login"
+msgstr "Login"
+
+#: _inc/class/class.app.php:994
+#, fuzzy
+msgid "Register"
+msgstr "Register"
+
+#: _inc/class/class.app.php:1002
+#, fuzzy
+msgid "One-time password authentication"
+msgstr "One-time password authentication"
+
+#: _inc/class/class.app.php:1010
+#, fuzzy
+msgid "Associate Wordpress"
+msgstr "Associate Wordpress"
+
+#: _inc/class/class.app.php:1026
+#, fuzzy
+msgid "Export Configuration"
+msgstr "Export Configuration"
+
+#: _inc/class/class.app.php:1034 _inc/class/class.execjs.php:2048
+#, fuzzy
+msgid "Retrieve the image of the structure"
+msgstr "Retrieve the image of the structure"
+
+#: _inc/class/class.app.php:1042
+#, fuzzy
+msgid "Your invoice in pdf format"
+msgstr "Your invoice in pdf format"
+
+#: _inc/class/class.app.php:1050
+#, fuzzy
+msgid "Configuration of rank4win"
+msgstr "Configuration of rank4win"
+
+#: _inc/class/class.app.php:1208
+#, fuzzy
+msgid "All"
+msgstr "All"
+
+#: _inc/class/class.app.php:1209
+#, fuzzy
+msgid "Any"
+msgstr "Any"
+
+#: _inc/class/class.app.php:1210
+#, fuzzy
+msgid "Poor"
+msgstr "Poor"
+
+#: _inc/class/class.app.php:1211
+#, fuzzy
+msgid "Good"
+msgstr "Good"
+
+#: _inc/class/class.app.php:1212
+#, fuzzy
+msgid "Perfect"
+msgstr "Perfect"
+
+#: _inc/class/class.app.php:1353
+#, fuzzy
+msgid "Rank4Win is not functional, you must first make some settings"
+msgstr "Rank4Win is not functional, you must first make some settings"
+
+#: _inc/class/class.app.php:1353 _inc/class/class.app.php:1357
+#, fuzzy
+msgid "Now configure rank4win"
+msgstr "Now configure rank4win"
+
+#: _inc/class/class.app.php:1357
+#, fuzzy
+msgid ""
+"Rank4Win : You must choose the language and country of your essays in the "
+"settings"
+msgstr ""
+"Rank4Win : You must choose the language and country of your essays in the "
+"settings"
+
+#: _inc/class/class.app.php:1364
+#, fuzzy
+msgid "Update is required to access the features"
+msgstr "Update is required to access the features"
+
+#: _inc/class/class.app.php:1535
+#, fuzzy
+msgid "To read also"
+msgstr "To read also"
+
+#: _inc/class/class.execjs.php:17 _inc/class/class.execjs.php:27
+#: _inc/class/class.execjs.php:51
+#, fuzzy
+msgid "Wrong email or password"
+msgstr "Wrong email or password"
+
+#: _inc/class/class.execjs.php:94 _inc/class/class.execjs.php:117
+#: _inc/class/class.execjs.php:171 _inc/class/class.execjs.php:196
+#, fuzzy
+msgid "Email must be a valid email"
+msgstr "Email must be a valid email"
+
+#: _inc/class/class.execjs.php:151 _inc/class/class.execjs.php:323
+#, fuzzy
+msgid "Password is a required field"
+msgstr "Password is a required field"
+
+#: _inc/class/class.execjs.php:161 _inc/class/class.execjs.php:206
+#: _inc/class/class.execjs.php:333 _inc/class/class.execjs.php:395
+#, fuzzy
+msgid "Password and confirmation must match"
+msgstr "Password and confirmation must match"
+
+#: _inc/class/class.execjs.php:216
+#, fuzzy
+msgid "An account already exists with this email address"
+msgstr "An account already exists with this email address"
+
+#: _inc/class/class.execjs.php:258 _inc/class/class.execjs.php:281
+#: _inc/class/class.execjs.php:360 _inc/class/class.execjs.php:385
+#, fuzzy
+msgid "Wrong verification code"
+msgstr "Wrong verification code"
+
+#: _inc/class/class.execjs.php:1918
+#, fuzzy
+msgid "No keyword strategy available"
+msgstr "No keyword strategy available"
+
+#: _inc/class/class.execjs.php:2030
+#, fuzzy, php-format
+msgid "%s page"
+msgid_plural "%s pages"
+msgstr[0] "%s page"
+msgstr[1] "%s pages"
+
+#: _inc/class/class.execjs.php:2040
+#, fuzzy
+msgid "Delete structure"
+msgstr "Delete structure"
+
+#: _inc/class/class.execjs.php:2043
+#, fuzzy
+msgid "Remove sync"
+msgstr "Remove sync"
+
+#: _inc/class/class.execjs.php:2048 _inc/class/class.execjs.php:2052
+#, fuzzy
+msgid "Open"
+msgstr "Open"
+
+#: _inc/class/class.execjs.php:2048
+#, fuzzy
+msgid "Duplicate"
+msgstr "Duplicate"
+
+#: _inc/class/class.execjs.php:2059
+#, fuzzy
+msgid ""
+"A semantic structure is synchronized with your WordPress. When you edit your "
+"pages, your semantic structure automatically updates. If you enter your "
+"semantic structure, you will have to deploy your structure again to "
+"synchronize it with your wordpress"
+msgstr ""
+"A semantic structure is synchronized with your WordPress. When you edit your "
+"pages, your semantic structure automatically updates. If you enter your "
+"semantic structure, you will have to deploy your structure again to "
+"synchronize it with your wordpress"
+
+#: _inc/class/class.execjs.php:2177
+#, fuzzy
+msgid "Enter a word"
+msgstr "Enter a word"
+
+#: _inc/class/class.execjs.php:2180
+#, fuzzy, php-format
+msgid ""
+"This semantic structure is synchronized with %s. The backup of the changes "
+"is possible from this wordpress. You can duplicate this semantic structure "
+"if you want to save your changes"
+msgstr ""
+"This semantic structure is synchronized with %s. The backup of the changes "
+"is possible from this wordpress. You can duplicate this semantic structure "
+"if you want to save your changes"
+
+#: _inc/class/class.execjs.php:2610
+#, fuzzy
+msgid "Elapsed time"
+msgstr "Elapsed time"
+
+#: _inc/class/class.execjs.php:2610 _inc/class/class.execjs.php:2617
+#, fuzzy
+msgid "hours"
+msgstr "hours"
+
+#: _inc/class/class.execjs.php:2610 _inc/class/class.execjs.php:2617
+#, fuzzy
+msgid "minutes"
+msgstr "minutes"
+
+#: _inc/class/class.execjs.php:2610 _inc/class/class.execjs.php:2617
+#, fuzzy
+msgid "seconds"
+msgstr "seconds"
+
+#: _inc/class/class.execjs.php:2610 _inc/class/class.execjs.php:2617
+#: _inc/fcnt/fcnt.define.php:36 _inc/fcnt/fcnt.locale.php:391
+#: tpl/box_page/_root.php:273
+#, fuzzy
+msgid "Page"
+msgstr "Page"
+
+#: _inc/class/class.execjs.php:2610 _inc/class/class.execjs.php:2617
+#: _inc/class/class.execjs.php:2621 _inc/class/class.execjs.php:2625
+#, fuzzy
+msgid "Status"
+msgstr "Status"
+
+#: _inc/class/class.execjs.php:2610
+#, fuzzy
+msgid "Deployment in progress"
+msgstr "Deployment in progress"
+
+#: _inc/class/class.execjs.php:2617
+#, fuzzy
+msgid "Deploy in"
+msgstr "Deploy in"
+
+#: _inc/class/class.execjs.php:2617
+#, fuzzy
+msgid "Deployment complete"
+msgstr "Deployment complete"
+
+#: _inc/class/class.execjs.php:2621
+#, fuzzy
+msgid "Your deployment has not been successful"
+msgstr "Your deployment has not been successful"
+
+#: _inc/class/class.execjs.php:2625
+#, fuzzy
+msgid "You canceled deployment"
+msgstr "You canceled deployment"
+
+#: _inc/class/class.execjs.php:2777
+#, fuzzy, php-format
+msgid ""
+"We love you too much for taking your hard earned money twice. The user %s "
+"already has a rank4win subscription"
+msgstr ""
+"We love you too much for taking your hard earned money twice. The user %s "
+"already has a rank4win subscription"
+
+#: _inc/class/class.execjs.php:2841
+#, fuzzy
+msgid "Subscribe"
+msgstr "Subscribe"
+
+#: _inc/class/class.execjs.php:2881
+#, fuzzy
+msgid "From 1 to 300"
+msgstr "From 1 to 300"
+
+#: _inc/class/class.execjs.php:2895
+#, fuzzy
+msgid "and more"
+msgstr "and more"
+
+#: _inc/class/class.execjs.php:2897
+#, fuzzy
+msgid "to"
+msgstr "to"
+
+#: _inc/class/class.execjs.php:2899
+#, fuzzy, php-format
+msgid "From %s %s : %s / pages"
+msgstr "From %s %s : %s / pages"
+
+#: _inc/class/class.execjs.php:2936 _inc/fcnt/fcnt.locale.php:59
+#: _inc/fcnt/fcnt.locale.php:121 _inc/fcnt/fcnt.locale.php:260
+#: _inc/fcnt/fcnt.locale.php:437
+#, fuzzy
+msgid "month"
+msgstr "month"
+
+#: _inc/class/class.execjs.php:2939
+#, fuzzy
+msgid "year"
+msgstr "year"
+
+#: _inc/class/class.execjs.php:2953
+#, fuzzy
+msgid "Number of WordPress"
+msgstr "Number of WordPress"
+
+#: _inc/class/class.execjs.php:2953
+#, fuzzy
+msgid "Unlimited"
+msgstr "Unlimited"
+
+#: _inc/class/class.execjs.php:2956
+#, fuzzy
+msgid "Number of subscriptions"
+msgstr "Number of subscriptions"
+
+#: _inc/class/class.execjs.php:3038 _inc/fcnt/fcnt.locale.php:49
+#, fuzzy
+msgid "Keywords"
+msgstr "Keywords"
+
+#: _inc/class/class.execjs.php:3038 _inc/fcnt/fcnt.locale.php:50
+#, fuzzy
+msgid "The number of keywords that bring you organic traffic"
+msgstr "The number of keywords that bring you organic traffic"
+
+#: _inc/class/class.execjs.php:3038 _inc/fcnt/fcnt.locale.php:22
+#: _inc/fcnt/fcnt.locale.php:51
+#, fuzzy
+msgid "Traffic"
+msgstr "Traffic"
+
+#: _inc/class/class.execjs.php:3038 _inc/fcnt/fcnt.locale.php:52
+#, fuzzy
+msgid "Organic traffic planned for next month"
+msgstr "Organic traffic planned for next month"
+
+#: _inc/class/class.execjs.php:3038 _inc/fcnt/fcnt.locale.php:53
+#, fuzzy
+msgid "Cost of the traffic"
+msgstr "Cost of the traffic"
+
+#: _inc/class/class.execjs.php:3038 _inc/fcnt/fcnt.locale.php:54
+#, fuzzy
+msgid ""
+"Savings, normally that what you should pay in Google AdWords for your traffic"
+msgstr ""
+"Savings, normally that what you should pay in Google AdWords for your traffic"
+
+#: _inc/class/class.execjs.php:3042 _inc/class/class.execjs.php:3100
+#: _inc/class/class.execjs.php:3158
+#, fuzzy
+msgid "Last update"
+msgstr "Last update"
+
+#: _inc/class/class.execjs.php:3096 _inc/class/class.execjs.php:3154
+#, fuzzy
+msgid "Sorry, no data related to your query"
+msgstr "Sorry, no data related to your query"
+
+#: _inc/class/class.execjs.php:3096
+#, fuzzy
+msgid "We did not find your site in the first 100 search results"
+msgstr "We did not find your site in the first 100 search results"
+
+#: _inc/class/class.execjs.php:3154
+#, fuzzy
+msgid "We found no competitors linking to your site"
+msgstr "We found no competitors linking to your site"
+
+#: _inc/class/class.execjs.php:3197 _inc/class/class.execjs.php:3237
+#, fuzzy
+msgid ""
+"The connection to the rank4win server has been interrupted unexpectedly, "
+"some features may not work properly. Wait and try to refresh the page to fix "
+"the problem"
+msgstr ""
+"The connection to the rank4win server has been interrupted unexpectedly, "
+"some features may not work properly. Wait and try to refresh the page to fix "
+"the problem"
+
+#: _inc/class/class.execjs.php:3229
+#, fuzzy
+msgid ""
+"We make improvements on this service, do not be surprised if some features "
+"do not work properly during our intervention"
+msgstr ""
+"We make improvements on this service, do not be surprised if some features "
+"do not work properly during our intervention"
+
+#: _inc/class/class.execjs.php:3598
+#, fuzzy
+msgid "No cards added"
+msgstr "No cards added"
+
+#: _inc/class/class.execjs.php:3602
+#, fuzzy, php-format
+msgid ""
+"Your subscription will be canceled on %s, after this date you will no longer "
+"have access to the benefit of your subscription"
+msgstr ""
+"Your subscription will be canceled on %s, after this date you will no longer "
+"have access to the benefit of your subscription"
+
+#: _inc/class/class.execjs.php:3616
+#, fuzzy, php-format
+msgid ""
+"A problem occurred during the payment of your last invoice for an amount of "
+"%s, we will represent the payment on %s, remember to update your credit card"
+msgstr ""
+"A problem occurred during the payment of your last invoice for an amount of "
+"%s, we will represent the payment on %s, remember to update your credit card"
+
+#: _inc/class/class.execjs.php:3633
+#, fuzzy, php-format
+msgid "Your %s discount will be used to pay your next bill"
+msgstr "Your %s discount will be used to pay your next bill"
+
+#: _inc/class/class.execjs.php:3636
+#, fuzzy, php-format
+msgid "Your %s discount will be applied to your next bill"
+msgstr "Your %s discount will be applied to your next bill"
+
+#: _inc/class/class.execjs.php:3671
+#, fuzzy, php-format
+msgid "Your next bill will be %s. It will be taken on %s"
+msgstr "Your next bill will be %s. It will be taken on %s"
+
+#: _inc/class/class.execjs.php:3673
+#, fuzzy, php-format
+msgid ""
+"The cancellation will be effective at the end of the current billing period, "
+"the %s"
+msgstr ""
+"The cancellation will be effective at the end of the current billing period, "
+"the %s"
+
+#: _inc/class/class.execjs.php:3962
+#, fuzzy
+msgid "Invalid or expired coupon"
+msgstr "Invalid or expired coupon"
+
+#: _inc/class/class.execjs.php:4096
+#, fuzzy
+msgid "No subscription"
+msgstr "No subscription"
+
+#: _inc/class/class.execjs.php:4100
+#, fuzzy
+msgid "Unlimited Wordpress"
+msgstr "Unlimited Wordpress"
+
+#: _inc/class/class.execjs.php:4103
+#, fuzzy
+msgid "Subscription available"
+msgstr "Subscription available"
+
+#: _inc/class/class.execjs.php:4123
+#, fuzzy
+msgid "Remove the association from the account"
+msgstr "Remove the association from the account"
+
+#: _inc/class/class.execjs.php:4131
+#, fuzzy
+msgid "Delete from account"
+msgstr "Delete from account"
+
+#: _inc/class/class.execjs.php:4139 _inc/fcnt/fcnt.locale.php:42
+#: _inc/fcnt/fcnt.locale.php:76 _inc/fcnt/fcnt.locale.php:162
+#: _inc/fcnt/fcnt.locale.php:181 _inc/fcnt/fcnt.locale.php:199
+#: _inc/fcnt/fcnt.locale.php:274
+#, fuzzy
+msgid "Add to your subscription"
+msgstr "Add to your subscription"
+
+#: _inc/class/class.execjs.php:4147
+#, fuzzy
+msgid "Remove from your subscription"
+msgstr "Remove from your subscription"
+
+#: _inc/class/class.execjs.php:4156
+#, fuzzy
+msgid ""
+"This wordpress must be associated with your account to benefit from your "
+"subscription"
+msgstr ""
+"This wordpress must be associated with your account to benefit from your "
+"subscription"
+
+#: _inc/class/class.execjs.php:4171
+#, fuzzy
+msgid "Re-add to your subscription"
+msgstr "Re-add to your subscription"
+
+#: _inc/class/class.execjs.php:4172
+#, fuzzy
+msgid ""
+"On your next bill, this wordpress will no longer be associated with your "
+"subscription"
+msgstr ""
+"On your next bill, this wordpress will no longer be associated with your "
+"subscription"
+
+#: _inc/class/class.execjs.php:4180
+#, fuzzy
+msgid "You are on this wordpress"
+msgstr "You are on this wordpress"
+
+#: _inc/class/class.execjs.php:4209
+#, fuzzy
+msgid "Sorry, no wordpress available"
+msgstr "Sorry, no wordpress available"
+
+#: _inc/class/class.execjs.php:4209
+#, fuzzy
+msgid "when you connect to a wordpress it will appear in this list"
+msgstr "when you connect to a wordpress it will appear in this list"
+
+#: _inc/class/class.execjs.php:4464 _inc/class/class.execjs.php:4467
+#, fuzzy
+msgid "First name"
+msgstr "First name"
+
+#: _inc/class/class.execjs.php:4464 _inc/class/class.execjs.php:4467
+#, fuzzy
+msgid "Last name"
+msgstr "Last name"
+
+#: _inc/class/class.execjs.php:4474
+#, fuzzy
+msgid "E-mail"
+msgstr "E-mail"
+
+#: _inc/class/class.process.php:333
+#, fuzzy, php-format
+msgid "Every %d Minutes"
+msgstr "Every %d Minutes"
+
+#: _inc/fcnt/fcnt.date.php:9 _inc/fcnt/fcnt.define.php:494
+#, fuzzy
+msgid "Monday"
+msgstr "Monday"
+
+#: _inc/fcnt/fcnt.date.php:12 _inc/fcnt/fcnt.define.php:495
+#, fuzzy
+msgid "Tuesday"
+msgstr "Tuesday"
+
+#: _inc/fcnt/fcnt.date.php:15 _inc/fcnt/fcnt.define.php:496
+#, fuzzy
+msgid "Wednesday"
+msgstr "Wednesday"
+
+#: _inc/fcnt/fcnt.date.php:18 _inc/fcnt/fcnt.define.php:497
+#, fuzzy
+msgid "Thursday"
+msgstr "Thursday"
+
+#: _inc/fcnt/fcnt.date.php:21 _inc/fcnt/fcnt.define.php:498
+#, fuzzy
+msgid "Friday"
+msgstr "Friday"
+
+#: _inc/fcnt/fcnt.date.php:24 _inc/fcnt/fcnt.define.php:499
+#, fuzzy
+msgid "Saturday"
+msgstr "Saturday"
+
+#: _inc/fcnt/fcnt.date.php:27 _inc/fcnt/fcnt.define.php:500
+#, fuzzy
+msgid "Sunday"
+msgstr "Sunday"
+
+#: _inc/fcnt/fcnt.date.php:40
+#, fuzzy
+msgid "January"
+msgstr "January"
+
+#: _inc/fcnt/fcnt.date.php:43
+#, fuzzy
+msgid "February"
+msgstr "February"
+
+#: _inc/fcnt/fcnt.date.php:46
+#, fuzzy
+msgid "March"
+msgstr "March"
+
+#: _inc/fcnt/fcnt.date.php:49
+#, fuzzy
+msgid "April"
+msgstr "April"
+
+#: _inc/fcnt/fcnt.date.php:52
+#, fuzzy
+msgid "May"
+msgstr "May"
+
+#: _inc/fcnt/fcnt.date.php:55
+#, fuzzy
+msgid "June"
+msgstr "June"
+
+#: _inc/fcnt/fcnt.date.php:58
+#, fuzzy
+msgid "July"
+msgstr "July"
+
+#: _inc/fcnt/fcnt.date.php:61
+#, fuzzy
+msgid "August"
+msgstr "August"
+
+#: _inc/fcnt/fcnt.date.php:64
+#, fuzzy
+msgid "September"
+msgstr "September"
+
+#: _inc/fcnt/fcnt.date.php:67
+#, fuzzy
+msgid "October"
+msgstr "October"
+
+#: _inc/fcnt/fcnt.date.php:70
+#, fuzzy
+msgid "November"
+msgstr "November"
+
+#: _inc/fcnt/fcnt.date.php:73
+#, fuzzy
+msgid "December"
+msgstr "December"
+
+#: _inc/fcnt/fcnt.define.php:31 _inc/fcnt/fcnt.define.php:78
+#: _inc/fcnt/fcnt.locale.php:392
+#, fuzzy
+msgid "Article"
+msgstr "Article"
+
+#: _inc/fcnt/fcnt.define.php:46 _inc/fcnt/fcnt.locale.php:393
+#, fuzzy
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: _inc/fcnt/fcnt.define.php:68
+#, fuzzy
+msgid "Summarize with an image"
+msgstr "Summarize with an image"
+
+#: _inc/fcnt/fcnt.define.php:72
+#, fuzzy
+msgid "Summarize without image"
+msgstr "Summarize without image"
+
+#: _inc/fcnt/fcnt.define.php:82
+#, fuzzy
+msgid "Book"
+msgstr "Book"
+
+#: _inc/fcnt/fcnt.define.php:86
+#, fuzzy
+msgid "Profile"
+msgstr "Profile"
+
+#: _inc/fcnt/fcnt.define.php:97
+#, fuzzy
+msgid "Customer support"
+msgstr "Customer support"
+
+#: _inc/fcnt/fcnt.define.php:99
+#, fuzzy
+msgid "Billing support"
+msgstr "Billing support"
+
+#: _inc/fcnt/fcnt.define.php:100
+#, fuzzy
+msgid "Bill payment"
+msgstr "Bill payment"
+
+#: _inc/fcnt/fcnt.define.php:101
+#, fuzzy
+msgid "Sales"
+msgstr "Sales"
+
+#: _inc/fcnt/fcnt.define.php:102
+#, fuzzy
+msgid "Reservations"
+msgstr "Reservations"
+
+#: _inc/fcnt/fcnt.define.php:103
+#, fuzzy
+msgid "Credit card support"
+msgstr "Credit card support"
+
+#: _inc/fcnt/fcnt.define.php:104
+#, fuzzy
+msgid "Emergency"
+msgstr "Emergency"
+
+#: _inc/fcnt/fcnt.define.php:105
+#, fuzzy
+msgid "Baggage tracking"
+msgstr "Baggage tracking"
+
+#: _inc/fcnt/fcnt.define.php:106
+#, fuzzy
+msgid "Roadside assistance"
+msgstr "Roadside assistance"
+
+#: _inc/fcnt/fcnt.define.php:107
+#, fuzzy
+msgid "Package tracking"
+msgstr "Package tracking"
+
+#: _inc/fcnt/fcnt.define.php:137
+#, fuzzy
+msgid "Corporation"
+msgstr "Corporation"
+
+#: _inc/fcnt/fcnt.define.php:141
+#, fuzzy
+msgid "Educational Organization"
+msgstr "Educational Organization"
+
+#: _inc/fcnt/fcnt.define.php:145
+#, fuzzy
+msgid "Government Organization"
+msgstr "Government Organization"
+
+#: _inc/fcnt/fcnt.define.php:149
+#, fuzzy
+msgid "Non-Governmental Organization (NGO)"
+msgstr "Non-Governmental Organization (NGO)"
+
+#: _inc/fcnt/fcnt.define.php:153
+#, fuzzy
+msgid "Performing Group"
+msgstr "Performing Group"
+
+#: _inc/fcnt/fcnt.define.php:157
+#, fuzzy
+msgid "Sports Team"
+msgstr "Sports Team"
+
+#: _inc/fcnt/fcnt.define.php:167
+#, fuzzy
+msgid "Business Event"
+msgstr "Business Event"
+
+#: _inc/fcnt/fcnt.define.php:171
+#, fuzzy
+msgid "Childrens Event"
+msgstr "Childrens Event"
+
+#: _inc/fcnt/fcnt.define.php:175
+#, fuzzy
+msgid "Comedy Event"
+msgstr "Comedy Event"
+
+#: _inc/fcnt/fcnt.define.php:179
+#, fuzzy
+msgid "Dance Event"
+msgstr "Dance Event"
+
+#: _inc/fcnt/fcnt.define.php:183
+#, fuzzy
+msgid "Educational Event"
+msgstr "Educational Event"
+
+#: _inc/fcnt/fcnt.define.php:187
+#, fuzzy
+msgid "Festival"
+msgstr "Festival"
+
+#: _inc/fcnt/fcnt.define.php:191
+#, fuzzy
+msgid "Food Event"
+msgstr "Food Event"
+
+#: _inc/fcnt/fcnt.define.php:195
+#, fuzzy
+msgid "Literary Event"
+msgstr "Literary Event"
+
+#: _inc/fcnt/fcnt.define.php:199
+#, fuzzy
+msgid "Music Event"
+msgstr "Music Event"
+
+#: _inc/fcnt/fcnt.define.php:203
+#, fuzzy
+msgid "Sales Event"
+msgstr "Sales Event"
+
+#: _inc/fcnt/fcnt.define.php:207
+#, fuzzy
+msgid "Social Event"
+msgstr "Social Event"
+
+#: _inc/fcnt/fcnt.define.php:211
+#, fuzzy
+msgid "Theater Event"
+msgstr "Theater Event"
+
+#: _inc/fcnt/fcnt.define.php:215
+#, fuzzy
+msgid "User Interaction"
+msgstr "User Interaction"
+
+#: _inc/fcnt/fcnt.define.php:219
+#, fuzzy
+msgid "Visual Arts Event"
+msgstr "Visual Arts Event"
+
+#: _inc/fcnt/fcnt.define.php:231 _inc/fcnt/fcnt.define.php:310
+#, fuzzy
+msgid "Date of publication"
+msgstr "Date of publication"
+
+#: _inc/fcnt/fcnt.define.php:235 _inc/fcnt/fcnt.define.php:314
+#, fuzzy
+msgid "Title of the publication"
+msgstr "Title of the publication"
+
+#: _inc/fcnt/fcnt.define.php:239 _inc/fcnt/fcnt.define.php:318
+#, fuzzy
+msgid "Title of the parent page"
+msgstr "Title of the parent page"
+
+#: _inc/fcnt/fcnt.define.php:243 _inc/fcnt/fcnt.define.php:269
+#: _inc/fcnt/fcnt.define.php:285 _inc/fcnt/fcnt.define.php:295
+#: _inc/fcnt/fcnt.define.php:322 _inc/fcnt/fcnt.define.php:348
+#: _inc/fcnt/fcnt.define.php:363 _inc/fcnt/fcnt.define.php:388
+#: _inc/fcnt/fcnt.define.php:402 _inc/fcnt/fcnt.define.php:418
+#: _inc/fcnt/fcnt.define.php:432
+#, fuzzy
+msgid "Name of the site"
+msgstr "Name of the site"
+
+#: _inc/fcnt/fcnt.define.php:247 _inc/fcnt/fcnt.define.php:273
+#: _inc/fcnt/fcnt.define.php:289 _inc/fcnt/fcnt.define.php:299
+#: _inc/fcnt/fcnt.define.php:326 _inc/fcnt/fcnt.define.php:352
+#: _inc/fcnt/fcnt.define.php:367 _inc/fcnt/fcnt.define.php:392
+#: _inc/fcnt/fcnt.define.php:406 _inc/fcnt/fcnt.define.php:422
+#: _inc/fcnt/fcnt.define.php:436
+#, fuzzy
+msgid "Separator defined in the configuration"
+msgstr "Separator defined in the configuration"
+
+#: _inc/fcnt/fcnt.define.php:253 _inc/fcnt/fcnt.define.php:332
+#, fuzzy
+msgid "Slogan of the site"
+msgstr "Slogan of the site"
+
+#: _inc/fcnt/fcnt.define.php:257 _inc/fcnt/fcnt.define.php:336
+#, fuzzy
+msgid "Extract from the publication or auto-generated"
+msgstr "Extract from the publication or auto-generated"
+
+#: _inc/fcnt/fcnt.define.php:261 _inc/fcnt/fcnt.define.php:340
+#, fuzzy
+msgid "Extract from the publication without auto-generated"
+msgstr "Extract from the publication without auto-generated"
+
+#: _inc/fcnt/fcnt.define.php:265 _inc/fcnt/fcnt.define.php:344
+#, fuzzy
+msgid "Modification time"
+msgstr "Modification time"
+
+#: _inc/fcnt/fcnt.define.php:281
+#, fuzzy
+msgid "Product Name"
+msgstr "Product Name"
+
+#: _inc/fcnt/fcnt.define.php:380
+#, fuzzy
+msgid "Name of the author"
+msgstr "Name of the author"
+
+#: _inc/fcnt/fcnt.define.php:384
+#, fuzzy
+msgid "author ID"
+msgstr "author ID"
+
+#: _inc/fcnt/fcnt.define.php:398
+#, fuzzy
+msgid "Biographical information"
+msgstr "Biographical information"
+
+#: _inc/fcnt/fcnt.define.php:414 _inc/fcnt/fcnt.define.php:428
+#, fuzzy
+msgid "Date of the archive"
+msgstr "Date of the archive"
+
+#: _inc/fcnt/fcnt.define.php:446
+#, fuzzy
+msgid "Search phrase"
+msgstr "Search phrase"
+
+#: _inc/fcnt/fcnt.define.php:450 _inc/fcnt/fcnt.define.php:463
+#, fuzzy
+msgid "Wordpress name"
+msgstr "Wordpress name"
+
+#: _inc/fcnt/fcnt.define.php:454 _inc/fcnt/fcnt.define.php:467
+#, fuzzy
+msgid "Separator"
+msgstr "Separator"
+
+#: _inc/fcnt/fcnt.define.php:476
+#, fuzzy
+msgid "Link to the authors archives"
+msgstr "Link to the authors archives"
+
+#: _inc/fcnt/fcnt.define.php:480
+#, fuzzy
+msgid "Link to the publication"
+msgstr "Link to the publication"
+
+#: _inc/fcnt/fcnt.define.php:484
+#, fuzzy
+msgid "Link to the wordpress"
+msgstr "Link to the wordpress"
+
+#: _inc/fcnt/fcnt.define.php:488
+#, fuzzy
+msgid "Link to the wordpress with the description"
+msgstr "Link to the wordpress with the description"
+
+#: _inc/fcnt/fcnt.define.php:503
+#, fuzzy
+msgid "This feature requires a subscription for is available"
+msgstr "This feature requires a subscription for is available"
+
+#: _inc/fcnt/fcnt.editorial_content.php:25
+#, fuzzy, php-format
+msgid "Title 2 (H2): Must contain the secondary keyword %s"
+msgstr "Title 2 (H2): Must contain the secondary keyword %s"
+
+#: _inc/fcnt/fcnt.editorial_content.php:26
+#: _inc/fcnt/fcnt.editorial_content.php:30
+#, fuzzy
+msgid ""
+"In these paragraphs you will start to argue and set up your editorial "
+"strength, feel free to use a rich vocabulary, you have the synonyms, the "
+"complementary keywords too, made so to meet the expectations of the reader"
+msgstr ""
+"In these paragraphs you will start to argue and set up your editorial "
+"strength, feel free to use a rich vocabulary, you have the synonyms, the "
+"complementary keywords too, made so to meet the expectations of the reader"
+
+#: _inc/fcnt/fcnt.editorial_content.php:29
+#, fuzzy
+msgid "Title 2 (H2): Must contain the secondary keyword of the page"
+msgstr "Title 2 (H2): Must contain the secondary keyword of the page"
+
+#: _inc/fcnt/fcnt.editorial_content.php:57
+#, fuzzy, php-format
+msgid "Title 3 (H3): must contain the lexical keyword %s"
+msgstr "Title 3 (H3): must contain the lexical keyword %s"
+
+#: _inc/fcnt/fcnt.editorial_content.php:58
+#, fuzzy, php-format
+msgid ""
+"Write a paragraph of 150 words minimum, which summarizes all the content of "
+"the page %s this reinforces this page lexically and will be a semantic "
+"gateway to the child page"
+msgstr ""
+"Write a paragraph of 150 words minimum, which summarizes all the content of "
+"the page %s this reinforces this page lexically and will be a semantic "
+"gateway to the child page"
+
+#: _inc/fcnt/fcnt.editorial_content.php:62
+#, fuzzy
+msgid "Title 3 (H3): must contain the lexical keyword of the page"
+msgstr "Title 3 (H3): must contain the lexical keyword of the page"
+
+#: _inc/fcnt/fcnt.editorial_content.php:63
+#, fuzzy
+msgid ""
+"Write a paragraph of 150 words minimum, which summarizes all the content of "
+"the page lexical this reinforces this page lexically and will be a semantic "
+"gateway to the child page"
+msgstr ""
+"Write a paragraph of 150 words minimum, which summarizes all the content of "
+"the page lexical this reinforces this page lexically and will be a semantic "
+"gateway to the child page"
+
+#: _inc/fcnt/fcnt.locale.php:18
+#, fuzzy
+msgid "Domain"
+msgstr "Domain"
+
+#: _inc/fcnt/fcnt.locale.php:19
+#, fuzzy
+msgid "Level of competition"
+msgstr "Level of competition"
+
+#: _inc/fcnt/fcnt.locale.php:20
+#, fuzzy
+msgid "Common keywords"
+msgstr "Common keywords"
+
+#: _inc/fcnt/fcnt.locale.php:21
+#, fuzzy
+msgid "Seo Keywords"
+msgstr "Seo Keywords"
+
+#: _inc/fcnt/fcnt.locale.php:23
+#, fuzzy
+msgid "Costs"
+msgstr "Costs"
+
+#: _inc/fcnt/fcnt.locale.php:24 _inc/fcnt/fcnt.locale.php:60
+#: _inc/fcnt/fcnt.locale.php:122
+#, fuzzy
+msgid "Keyword"
+msgstr "Keyword"
+
+#: _inc/fcnt/fcnt.locale.php:25
+#, fuzzy
+msgid "Position acquired"
+msgstr "Position acquired"
+
+#: _inc/fcnt/fcnt.locale.php:26
+#, fuzzy
+msgid "Difficulty"
+msgstr "Difficulty"
+
+#: _inc/fcnt/fcnt.locale.php:27 _inc/fcnt/fcnt.locale.php:61
+#: _inc/fcnt/fcnt.locale.php:123
+#, fuzzy
+msgid "Volume"
+msgstr "Volume"
+
+#: _inc/fcnt/fcnt.locale.php:28 _inc/fcnt/fcnt.locale.php:64
+#: _inc/fcnt/fcnt.locale.php:126
+#, fuzzy
+msgid "Cpc"
+msgstr "Cpc"
+
+#: _inc/fcnt/fcnt.locale.php:38 _inc/fcnt/fcnt.locale.php:268
+#, fuzzy
+msgid "Not available with your subscription"
+msgstr "Not available with your subscription"
+
+#: _inc/fcnt/fcnt.locale.php:39 _inc/fcnt/fcnt.locale.php:269
+#, fuzzy
+msgid ""
+"Your subscription does not include these tools, if you wish you can change "
+"offer to benefit from this tools"
+msgstr ""
+"Your subscription does not include these tools, if you wish you can change "
+"offer to benefit from this tools"
+
+#: _inc/fcnt/fcnt.locale.php:40 _inc/fcnt/fcnt.locale.php:74
+#: _inc/fcnt/fcnt.locale.php:160 _inc/fcnt/fcnt.locale.php:179
+#: _inc/fcnt/fcnt.locale.php:197 _inc/fcnt/fcnt.locale.php:272
+#, fuzzy
+msgid "Waiting for subscription renewal"
+msgstr "Waiting for subscription renewal"
+
+#: _inc/fcnt/fcnt.locale.php:41 _inc/fcnt/fcnt.locale.php:75
+#: _inc/fcnt/fcnt.locale.php:161 _inc/fcnt/fcnt.locale.php:180
+#: _inc/fcnt/fcnt.locale.php:198 _inc/fcnt/fcnt.locale.php:273
+#, fuzzy
+msgid ""
+"You have used the number of searches available in your offer, you must wait "
+"for your next billing to receive additional searches"
+msgstr ""
+"You have used the number of searches available in your offer, you must wait "
+"for your next billing to receive additional searches"
+
+#: _inc/fcnt/fcnt.locale.php:43 _inc/fcnt/fcnt.locale.php:77
+#: _inc/fcnt/fcnt.locale.php:163 _inc/fcnt/fcnt.locale.php:182
+#: _inc/fcnt/fcnt.locale.php:200 _inc/fcnt/fcnt.locale.php:275
+#, fuzzy
+msgid ""
+"If you still have wordpress available in your subscription you can this "
+"wordpress and benefit benefits prenium"
+msgstr ""
+"If you still have wordpress available in your subscription you can this "
+"wordpress and benefit benefits prenium"
+
+#: _inc/fcnt/fcnt.locale.php:44 _inc/fcnt/fcnt.locale.php:78
+#: _inc/fcnt/fcnt.locale.php:164 _inc/fcnt/fcnt.locale.php:183
+#: _inc/fcnt/fcnt.locale.php:201 _inc/fcnt/fcnt.locale.php:276
+#, fuzzy
+msgid "Associated with your subscription"
+msgstr "Associated with your subscription"
+
+#: _inc/fcnt/fcnt.locale.php:46 _inc/fcnt/fcnt.locale.php:80
+#: _inc/fcnt/fcnt.locale.php:166 _inc/fcnt/fcnt.locale.php:185
+#: _inc/fcnt/fcnt.locale.php:203 _inc/fcnt/fcnt.locale.php:278
+#, fuzzy
+msgid ""
+"Upgrade to the higher version by choosing a subscription, you will have the "
+"advantages prenium in addition to your deployments"
+msgstr ""
+"Upgrade to the higher version by choosing a subscription, you will have the "
+"advantages prenium in addition to your deployments"
+
+#: _inc/fcnt/fcnt.locale.php:48 _inc/fcnt/fcnt.locale.php:84
+#: _inc/fcnt/fcnt.locale.php:168 _inc/fcnt/fcnt.locale.php:187
+#: _inc/fcnt/fcnt.locale.php:205 _inc/fcnt/fcnt.locale.php:280
+#: _inc/fcnt/fcnt.locale.php:342
+#, fuzzy
+msgid "It is well tempted"
+msgstr "It is well tempted"
+
+#: _inc/fcnt/fcnt.locale.php:62 _inc/fcnt/fcnt.locale.php:124
+#, fuzzy
+msgid "Serp"
+msgstr "Serp"
+
+#: _inc/fcnt/fcnt.locale.php:63 _inc/fcnt/fcnt.locale.php:125
+#: _inc/fcnt/fcnt.locale.php:261
+#, fuzzy
+msgid "Feasibility"
+msgstr "Feasibility"
+
+#: _inc/fcnt/fcnt.locale.php:65
+#, fuzzy
+msgid "We have no results for the moment regarding this keyword"
+msgstr "We have no results for the moment regarding this keyword"
+
+#: _inc/fcnt/fcnt.locale.php:66
+#, fuzzy
+msgid "Deploy the structure"
+msgstr "Deploy the structure"
+
+#: _inc/fcnt/fcnt.locale.php:72 _inc/fcnt/fcnt.locale.php:270
+#, fuzzy
+msgid "Daily search exceeded"
+msgstr "Daily search exceeded"
+
+#: _inc/fcnt/fcnt.locale.php:73 _inc/fcnt/fcnt.locale.php:271
+#, fuzzy
+msgid ""
+"You have exceeded the number of authorized searches, you will be able to "
+"carry out new research as of tomorrow"
+msgstr ""
+"You have exceeded the number of authorized searches, you will be able to "
+"carry out new research as of tomorrow"
+
+#: _inc/fcnt/fcnt.locale.php:81
+#, fuzzy
+msgid "Display limits"
+msgstr "Display limits"
+
+#: _inc/fcnt/fcnt.locale.php:82
+#, fuzzy
+msgid ""
+"As you do not have a subscription, the number of results is limited, so you "
+"can remove this limit by choosing a subscription"
+msgstr ""
+"As you do not have a subscription, the number of results is limited, so you "
+"can remove this limit by choosing a subscription"
+
+#: _inc/fcnt/fcnt.locale.php:85 _inc/fcnt/fcnt.locale.php:141
+#, fuzzy
+msgid "Add a new keyword"
+msgstr "Add a new keyword"
+
+#: _inc/fcnt/fcnt.locale.php:86
+#, fuzzy
+msgid "Page Title"
+msgstr "Page Title"
+
+#: _inc/fcnt/fcnt.locale.php:88 _inc/fcnt/fcnt.locale.php:290
+#: _inc/fcnt/fcnt.locale.php:317 tpl/columns_keywords/_root.php:32
+#: tpl/columns_keywords/_root.php:41
+#, fuzzy
+msgid "Secondary keyword"
+msgstr "Secondary keyword"
+
+#: _inc/fcnt/fcnt.locale.php:89 _inc/fcnt/fcnt.locale.php:291
+#: _inc/fcnt/fcnt.locale.php:318
+#, fuzzy
+msgid "Lexical keyword"
+msgstr "Lexical keyword"
+
+#: _inc/fcnt/fcnt.locale.php:90
+#, fuzzy
+msgid "Import keywords"
+msgstr "Import keywords"
+
+#: _inc/fcnt/fcnt.locale.php:91
+#, fuzzy
+msgid "Enriching this branch"
+msgstr "Enriching this branch"
+
+#: _inc/fcnt/fcnt.locale.php:92
+#, fuzzy
+msgid "Insert your list of keywords"
+msgstr "Insert your list of keywords"
+
+#: _inc/fcnt/fcnt.locale.php:93
+#, fuzzy
+msgid "1st keyword"
+msgstr "1st keyword"
+
+#: _inc/fcnt/fcnt.locale.php:94
+#, fuzzy
+msgid "2nd keyword"
+msgstr "2nd keyword"
+
+#: _inc/fcnt/fcnt.locale.php:101
+#, fuzzy
+msgid "Ongoing treatment"
+msgstr "Ongoing treatment"
+
+#: _inc/fcnt/fcnt.locale.php:103
+#, fuzzy
+msgid "Show _MENU_"
+msgstr "Show _MENU_"
+
+#: _inc/fcnt/fcnt.locale.php:104
+#, fuzzy
+msgid "Showing _START_ to _END_ on _TOTAL_ items"
+msgstr "Showing _START_ to _END_ on _TOTAL_ items"
+
+#: _inc/fcnt/fcnt.locale.php:105
+#, fuzzy
+msgid "Showing item 0 to 0 of 0 items"
+msgstr "Showing item 0 to 0 of 0 items"
+
+#: _inc/fcnt/fcnt.locale.php:106
+#, fuzzy
+msgid "(filtered from _MAX_ total items)"
+msgstr "(filtered from _MAX_ total items)"
+
+#: _inc/fcnt/fcnt.locale.php:108
+#, fuzzy
+msgid "Loading"
+msgstr "Loading"
+
+#: _inc/fcnt/fcnt.locale.php:109
+#, fuzzy
+msgid "No items to display"
+msgstr "No items to display"
+
+#: _inc/fcnt/fcnt.locale.php:110
+#, fuzzy
+msgid "No data available in the table"
+msgstr "No data available in the table"
+
+#: _inc/fcnt/fcnt.locale.php:111
+#, fuzzy
+msgid "First"
+msgstr "First"
+
+#: _inc/fcnt/fcnt.locale.php:112
+#, fuzzy
+msgid "Previous"
+msgstr "Previous"
+
+#: _inc/fcnt/fcnt.locale.php:113
+#, fuzzy
+msgid "Next"
+msgstr "Next"
+
+#: _inc/fcnt/fcnt.locale.php:114
+#, fuzzy
+msgid "Latest"
+msgstr "Latest"
+
+#: _inc/fcnt/fcnt.locale.php:115
+#, fuzzy
+msgid "activate to sort the column in ascending order"
+msgstr "activate to sort the column in ascending order"
+
+#: _inc/fcnt/fcnt.locale.php:116
+#, fuzzy
+msgid "activate to sort the column in descending order"
+msgstr "activate to sort the column in descending order"
+
+#: _inc/fcnt/fcnt.locale.php:131
+#, fuzzy
+msgid "Included in your subscription"
+msgstr "Included in your subscription"
+
+#: _inc/fcnt/fcnt.locale.php:142
+#, fuzzy
+msgid "You must add your main keyword"
+msgstr "You must add your main keyword"
+
+#: _inc/fcnt/fcnt.locale.php:147
+#, fuzzy
+msgid ""
+"Unfortunately, we cannot provide you with content ideas. Your keyword has "
+"little result or the language of your document does not match your keyword"
+msgstr ""
+"Unfortunately, we cannot provide you with content ideas. Your keyword has "
+"little result or the language of your document does not match your keyword"
+
+#: _inc/fcnt/fcnt.locale.php:148
+#, fuzzy
+msgid "We did not find any synonym"
+msgstr "We did not find any synonym"
+
+#: _inc/fcnt/fcnt.locale.php:149
+#, fuzzy
+msgid ""
+"Unfortunately, we can not say what the search engines understood from your "
+"text. The content of your text is not enough or the language of your account "
+"does not match your text"
+msgstr ""
+"Unfortunately, we can not say what the search engines understood from your "
+"text. The content of your text is not enough or the language of your account "
+"does not match your text"
+
+#: _inc/fcnt/fcnt.locale.php:154
+#, fuzzy
+msgid "We have no questions available at the moment"
+msgstr "We have no questions available at the moment"
+
+#: _inc/fcnt/fcnt.locale.php:173
+#, fuzzy
+msgid "We have no synonymous available at the moment"
+msgstr "We have no synonymous available at the moment"
+
+#: _inc/fcnt/fcnt.locale.php:206
+#, fuzzy
+msgid "Which corresponds to the lexical field"
+msgstr "Which corresponds to the lexical field"
+
+#: _inc/fcnt/fcnt.locale.php:211
+#, fuzzy
+msgid "The length of the title is too short"
+msgstr "The length of the title is too short"
+
+#: _inc/fcnt/fcnt.locale.php:212
+#, fuzzy
+msgid "The length of the title is a little short"
+msgstr "The length of the title is a little short"
+
+#: _inc/fcnt/fcnt.locale.php:213
+#, fuzzy
+msgid "The length of the title is perfect"
+msgstr "The length of the title is perfect"
+
+#: _inc/fcnt/fcnt.locale.php:214
+#, fuzzy
+msgid "The length of the title is too long"
+msgstr "The length of the title is too long"
+
+#: _inc/fcnt/fcnt.locale.php:215
+#, fuzzy
+msgid "The length of the description is too short"
+msgstr "The length of the description is too short"
+
+#: _inc/fcnt/fcnt.locale.php:216
+#, fuzzy
+msgid "The length of the description is a little short"
+msgstr "The length of the description is a little short"
+
+#: _inc/fcnt/fcnt.locale.php:217
+#, fuzzy
+msgid "The length of the description is perfect"
+msgstr "The length of the description is perfect"
+
+#: _inc/fcnt/fcnt.locale.php:218
+#, fuzzy
+msgid "The length of the description is too long"
+msgstr "The length of the description is too long"
+
+#: _inc/fcnt/fcnt.locale.php:225
+#, fuzzy
+msgid "Saved successfully"
+msgstr "Saved successfully"
+
+#: _inc/fcnt/fcnt.locale.php:226
+#, fuzzy
+msgid "Your settings have been saved"
+msgstr "Your settings have been saved"
+
+#: _inc/fcnt/fcnt.locale.php:227
+#, fuzzy
+msgid "Saved failed"
+msgstr "Saved failed"
+
+#: _inc/fcnt/fcnt.locale.php:228
+#, fuzzy
+msgid "Your settings have not been saved, please try again"
+msgstr "Your settings have not been saved, please try again"
+
+#: _inc/fcnt/fcnt.locale.php:229
+#, fuzzy
+msgid "File edit successfully"
+msgstr "File edit successfully"
+
+#: _inc/fcnt/fcnt.locale.php:230
+#, fuzzy
+msgid "Modification of the file has been saved"
+msgstr "Modification of the file has been saved"
+
+#: _inc/fcnt/fcnt.locale.php:231
+#, fuzzy
+msgid "File edit failed"
+msgstr "File edit failed"
+
+#: _inc/fcnt/fcnt.locale.php:232
+#, fuzzy
+msgid "The changes to the file have not been saved, please try again"
+msgstr "The changes to the file have not been saved, please try again"
+
+#: _inc/fcnt/fcnt.locale.php:233
+#, fuzzy
+msgid "Successful reset"
+msgstr "Successful reset"
+
+#: _inc/fcnt/fcnt.locale.php:234
+#, fuzzy
+msgid "Reset options have been completed"
+msgstr "Reset options have been completed"
+
+#: _inc/fcnt/fcnt.locale.php:235
+#, fuzzy
+msgid "Reset failed"
+msgstr "Reset failed"
+
+#: _inc/fcnt/fcnt.locale.php:236
+#, fuzzy
+msgid "Reset options has not been done, please try again"
+msgstr "Reset options has not been done, please try again"
+
+#: _inc/fcnt/fcnt.locale.php:237
+#, fuzzy
+msgid "Successful import"
+msgstr "Successful import"
+
+#: _inc/fcnt/fcnt.locale.php:238
+#, fuzzy
+msgid "Your settings have been successfully imported"
+msgstr "Your settings have been successfully imported"
+
+#: _inc/fcnt/fcnt.locale.php:239
+#, fuzzy
+msgid "Import failed"
+msgstr "Import failed"
+
+#: _inc/fcnt/fcnt.locale.php:240
+#, fuzzy
+msgid "The import of your settings has not been done, please try again"
+msgstr "The import of your settings has not been done, please try again"
+
+#: _inc/fcnt/fcnt.locale.php:241
+#, fuzzy
+msgid "Successful keyword add"
+msgstr "Successful keyword add"
+
+#: _inc/fcnt/fcnt.locale.php:242
+#, fuzzy
+msgid "The keyword has been added in your strategy"
+msgstr "The keyword has been added in your strategy"
+
+#: _inc/fcnt/fcnt.locale.php:243
+#, fuzzy
+msgid "Keyword add failed"
+msgstr "Keyword add failed"
+
+#: _inc/fcnt/fcnt.locale.php:244
+#, fuzzy
+msgid "Can not add the keyword in your strategy, please try again"
+msgstr "Can not add the keyword in your strategy, please try again"
+
+#: _inc/fcnt/fcnt.locale.php:245
+#, fuzzy
+msgid "Successful keyword remove"
+msgstr "Successful keyword remove"
+
+#: _inc/fcnt/fcnt.locale.php:246
+#, fuzzy
+msgid "The keyword has been removed from your strategy"
+msgstr "The keyword has been removed from your strategy"
+
+#: _inc/fcnt/fcnt.locale.php:247
+#, fuzzy
+msgid "Keyword remove failed"
+msgstr "Keyword remove failed"
+
+#: _inc/fcnt/fcnt.locale.php:248
+#, fuzzy
+msgid "Unable to remove the keyword from your strategy, please try again"
+msgstr "Unable to remove the keyword from your strategy, please try again"
+
+#: _inc/fcnt/fcnt.locale.php:249
+#, fuzzy
+msgid "Successful Updated name"
+msgstr "Successful Updated name"
+
+#: _inc/fcnt/fcnt.locale.php:250
+#, fuzzy
+msgid "The name of your strategy has been updated"
+msgstr "The name of your strategy has been updated"
+
+#: _inc/fcnt/fcnt.locale.php:251
+#, fuzzy
+msgid "Updated name failed"
+msgstr "Updated name failed"
+
+#: _inc/fcnt/fcnt.locale.php:252
+#, fuzzy
+msgid "Unable to update the name of your strategy, please try again"
+msgstr "Unable to update the name of your strategy, please try again"
+
+#: _inc/fcnt/fcnt.locale.php:257
+#, fuzzy
+msgid "No keyword suggestions are currently available for your main keyword"
+msgstr "No keyword suggestions are currently available for your main keyword"
+
+#: _inc/fcnt/fcnt.locale.php:258
+#, fuzzy
+msgid "Please, insert your expression, query or keyword"
+msgstr "Please, insert your expression, query or keyword"
+
+#: _inc/fcnt/fcnt.locale.php:259
+#, fuzzy
+msgid "volume"
+msgstr "volume"
+
+#: _inc/fcnt/fcnt.locale.php:285
+#, fuzzy
+msgid "Analysis tools in maintenance"
+msgstr "Analysis tools in maintenance"
+
+#: _inc/fcnt/fcnt.locale.php:286
+#, fuzzy
+msgid ""
+"In order to always be able to provide you with quality service, we are "
+"currently performing maintenance operations"
+msgstr ""
+"In order to always be able to provide you with quality service, we are "
+"currently performing maintenance operations"
+
+#: _inc/fcnt/fcnt.locale.php:287
+#, fuzzy
+msgid "We can not analyze this document"
+msgstr "We can not analyze this document"
+
+#: _inc/fcnt/fcnt.locale.php:288
+#, fuzzy
+msgid ""
+"The information transmitted is incorrect and no longer guarantees the "
+"results. This document is lock for analysis, you can contact rank4win for "
+"more information"
+msgstr ""
+"The information transmitted is incorrect and no longer guarantees the "
+"results. This document is lock for analysis, you can contact rank4win for "
+"more information"
+
+#: _inc/fcnt/fcnt.locale.php:292
+#, fuzzy
+msgid "Overall Score"
+msgstr "Overall Score"
+
+#: _inc/fcnt/fcnt.locale.php:294
+#, fuzzy
+msgid "Analyzes semantics"
+msgstr "Analyzes semantics"
+
+#: _inc/fcnt/fcnt.locale.php:296
+#, fuzzy
+msgid "Easily understood by an average 4th-grade student or lower"
+msgstr "Easily understood by an average 4th-grade student or lower"
+
+#: _inc/fcnt/fcnt.locale.php:297
+#, fuzzy
+msgid "Easily understood by an average 5th or 6th-grade student"
+msgstr "Easily understood by an average 5th or 6th-grade student"
+
+#: _inc/fcnt/fcnt.locale.php:298
+#, fuzzy
+msgid "Easily understood by an average 7th or 8th-grade student"
+msgstr "Easily understood by an average 7th or 8th-grade student"
+
+#: _inc/fcnt/fcnt.locale.php:299
+#, fuzzy
+msgid "Easily understood by an average 9th or 10th-grade student"
+msgstr "Easily understood by an average 9th or 10th-grade student"
+
+#: _inc/fcnt/fcnt.locale.php:300
+#, fuzzy
+msgid "Easily understood by an average 11th or 12th-grade student"
+msgstr "Easily understood by an average 11th or 12th-grade student"
+
+#: _inc/fcnt/fcnt.locale.php:301
+#, fuzzy
+msgid "Easily understood by an average 13th to 15th-grade (college) student"
+msgstr "Easily understood by an average 13th to 15th-grade (college) student"
+
+#: _inc/fcnt/fcnt.locale.php:302
+#, fuzzy
+msgid "Easily understood by an average college graduate"
+msgstr "Easily understood by an average college graduate"
+
+#: _inc/fcnt/fcnt.locale.php:303
+#, fuzzy
+msgid "Very difficult"
+msgstr "Very difficult"
+
+#: _inc/fcnt/fcnt.locale.php:304
+#, fuzzy
+msgid "Difficult"
+msgstr "Difficult"
+
+#: _inc/fcnt/fcnt.locale.php:305
+#, fuzzy
+msgid "Quite difficult"
+msgstr "Quite difficult"
+
+#: _inc/fcnt/fcnt.locale.php:306
+#, fuzzy
+msgid "Easily understandable"
+msgstr "Easily understandable"
+
+#: _inc/fcnt/fcnt.locale.php:307
+#, fuzzy
+msgid "Easy enough"
+msgstr "Easy enough"
+
+#: _inc/fcnt/fcnt.locale.php:308
+#, fuzzy
+msgid "Easy"
+msgstr "Easy"
+
+#: _inc/fcnt/fcnt.locale.php:309
+#, fuzzy
+msgid "Very easy"
+msgstr "Very easy"
+
+#: _inc/fcnt/fcnt.locale.php:310 _inc/fcnt/fcnt.locale.php:375
+#, fuzzy
+msgid "Number of words"
+msgstr "Number of words"
+
+#: _inc/fcnt/fcnt.locale.php:311
+#, fuzzy
+msgid "Goal"
+msgstr "Goal"
+
+#: _inc/fcnt/fcnt.locale.php:312 _inc/fcnt/fcnt.locale.php:376
+#, fuzzy
+msgid "Reading time"
+msgstr "Reading time"
+
+#: _inc/fcnt/fcnt.locale.php:313 _inc/fcnt/fcnt.locale.php:377
+#, fuzzy
+msgid "Difficulty reading"
+msgstr "Difficulty reading"
+
+#: _inc/fcnt/fcnt.locale.php:315
+#, fuzzy
+msgid "Target Keywords"
+msgstr "Target Keywords"
+
+#: _inc/fcnt/fcnt.locale.php:319
+#, fuzzy
+msgid "Title structures"
+msgstr "Title structures"
+
+#: _inc/fcnt/fcnt.locale.php:320 _inc/fcnt/fcnt.locale.php:336
+#, fuzzy
+msgid "Main keyword in title"
+msgstr "Main keyword in title"
+
+#: _inc/fcnt/fcnt.locale.php:321
+#, fuzzy
+msgid "The title has a good length"
+msgstr "The title has a good length"
+
+#: _inc/fcnt/fcnt.locale.php:322
+#, fuzzy
+msgid "Text structures"
+msgstr "Text structures"
+
+#: _inc/fcnt/fcnt.locale.php:323
+#, fuzzy
+msgid "Main keyword in H1 tag"
+msgstr "Main keyword in H1 tag"
+
+#: _inc/fcnt/fcnt.locale.php:324
+#, fuzzy
+msgid "Secondary Keywords in H2 tags"
+msgstr "Secondary Keywords in H2 tags"
+
+#: _inc/fcnt/fcnt.locale.php:325
+#, fuzzy
+msgid "Lexical keywords in H3 tags"
+msgstr "Lexical keywords in H3 tags"
+
+#: _inc/fcnt/fcnt.locale.php:326
+#, fuzzy
+msgid "Some keywords in H4 / H5 / H6 tags"
+msgstr "Some keywords in H4 / H5 / H6 tags"
+
+#: _inc/fcnt/fcnt.locale.php:327
+#, fuzzy
+msgid "Main keyword in the hat"
+msgstr "Main keyword in the hat"
+
+#: _inc/fcnt/fcnt.locale.php:328
+#, fuzzy
+msgid "Number of words in your paragraph"
+msgstr "Number of words in your paragraph"
+
+#: _inc/fcnt/fcnt.locale.php:329
+#, fuzzy
+msgid "Presence rate of the main keyword"
+msgstr "Presence rate of the main keyword"
+
+#: _inc/fcnt/fcnt.locale.php:330
+#, fuzzy
+msgid "Rate of sentences with a transition word"
+msgstr "Rate of sentences with a transition word"
+
+#: _inc/fcnt/fcnt.locale.php:331
+#, fuzzy
+msgid "The average of your sentences have a good length"
+msgstr "The average of your sentences have a good length"
+
+#: _inc/fcnt/fcnt.locale.php:332
+#, fuzzy
+msgid "Main keyword in bold in a paragraph"
+msgstr "Main keyword in bold in a paragraph"
+
+#: _inc/fcnt/fcnt.locale.php:333
+#, fuzzy
+msgid "Presence of an image in the text"
+msgstr "Presence of an image in the text"
+
+#: _inc/fcnt/fcnt.locale.php:334
+#, fuzzy
+msgid "Main keyword in alt tag"
+msgstr "Main keyword in alt tag"
+
+#: _inc/fcnt/fcnt.locale.php:335
+#, fuzzy
+msgid "Length of the text"
+msgstr "Length of the text"
+
+#: _inc/fcnt/fcnt.locale.php:337 _inc/fcnt/fcnt.locale.php:374
+#, fuzzy
+msgid "Title length"
+msgstr "Title length"
+
+#: _inc/fcnt/fcnt.locale.php:338
+#, fuzzy
+msgid "Title length too short"
+msgstr "Title length too short"
+
+#: _inc/fcnt/fcnt.locale.php:339
+#, fuzzy
+msgid "Title length too long"
+msgstr "Title length too long"
+
+#: _inc/fcnt/fcnt.locale.php:349
+#, fuzzy
+msgid "unlimited"
+msgstr "unlimited"
+
+#: _inc/fcnt/fcnt.locale.php:350
+#, fuzzy
+msgid "limited"
+msgstr "limited"
+
+#: _inc/fcnt/fcnt.locale.php:351
+#, fuzzy
+msgid "Free Offer"
+msgstr "Free Offer"
+
+#: _inc/fcnt/fcnt.locale.php:352
+#, fuzzy
+msgid "Light Offer"
+msgstr "Light Offer"
+
+#: _inc/fcnt/fcnt.locale.php:353
+#, fuzzy
+msgid "Pro Offer"
+msgstr "Pro Offer"
+
+#: _inc/fcnt/fcnt.locale.php:354
+#, fuzzy
+msgid "Pre-sale Offer"
+msgstr "Pre-sale Offer"
+
+#: _inc/fcnt/fcnt.locale.php:355
+#, fuzzy
+msgid "Agency Offer"
+msgstr "Agency Offer"
+
+#: _inc/fcnt/fcnt.locale.php:357
+#, fuzzy
+msgid "Number of wordpress"
+msgstr "Number of wordpress"
+
+#: _inc/fcnt/fcnt.locale.php:359
+#, fuzzy
+msgid "Analysis of the writings"
+msgstr "Analysis of the writings"
+
+#: _inc/fcnt/fcnt.locale.php:360
+#, fuzzy
+msgid "SEO Parameters Configuration"
+msgstr "SEO Parameters Configuration"
+
+#: _inc/fcnt/fcnt.locale.php:361
+#, fuzzy
+msgid "Setting (block indexing)"
+msgstr "Setting (block indexing)"
+
+#: _inc/fcnt/fcnt.locale.php:362
+#, fuzzy
+msgid "Separator title"
+msgstr "Separator title"
+
+#: _inc/fcnt/fcnt.locale.php:363
+#, fuzzy
+msgid "Homepage"
+msgstr "Homepage"
+
+#: _inc/fcnt/fcnt.locale.php:364
+#, fuzzy
+msgid "Knowledge Graphs"
+msgstr "Knowledge Graphs"
+
+#: _inc/fcnt/fcnt.locale.php:365
+#, fuzzy
+msgid "Suggested keyword"
+msgstr "Suggested keyword"
+
+#: _inc/fcnt/fcnt.locale.php:366
+#, fuzzy
+msgid "Add keywords manually"
+msgstr "Add keywords manually"
+
+#: _inc/fcnt/fcnt.locale.php:367
+#, fuzzy
+msgid "Automatically suggest main keyword"
+msgstr "Automatically suggest main keyword"
+
+#: _inc/fcnt/fcnt.locale.php:368
+#, fuzzy
+msgid "Automatically suggest secondary keyword"
+msgstr "Automatically suggest secondary keyword"
+
+#: _inc/fcnt/fcnt.locale.php:369
+#, fuzzy
+msgid "Automatically suggest lexical keyword"
+msgstr "Automatically suggest lexical keyword"
+
+#: _inc/fcnt/fcnt.locale.php:370
+#, fuzzy
+msgid "Features"
+msgstr "Features"
+
+#: _inc/fcnt/fcnt.locale.php:371
+#, fuzzy
+msgid "Internal Link Counter"
+msgstr "Internal Link Counter"
+
+#: _inc/fcnt/fcnt.locale.php:372
+#, fuzzy
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#: _inc/fcnt/fcnt.locale.php:373
+#, fuzzy
+msgid "Primary keyword in the title"
+msgstr "Primary keyword in the title"
+
+#: _inc/fcnt/fcnt.locale.php:380
+#, fuzzy
+msgid "Synonym search engine"
+msgstr "Synonym search engine"
+
+#: _inc/fcnt/fcnt.locale.php:381
+#, fuzzy
+msgid "Semantic Analysis"
+msgstr "Semantic Analysis"
+
+#: _inc/fcnt/fcnt.locale.php:382
+#, fuzzy
+msgid "Target keywords"
+msgstr "Target keywords"
+
+#: _inc/fcnt/fcnt.locale.php:383
+#, fuzzy
+msgid "Title Structure"
+msgstr "Title Structure"
+
+#: _inc/fcnt/fcnt.locale.php:384
+#, fuzzy
+msgid "Text structure"
+msgstr "Text structure"
+
+#: _inc/fcnt/fcnt.locale.php:385
+#, fuzzy
+msgid "Tools for webmasters"
+msgstr "Tools for webmasters"
+
+#: _inc/fcnt/fcnt.locale.php:390
+#, fuzzy
+msgid "Type of content"
+msgstr "Type of content"
+
+#: _inc/fcnt/fcnt.locale.php:395 _inc/fcnt/fcnt.locale.php:402
+#, fuzzy
+msgid "Other"
+msgstr "Other"
+
+#: _inc/fcnt/fcnt.locale.php:397
+#, fuzzy
+msgid "Categories"
+msgstr "Categories"
+
+#: _inc/fcnt/fcnt.locale.php:398
+#, fuzzy
+msgid "Tags"
+msgstr "Tags"
+
+#: _inc/fcnt/fcnt.locale.php:399
+#, fuzzy
+msgid "Formats"
+msgstr "Formats"
+
+#: _inc/fcnt/fcnt.locale.php:400
+#, fuzzy
+msgid "Projects categories"
+msgstr "Projects categories"
+
+#: _inc/fcnt/fcnt.locale.php:401
+#, fuzzy
+msgid "Projects Attributes"
+msgstr "Projects Attributes"
+
+#: _inc/fcnt/fcnt.locale.php:404 tpl/box_page/_root.php:356
+#, fuzzy
+msgid "Facebook"
+msgstr "Facebook"
+
+#: _inc/fcnt/fcnt.locale.php:405 tpl/box_page/_root.php:408
+#, fuzzy
+msgid "Twitter"
+msgstr "Twitter"
+
+#: _inc/fcnt/fcnt.locale.php:406
+#, fuzzy
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: _inc/fcnt/fcnt.locale.php:407
+#, fuzzy
+msgid "Overview of social networks"
+msgstr "Overview of social networks"
+
+#: _inc/fcnt/fcnt.locale.php:408
+#, fuzzy
+msgid "Archives"
+msgstr "Archives"
+
+#: _inc/fcnt/fcnt.locale.php:409
+#, fuzzy
+msgid "Author Archives"
+msgstr "Author Archives"
+
+#: _inc/fcnt/fcnt.locale.php:410
+#, fuzzy
+msgid "Dates Archives"
+msgstr "Dates Archives"
+
+#: _inc/fcnt/fcnt.locale.php:411
+#, fuzzy
+msgid "Creation of semantic structure"
+msgstr "Creation of semantic structure"
+
+#: _inc/fcnt/fcnt.locale.php:412
+#, fuzzy
+msgid "Creating a new structure"
+msgstr "Creating a new structure"
+
+#: _inc/fcnt/fcnt.locale.php:413
+#, fuzzy
+msgid "Reorganization of your site"
+msgstr "Reorganization of your site"
+
+#: _inc/fcnt/fcnt.locale.php:414
+#, fuzzy
+msgid "Deployment of the structure"
+msgstr "Deployment of the structure"
+
+#: _inc/fcnt/fcnt.locale.php:415
+#, fuzzy
+msgid "Number of searches"
+msgstr "Number of searches"
+
+#: _inc/fcnt/fcnt.locale.php:416
+#, fuzzy
+msgid "Number of results"
+msgstr "Number of results"
+
+#: _inc/fcnt/fcnt.locale.php:417
+#, fuzzy
+msgid "Export / Import Tools"
+msgstr "Export / Import Tools"
+
+#: _inc/fcnt/fcnt.locale.php:420
+#, fuzzy
+msgid "Special pages"
+msgstr "Special pages"
+
+#: _inc/fcnt/fcnt.locale.php:421
+#, fuzzy
+msgid "Search page"
+msgstr "Search page"
+
+#: _inc/fcnt/fcnt.locale.php:422
+#, fuzzy
+msgid "Page Error 404"
+msgstr "Page Error 404"
+
+#: _inc/fcnt/fcnt.locale.php:423
+#, fuzzy
+msgid "Tracking the positioning of the site"
+msgstr "Tracking the positioning of the site"
+
+#: _inc/fcnt/fcnt.locale.php:425
+#, fuzzy
+msgid "Site Analysis"
+msgstr "Site Analysis"
+
+#: _inc/fcnt/fcnt.locale.php:426
+#, fuzzy
+msgid "Analysis of organic research"
+msgstr "Analysis of organic research"
+
+#: _inc/fcnt/fcnt.locale.php:427
+#, fuzzy
+msgid "Competition Analysis"
+msgstr "Competition Analysis"
+
+#: _inc/fcnt/fcnt.locale.php:429
+#, fuzzy
+msgid "Htaccess"
+msgstr "Htaccess"
+
+#: _inc/fcnt/fcnt.locale.php:430
+#, fuzzy
+msgid "Robots.txt"
+msgstr "Robots.txt"
+
+#: _inc/fcnt/fcnt.locale.php:432
+#, fuzzy
+msgid "Add content before and after"
+msgstr "Add content before and after"
+
+#: _inc/fcnt/fcnt.locale.php:435
+#, fuzzy
+msgid "Content type"
+msgstr "Content type"
+
+#: _inc/fcnt/fcnt.locale.php:438
+#, fuzzy
+msgid "days"
+msgstr "days"
+
+#: _inc/fcnt/fcnt.locale.php:439
+#, fuzzy
+msgid "Beyond that, payment per page"
+msgstr "Beyond that, payment per page"
+
+#: _inc/fcnt/fcnt.locale.php:440
+#, fuzzy
+msgid "results"
+msgstr "results"
+
+#: _inc/fcnt/fcnt.stripe.php:22
+#, fuzzy
+msgid "per day"
+msgstr "per day"
+
+#: _inc/fcnt/fcnt.stripe.php:25
+#, fuzzy
+msgid "per week"
+msgstr "per week"
+
+#: _inc/fcnt/fcnt.stripe.php:28
+#, fuzzy
+msgid "per month"
+msgstr "per month"
+
+#: _inc/fcnt/fcnt.stripe.php:31
+#, fuzzy
+msgid "per year"
+msgstr "per year"
+
+#: tpl/analysis/_root.php:50
+#, fuzzy, php-format
+msgid "Score %s"
+msgstr "Score %s"
+
+#: tpl/auth_login/_root.php:4 tpl/auth_otp/_root.php:12
+#: tpl/auth_register/_root.php:4
+#, fuzzy
+msgid "password"
+msgstr "password"
+
+#: tpl/auth_otp/_root.php:4
+#, fuzzy
+msgid ""
+"Before you can change your password, you must enter the verification code "
+"received by e-mail"
+msgstr ""
+"Before you can change your password, you must enter the verification code "
+"received by e-mail"
+
+#: tpl/auth_otp/_root.php:8
+#, fuzzy
+msgid ""
+"Before you can use your account you must, please enter the verification code "
+"received by e-mail"
+msgstr ""
+"Before you can use your account you must, please enter the verification code "
+"received by e-mail"
+
+#: tpl/auth_otp/_root.php:13 tpl/auth_register/_root.php:5
+#, fuzzy
+msgid "confirm password"
+msgstr "confirm password"
+
+#: tpl/box_page/_root.php:166
+#, fuzzy
+msgid "No image"
+msgstr "No image"
+
+#: tpl/box_page/_root.php:168
+#, fuzzy
+msgid "No link"
+msgstr "No link"
+
+#: tpl/box_page/_root.php:169
+#, fuzzy
+msgid "No note"
+msgstr "No note"
+
+#: tpl/box_page/_root.php:171 tpl/box_page/_root.php:236
+#, fuzzy
+msgid "No progression"
+msgstr "No progression"
+
+#: tpl/box_page/_root.php:172 tpl/box_page/_root.php:204
+#, fuzzy
+msgid "No priority"
+msgstr "No priority"
+
+#: tpl/box_page/_root.php:294 tpl/settings/_root.php:924
+#, fuzzy, php-format
+msgid "Name of %s"
+msgstr "Name of %s"
+
+#: tpl/box_page/_root.php:301 tpl/settings/_root.php:931
+#, fuzzy
+msgid "Parent category"
+msgstr "Parent category"
+
+#: tpl/box_page/_root.php:310 tpl/settings/_root.php:941
+#, fuzzy, php-format
+msgid "Description of %s"
+msgstr "Description of %s"
+
+#: tpl/box_page/_root.php:462
+#, fuzzy
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: tpl/editor/_root.php:33
+#, fuzzy
+msgid "By default"
+msgstr "By default"
+
+#: tpl/settings/_root.php:171 tpl/wizard/_root.php:233
+#, fuzzy
+msgid "No information"
+msgstr "No information"
+
+#: tpl/settings/_root.php:238
+#, fuzzy, php-format
+msgid "This option allows you to enable the analysis in %s"
+msgstr "This option allows you to enable the analysis in %s"
+
+#: tpl/settings/_root.php:844 tpl/settings/_root.php:912
+#, fuzzy, php-format
+msgid "Replace the meta tag %s"
+msgstr "Replace the meta tag %s"
+
+#: tpl/settings/_root.php:845 tpl/settings/_root.php:913
+#, fuzzy, php-format
+msgid "Allow editing the meta tag in %s"
+msgstr "Allow editing the meta tag in %s"
+
+#: tpl/settings/_root.php:846 tpl/settings/_root.php:914
+#, fuzzy, php-format
+msgid "Allow search engines to index this %s"
+msgstr "Allow search engines to index this %s"
+
+#: tpl/settings/_root.php:847 tpl/settings/_root.php:915
+#, fuzzy, php-format
+msgid "This option allows you to ask the search engines to index the %s"
+msgstr "This option allows you to ask the search engines to index the %s"
+
+#: tpl/settings/_root.php:848 tpl/settings/_root.php:916
+#, fuzzy, php-format
+msgid "Allow search engines to follow the links in the %s"
+msgstr "Allow search engines to follow the links in the %s"
+
+#: tpl/settings/_root.php:849 tpl/settings/_root.php:917
+#, fuzzy, php-format
+msgid "This option allows search engine robots to follow links from the %s"
+msgstr "This option allows search engine robots to follow links from the %s"
+
+#: tpl/settings/_root.php:1204
+#, fuzzy
+msgid "Download the configuration file"
+msgstr "Download the configuration file"
+
+#: tpl/settings/_root.php:1205
+#, fuzzy
+msgid "Import the configuration file"
+msgstr "Import the configuration file"
+
+#: tpl/settings/_root.php:1206
+#, fuzzy
+msgid "Configuration file"
+msgstr "Configuration file"
+
+#: tpl/settings/_root.php:1225 tpl/settings/_root.php:1244
+#, fuzzy
+msgid "Save"
+msgstr "Save"
+
+#: tpl/settings/_root.php:1226 tpl/settings/_root.php:1245
+#, fuzzy
+msgid "File content"
+msgstr "File content"
+
+#: tpl/wizard/_root.php:31
+#, fuzzy
+msgid "Identification"
+msgstr "Identification"
+
+#: tpl/wizard/_root.php:32
+#, fuzzy
+msgid "You need an account to use rank4win login or create an account"
+msgstr "You need an account to use rank4win login or create an account"
+
+#: tpl/wizard/_root.php:36
+#, fuzzy
+msgid "Lets check if your wordpress is compatible to run rank4win"
+msgstr "Lets check if your wordpress is compatible to run rank4win"
+
+#: tpl/wizard/_root.php:40
+#, fuzzy
+msgid "Set up your site and rank4win options"
+msgstr "Set up your site and rank4win options"
+
+#: tpl/wizard/_root.php:92
+#, fuzzy
+msgid "Identification in progress, please wait..."
+msgstr "Identification in progress, please wait..."
+
+#: tpl/wizard/_root.php:134 tpl/wizard/_root.php:136
+#, fuzzy
+msgid "No"
+msgstr "No"
+
+#: tpl/wizard/_root.php:153 tpl/wizard/_root.php:159
+#, fuzzy
+msgid "or higher"
+msgstr "or higher"
+
+#: tpl/wizard/_root.php:170 tpl/wizard/_root.php:177
+#, fuzzy
+msgid "Yes"
+msgstr "Yes"
+
+#: tpl/wizard/_root.php:183
+#, fuzzy
+msgid ""
+"Congratulations, your configuration allows you to use rank4win correctly. "
+"You can move on to the next step"
+msgstr ""
+"Congratulations, your configuration allows you to use rank4win correctly. "
+"You can move on to the next step"
+
+#: tpl/wizard/_root.php:186
+#, fuzzy
+msgid ""
+"Your configuration does not allow you to use rank4win, to continue you must "
+"upgrade your configuration"
+msgstr ""
+"Your configuration does not allow you to use rank4win, to continue you must "
+"upgrade your configuration"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Rank4win"
+msgstr "Rank4win"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://rank4win.fr"
+msgstr "https://rank4win.com"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Rank4Win is an ultra powerful new generation SEO tool & helps you multiply "
+"your traffic. All you need to reach the first page of Google! We created "
+"Rank4win, a WordPress SEO plugin, to make it easier for every website owner "
+"to build keyword strategy, to create a Semantic Structure to reinforce the "
+"natrual SEO of their site, to have help with Optimizing Content Writing and "
+"Enrichment lexicalment and semantically."
+msgstr ""
+"Rank4Win is an ultra powerful new generation SEO tool & helps you multiply "
+"your traffic. All you need to reach the first page of Google! We created "
+"Rank4win, a WordPress SEO plugin, to make it easier for every website owner "
+"to build keyword strategy, to create a Semantic Structure to reinforce the "
+"natrual SEO of their site, to have help with Optimizing Content Writing and "
+"Enrichment lexicalment and semantically."

@@ -1,0 +1,4818 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rank4win\n"
+"POT-Creation-Date: 2020-10-28 11:01+0100\n"
+"PO-Revision-Date: 2020-10-28 11:02+0100\n"
+"Last-Translator: Jrm Tdc <jrm@tiensdonc.com>\n"
+"Language-Team: Maher Wannes <wannes@dailycom.me>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rank4win.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: tpl/account/contained.tpl:9
+msgid "Account and subscription management"
+msgstr "Gestion du compte et de vos abonnements"
+
+#: tpl/account/contained.tpl:10
+msgid ""
+"Manage your account and this information, manage your subscription and "
+"recover your bills"
+msgstr ""
+"Gérez votre compte et ses informations, gérez votre abonnement et récupérez "
+"vos factures"
+
+#: tpl/account/contained.tpl:16
+msgid "Account"
+msgstr "Compte"
+
+#: tpl/account/contained.tpl:17 tpl/account/tab_invoice/contained.tpl:3
+msgid "Your invoices"
+msgstr "Vos factures"
+
+#: tpl/account/contained.tpl:18
+msgid "Your wordpress"
+msgstr "Vos wordpress"
+
+#: tpl/account/contained.tpl:19
+msgid "Sign in with another account"
+msgstr "Se connecter avec un autre compte"
+
+#: tpl/account/contained.tpl:36 tpl/account/tab_account/contained.tpl:5
+msgid "Account Details"
+msgstr "Détails du compte"
+
+#: tpl/account/contained.tpl:43
+msgid ""
+"Be sure to keep all your information up-to-date and rectify it at the "
+"slightest change"
+msgstr ""
+"Assurez-vous de garder toutes vos informations à jour et de les rectifier au "
+"moindre changement"
+
+#: tpl/account/contained.tpl:48
+msgid "Type of account"
+msgstr "Type de compte"
+
+#: tpl/account/contained.tpl:50
+msgid "Individual"
+msgstr "Particulier"
+
+#: tpl/account/contained.tpl:51
+msgid "Professional"
+msgstr "Professionnel"
+
+#: tpl/account/contained.tpl:56
+msgid "Firstname"
+msgstr "Prénom"
+
+#: tpl/account/contained.tpl:60
+msgid "Lastname"
+msgstr "Nom"
+
+#: tpl/account/contained.tpl:66 _inc/class/class.execjs.php:4493
+msgid "Company Name"
+msgstr "Nom de la compagnie"
+
+#: tpl/account/contained.tpl:70
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:165
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:276
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:423
+msgid "Address"
+msgstr "Adresse"
+
+#: tpl/account/contained.tpl:74
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:200
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:304
+msgid "Phone"
+msgstr "Téléphone"
+
+#: tpl/account/contained.tpl:80
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: tpl/account/tab_account/contained.tpl:15
+msgid "Manage your account"
+msgstr "Gérer votre compte"
+
+#: tpl/account/tab_account/stripe_preview.tpl:2
+msgid "Update your payment card"
+msgstr "Mettre à jour votre carte de paiement"
+
+#: tpl/account/tab_account/stripe_preview.tpl:11
+msgid "Add your credit card"
+msgstr "Ajoutez votre carte de crédit"
+
+#: tpl/account/tab_account/stripe_preview.tpl:14
+msgid ""
+"Please contact your bank or credit card issuer to find out why your credit "
+"card is not accepted"
+msgstr ""
+"Veuillez contacter votre banque ou l'émetteur de votre carte de crédit pour "
+"savoir pourquoi votre carte de crédit n'est pas acceptée"
+
+#: tpl/account/tab_account/stripe_preview.tpl:26
+#: tpl/subscription/stripe_preview.tpl:46
+#: tpl/tools/tab_deploy/stripe_preview.tpl:29
+msgid "Authorization in progress"
+msgstr "Autorisation en cours"
+
+#: tpl/account/tab_account/stripe_preview.tpl:27
+#: tpl/subscription/stripe_preview.tpl:47
+#: tpl/tools/tab_deploy/stripe_preview.tpl:30
+msgid "Please wait a moment"
+msgstr "Patientez s'il-vous-plait"
+
+#: tpl/account/tab_account/sub_cancelsub.tpl:3
+#: tpl/account/tab_account/sub_subscribes.tpl:8
+#: tpl/account/tab_account/sub_unsubscribed.tpl:3 _inc/class/class.app.php:978
+msgid "Subscription"
+msgstr "Abonnement"
+
+#: tpl/account/tab_account/sub_cancelsub.tpl:9
+msgid "Reactivate subscription"
+msgstr "Réactiver l'abonnement"
+
+#: tpl/account/tab_account/sub_issue.tpl:6
+msgid "Try again"
+msgstr "Réessayer"
+
+#: tpl/account/tab_account/sub_subscribes.tpl:16
+#: tpl/account/tab_account/sub_subscribes.tpl:46
+msgid "Cancelled the subscription"
+msgstr "Annuler l'abonnement"
+
+#: tpl/account/tab_account/sub_subscribes.tpl:17
+msgid "Update payment information"
+msgstr "Mettre à jour les informations de paiement"
+
+#: tpl/account/tab_account/sub_subscribes.tpl:27
+msgid "Are you leaving us"
+msgstr "Vous nous quittez"
+
+#: tpl/account/tab_account/sub_subscribes.tpl:39
+msgid "What are the reasons for terminating your subscription"
+msgstr ""
+"Quelles sont les raisons pour lesquelles vous résiliez votre abonnement"
+
+#: tpl/account/tab_account/sub_subscribes.tpl:44
+msgid "Keep my subscription"
+msgstr "Conserver mon abonnement"
+
+#: tpl/account/tab_account/sub_trialing.tpl:3
+msgid "You benefit from a trial period"
+msgstr "Vous bénéficiez d'une période d'essai"
+
+#: tpl/account/tab_account/sub_unsubscribed.tpl:4
+msgid "You currently have no subscription, you benefit from the free offer"
+msgstr ""
+"Vous n'avez actuellement aucun abonnement, vous bénéficiez de l'offre "
+"gratuite"
+
+#: tpl/account/tab_account/sub_unsubscribed.tpl:7
+msgid "Choose a subscription"
+msgstr "Choisissez un abonnement"
+
+#: tpl/account/tab_invoice/contained.tpl:6
+msgid "Date"
+msgstr "Date"
+
+#: tpl/account/tab_invoice/contained.tpl:7
+msgid "Bill number"
+msgstr "Numéro de facture"
+
+#: tpl/account/tab_invoice/contained.tpl:8
+msgid "Amount"
+msgstr "Montant"
+
+#: tpl/account/tab_invoice/loop_invoice.tpl:12
+msgid "Download pdf"
+msgstr "Télécharger le PDF"
+
+#: tpl/account/tab_wordpress/contained.tpl:3
+msgid "List of your wordpress"
+msgstr "Liste de vos wordpress"
+
+#: tpl/account/tab_wordpress/contained.tpl:17
+#: tpl/account/tab_wordpress/contained.tpl:38
+#: tpl/account/tab_wordpress/contained.tpl:59
+msgid "Add a subscription to this wordpress"
+msgstr "Ajouter un abonnement à ce wordpress"
+
+#: tpl/account/tab_wordpress/contained.tpl:24
+msgid ""
+"Linking this wordpress to your subscription uses an available location. "
+"Deleting the wordpress from your subscription will only take effect on your "
+"next bill"
+msgstr ""
+"Lier ce wordpress à votre abonnement utilise un emplacement disponible. La "
+"suppression d'un wordpress à votre abonnement ne prend effet que lors de "
+"votre prochaine facturation"
+
+#: tpl/account/tab_wordpress/contained.tpl:27
+msgid "Add this wordpress to your subscription"
+msgstr "Ajouter ce wordpress à votre abonnement"
+
+#: tpl/account/tab_wordpress/contained.tpl:45
+msgid ""
+"Your current subscription does not allow you to benefit from wordpress, add "
+"an additional wordpress or change your subscription"
+msgstr ""
+"Votre abonnement actuel ne vous permet pas de bénéficier d'avantage de "
+"wordpress, ajouter un wordpress supplémentaire ou modifier votre abonnement"
+
+#: tpl/account/tab_wordpress/contained.tpl:48
+msgid "Change your subscription"
+msgstr "Changer votre abonnement"
+
+#: tpl/account/tab_wordpress/contained.tpl:66
+msgid ""
+"You do not have any subscription, subscribe to one of our offers, you can "
+"then associate a wordpress to your subscription"
+msgstr ""
+"Vous n'avez pas d'abonnement, abonnez-vous à l'une de nos offres, vous "
+"pouvez ensuite associer un wordpress à votre abonnement"
+
+#: tpl/account/tab_wordpress/contained.tpl:69 _inc/fcnt/fcnt.locale.php:45
+#: _inc/fcnt/fcnt.locale.php:47 _inc/fcnt/fcnt.locale.php:79
+#: _inc/fcnt/fcnt.locale.php:83 _inc/fcnt/fcnt.locale.php:164
+#: _inc/fcnt/fcnt.locale.php:166 _inc/fcnt/fcnt.locale.php:183
+#: _inc/fcnt/fcnt.locale.php:185 _inc/fcnt/fcnt.locale.php:201
+#: _inc/fcnt/fcnt.locale.php:203 _inc/fcnt/fcnt.locale.php:276
+#: _inc/fcnt/fcnt.locale.php:278
+msgid "Subscribe to a subscription"
+msgstr "S'abonner à un abonnement"
+
+#: tpl/account/tab_wordpress/loop_wordpress.tpl:9
+msgid "Wordpress associated with the account"
+msgstr "Wordpress associé à votre compte"
+
+#: tpl/account/tab_wordpress/loop_wordpress.tpl:13
+msgid "Wordpress associated with the subscription"
+msgstr "Wordpress associé à votre abonnement"
+
+#: tpl/analysis/contained.tpl:10
+msgid "Analysis and summary of your website"
+msgstr "Suivi du trafic organique de votre site et étude de votre concurrence"
+
+#: tpl/analysis/contained.tpl:11
+msgid ""
+"Our tools analyze your site and Internet route to provide you with data on "
+"your reputation and that of your competitors"
+msgstr ""
+"Nous analysons le web pour vous fournir les données de votre trafic "
+"organique et les informations importantes concernent la concurrence"
+
+#: tpl/analysis/contained.tpl:20 _inc/fcnt/fcnt.locale.php:423
+msgid "Summary"
+msgstr "Résumé"
+
+#: tpl/analysis/contained.tpl:21
+#: tpl/analysis/tab_analysis_website/contained.tpl:3
+msgid "Website analysis"
+msgstr "Analyse du site"
+
+#: tpl/analysis/contained.tpl:22
+#: tpl/analysis/tab_analysis_research/contained.tpl:4
+msgid "Organic research analysis"
+msgstr "Liste des mots clés qui vous rapportent du trafic organique"
+
+#: tpl/analysis/contained.tpl:23
+#: tpl/analysis/tab_analysis_competition/contained.tpl:4
+msgid "Competition analysis"
+msgstr "Analyse de la concurrence"
+
+#: tpl/analysis/tab_summary/score_loop.tpl:10
+msgid "with no score"
+msgstr "sans score"
+
+#: tpl/analysis/tab_summary/score_loop.tpl:11
+msgid "with a very poor score"
+msgstr "avec un très mauvais score"
+
+#: tpl/analysis/tab_summary/score_loop.tpl:12
+msgid "with a bad score"
+msgstr "avec un mauvais score"
+
+#: tpl/analysis/tab_summary/score_loop.tpl:13
+msgid "with a good score"
+msgstr "avec un bon score"
+
+#: tpl/analysis/tab_summary/score_loop.tpl:14
+msgid "with a perfect score"
+msgstr "avec un score parfait"
+
+#: tpl/analysis/tab_summary/score_loop.tpl:15
+msgid "Improve your score"
+msgstr "Améliorer votre score"
+
+#: tpl/auth_forgot/contained.tpl:10
+msgid "Dont have an account"
+msgstr "Je n'ai pas de compte"
+
+#: tpl/auth_forgot/contained.tpl:11 tpl/auth_login/contained.tpl:9
+msgid "Sign up here"
+msgstr "Inscrivez-vous ici"
+
+#: tpl/auth_forgot/contained.tpl:15
+msgid ""
+"Please enter your email address and we will send you an email to reset your "
+"password"
+msgstr ""
+"Veuillez entrer votre adresse email et nous vous enverrons un email pour "
+"réinitialiser votre mot de passe"
+
+#: tpl/auth_forgot/contained.tpl:18 tpl/auth_login/contained.tpl:14
+#: tpl/auth_register/contained.tpl:19
+msgid "Email Address"
+msgstr "Adresse électronique"
+
+#: tpl/auth_forgot/contained.tpl:24
+msgid "Reset Password"
+msgstr "Réinitialiser le mot de passe"
+
+#: tpl/auth_forgot/contained.tpl:27 tpl/auth_register/contained.tpl:12
+msgid "Already have an account"
+msgstr "Vous avez déjà un compte"
+
+#: tpl/auth_forgot/contained.tpl:28 tpl/auth_register/contained.tpl:13
+msgid "Login here"
+msgstr "Connectez-vous ici"
+
+#: tpl/auth_login/contained.tpl:22 tpl/auth_register/contained.tpl:25
+msgid "Password"
+msgstr "Mot de passe"
+
+#: tpl/auth_login/contained.tpl:23 _inc/class/class.app.php:986
+msgid "Forgot"
+msgstr "Oublié"
+
+#: tpl/auth_login/contained.tpl:31
+msgid "Login Now"
+msgstr "Connecte-toi maintenant"
+
+#: tpl/auth_login/contained.tpl:35 tpl/auth_otp/contained.tpl:51
+#: tpl/auth_register/contained.tpl:41
+msgid "Terms of Service"
+msgstr "Conditions d'utilisation"
+
+#: tpl/auth_login/contained.tpl:36 tpl/auth_otp/contained.tpl:53
+#: tpl/auth_register/contained.tpl:43
+msgid "Privacy Policy"
+msgstr "Politique de confidentialité"
+
+#: tpl/auth_otp/contained.tpl:11
+msgid "Verification code"
+msgstr "Code de vérification"
+
+#: tpl/auth_otp/contained.tpl:25
+msgid "Check your code"
+msgstr "Vérifiez votre code"
+
+#: tpl/auth_otp/contained.tpl:28 tpl/auth_otp/contained.tpl:33
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+#: tpl/auth_otp/contained.tpl:39
+msgid "Confirm new password"
+msgstr "Confirmer le nouveau mot de passe"
+
+#: tpl/auth_otp/contained.tpl:47
+msgid "Change your password"
+msgstr "Changez votre mot de passe"
+
+#: tpl/auth_register/contained.tpl:31
+msgid "Confirm Password"
+msgstr "Confirmez le mot de passe"
+
+#: tpl/auth_register/contained.tpl:37
+msgid "Create Account"
+msgstr "Créer un compte"
+
+#: tpl/auth_wordpress/contained.tpl:10
+msgid "This wordpress is not associated with your Rank4Win account"
+msgstr "Ce wordpress n'est pas associé à votre compte Rank4Win"
+
+#: tpl/auth_wordpress/contained.tpl:11
+msgid "To continue, you must link this wordpress to your account"
+msgstr "Pour continuer, vous devez associer ce wordpress à votre compte"
+
+#: tpl/auth_wordpress/contained.tpl:37
+msgid "Associated this wordpress"
+msgstr "Associé ce wordpress"
+
+#: tpl/box_answer/contained.tpl:12 tpl/editor/str_search.tpl:18
+#: _inc/fcnt/fcnt.locale.php:292 _inc/fcnt/fcnt.locale.php:378
+msgid "Questioning"
+msgstr "Questionnements"
+
+#: tpl/box_answer/contained.tpl:19
+msgid ""
+"What people search on search engines. This will allow you to target useful "
+"topics and, at the same time, significantly increase your traffic as well as "
+"your notoriety with your readers"
+msgstr ""
+"Ce que les gens recherchent sur les moteurs de recherche. Cela vous "
+"permettra de cibler des sujets utiles tout en augmentant considérablement "
+"votre trafic et votre notoriété auprès de vos lecteurs"
+
+#: tpl/box_keywords/button.tpl:3
+msgid "Optimize my content"
+msgstr "Optimiser mon contenu"
+
+#: tpl/box_keywords/keyword_lexical.tpl:6
+msgid "Add your lexical keywords"
+msgstr "Ajoutez vos mots-clés lexicaux"
+
+#: tpl/box_keywords/keyword_lexical.tpl:13
+msgid ""
+"Lexical keywords are terms related to your primary and secondary keywords, "
+"which are intended only to show search engines that you understand all the "
+"vocabulary surrounding the topic"
+msgstr ""
+"Les mots-clés lexicaux sont des termes associés à vos mots-clés principaux "
+"et secondaires. Ils ont pour seul but de montrer aux moteurs de recherche "
+"que vous comprenez tout le vocabulaire entourant le sujet"
+
+#: tpl/box_keywords/keyword_lexical.tpl:25
+#: tpl/box_keywords/keyword_secondary.tpl:26
+#: tpl/editor/keyword_secondary.tpl:26
+msgid "Your keyword select"
+msgstr "Votre mot-clé sélectionner"
+
+#: tpl/box_keywords/keyword_lexical.tpl:31 tpl/box_keywords/keyword_main.tpl:23
+#: tpl/box_keywords/keyword_secondary.tpl:32 tpl/editor/keyword_main.tpl:22
+#: tpl/editor/keyword_secondary.tpl:32
+msgid "Continue"
+msgstr "Continuer"
+
+#: tpl/box_keywords/keyword_main.tpl:7 tpl/editor/keyword_main.tpl:6
+msgid "Add your main keyword"
+msgstr "Ajoutez votre mot clé principal"
+
+#: tpl/box_keywords/keyword_main.tpl:14 tpl/editor/keyword_main.tpl:13
+msgid ""
+"The first thing to do is to choose the \"right\" main keyword to position "
+"your web pages. Remember that this is a crucial phase for your SEO"
+msgstr ""
+"La première chose à faire est de choisir le mot-clé principal pour "
+"positionner vos pages Web. Rappelez-vous qu'il s'agit d'une phase cruciale "
+"pour votre référencement"
+
+#: tpl/box_keywords/keyword_main.tpl:19 tpl/editor/keyword_main.tpl:18
+#: _inc/fcnt/fcnt.locale.php:87 _inc/fcnt/fcnt.locale.php:288
+#: _inc/fcnt/fcnt.locale.php:315 tpl/columns_keywords/_root.php:23
+msgid "Main keyword"
+msgstr "Mot clé principal"
+
+#: tpl/box_keywords/keyword_secondary.tpl:6 tpl/editor/keyword_secondary.tpl:6
+msgid "Add your secondary keywords"
+msgstr "Ajoutez vos mots-clés secondaires"
+
+#: tpl/box_keywords/keyword_secondary.tpl:13
+#: tpl/editor/keyword_secondary.tpl:13
+msgid ""
+"Secondary keywords are variations of your main keyword. They are useful for "
+"enriching the semantics of your content, not to mention that they are the "
+"best way for Google to notice you and appreciate your news"
+msgstr ""
+"Les mots clés secondaires sont des variantes de votre mot clé principal. Ils "
+"sont utiles pour enrichir la sémantique de votre contenu, sans oublier "
+"qu'ils constituent le meilleur moyen pour Google de vous remarquer et "
+"d'apprécier votre actualité"
+
+#: tpl/box_keywords/keyword_secondary.tpl:19
+#: tpl/editor/keyword_secondary.tpl:19
+msgid "Suggestion of keywords"
+msgstr "Suggestion de mots-clés"
+
+#: tpl/box_overall/contained.tpl:45 _inc/class/class.app.php:908
+#: _inc/class/class.app.php:1208 _inc/class/class.app.php:1209
+#: _inc/class/class.app.php:1210 _inc/class/class.app.php:1211
+#: _inc/class/class.app.php:1212 _inc/fcnt/fcnt.locale.php:313
+#: _inc/fcnt/fcnt.locale.php:377
+msgid "Overall score"
+msgstr "Score global"
+
+#: tpl/box_page/contained.tpl:15 tpl/box_page/tab_config.tpl:6
+msgid "Configuration"
+msgstr "Configuration"
+
+#: tpl/box_page/contained.tpl:16
+msgid "Search engine"
+msgstr "Moteur de recherche"
+
+#: tpl/box_page/tab_config.tpl:11
+msgid "You can configure the page for search engines"
+msgstr "Vous pouvez configurer la page pour les moteurs de recherche"
+
+#: tpl/box_page/tab_config.tpl:18
+msgid "Allow search engines to index this page"
+msgstr "Autoriser les moteurs de recherche à indexer cette page"
+
+#: tpl/box_page/tab_config.tpl:22
+msgid "This option allows you to ask search engines to index this page"
+msgstr ""
+"Cette option vous permet de demander aux moteurs de recherche d’indexer "
+"cette page"
+
+#: tpl/box_page/tab_config.tpl:28
+msgid "Allow search engines to follow the links in the page"
+msgstr "Autoriser les moteurs de recherche à suivre les liens de la page"
+
+#: tpl/box_page/tab_config.tpl:32
+msgid "This option provides a guideline for links to search engine robots"
+msgstr ""
+"Cette option fournit un guide pour les liens vers les robots des moteurs de "
+"recherche"
+
+#: tpl/box_page/tab_config.tpl:38
+msgid "Customize meta robots"
+msgstr "Personnaliser les robots méta"
+
+#: tpl/box_page/tab_config.tpl:44
+msgid "No archive"
+msgstr "Pas d'archive"
+
+#: tpl/box_page/tab_config.tpl:48
+msgid "No index for images"
+msgstr "Image non indexées"
+
+#: tpl/box_page/tab_config.tpl:52
+msgid "No meta data"
+msgstr "Pas de métadonnées"
+
+#: tpl/box_page/tab_config.tpl:56
+msgid "Canonical URL"
+msgstr "URL canonique"
+
+#: tpl/box_page/tab_editorial.tpl:4 tpl/box_page/tab_editorial.tpl:12
+msgid "Editorial content"
+msgstr "Contenu rédactionnel"
+
+#: tpl/box_page/tab_editorial.tpl:5 tpl/box_page/tab_editorial.tpl:35
+msgid "Editor instruction"
+msgstr "Instruction fournies"
+
+#: tpl/box_page/tab_editorial.tpl:17
+msgid ""
+"Based on the structure of your current site, we recommend that you follow "
+"this editorial content"
+msgstr ""
+"Sur la base de la structure de votre site actuel, nous vous recommandons de "
+"suivre ce contenu rédactionnel"
+
+#: tpl/box_page/tab_editorial.tpl:25
+msgid "Import to page"
+msgstr "Importer à la page"
+
+#: tpl/box_page/tab_editorial.tpl:40
+msgid "This is the information provided for the semantic structure"
+msgstr "Voici les informations fournies pour la structure sémantique"
+
+#: tpl/box_page/tab_editorial.tpl:46 tpl/box_page/_root.php:490
+msgid "Link"
+msgstr "Lien"
+
+#: tpl/box_page/tab_editorial.tpl:53
+msgid "Priority"
+msgstr "Priorité"
+
+#: tpl/box_page/tab_editorial.tpl:61
+msgid "Progression"
+msgstr "Progression"
+
+#: tpl/box_page/tab_editorial.tpl:67
+msgid "Notes"
+msgstr "Notes"
+
+#: tpl/box_page/tab_editorial.tpl:71
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:145
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:242
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:340
+msgid "Image"
+msgstr "Image"
+
+#: tpl/box_page/tab_facebook.tpl:10 tpl/box_page/tab_twitter.tpl:10
+#: tpl/settings/tab_social_networks/tab_facebook.tpl:7
+#: tpl/settings/tab_social_networks/tab_pinterest.tpl:7
+#: tpl/settings/tab_social_networks/tab_twitter.tpl:7
+msgid ""
+"Allows you to set up the social network to provide a better user experience "
+"and optimize your sharings"
+msgstr ""
+"Ce paramètre vous permet de configurer le réseau social pour offrir une "
+"meilleure expérience utilisateur et optimiser vos partages"
+
+#: tpl/box_page/tab_facebook.tpl:13 tpl/box_page/tab_metatag.tpl:19
+#: tpl/box_page/tab_twitter.tpl:13
+#: tpl/settings/tab_seo_settings/loop_taxonomy.tpl:42
+#: tpl/settings/tab_seo_settings/loop_type.tpl:42
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:70
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:127
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:89
+#: tpl/settings/tab_seo_settings/tab_special_page.tpl:20
+#: tpl/settings/tab_seo_settings/tab_special_page.tpl:39
+msgid "Meta Title"
+msgstr "Méta-Title"
+
+#: tpl/box_page/tab_facebook.tpl:25 tpl/box_page/tab_metatag.tpl:31
+#: tpl/box_page/tab_twitter.tpl:25
+#: tpl/settings/tab_seo_settings/loop_taxonomy.tpl:50
+#: tpl/settings/tab_seo_settings/loop_type.tpl:50
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:78
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:135
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:97
+msgid "Meta Description"
+msgstr "Méta-Description"
+
+#: tpl/box_page/tab_metatag.tpl:6 tpl/box_page/_root.php:273
+#: tpl/box_page/_root.php:356 tpl/box_page/_root.php:408
+msgid "Metadata"
+msgstr "Métadonnées"
+
+#: tpl/box_page/tab_metatag.tpl:11
+msgid "You can customize your meta title and description for the page"
+msgstr ""
+"Vous pouvez personnaliser votre méta titre et la description de la page"
+
+#: tpl/box_page/tab_metatag.tpl:16
+msgid "When no tag is specified, we use the default meta tags"
+msgstr ""
+"Lorsqu'aucune balise n'est spécifiée, nous utilisons les balises META par "
+"défaut"
+
+#: tpl/box_page/tab_shortcode.tpl:4 tpl/box_page/_root.php:462
+msgid "Links of sister pages"
+msgstr "Liens des pages sœurs"
+
+#: tpl/box_page/tab_shortcode.tpl:8
+msgid ""
+"You can use a shortcode to display the links of the sister pages, when there "
+"are sister pages, you can change the display name of the links"
+msgstr ""
+"Vous pouvez utiliser un shortcode pour afficher les liens des pages sœurs. "
+"Lorsqu'il existe des pages sœurs, vous pouvez modifier le nom d'affichage "
+"des liens"
+
+#: tpl/box_page/tab_shortcode.tpl:11
+msgid "Shortcode to use to display sister pages links"
+msgstr "Shortcode à utiliser pour afficher les liens des pages sœurs"
+
+#: tpl/box_page/tab_shortcode.tpl:18
+msgid "Customize the text above the links"
+msgstr "Personnaliser le texte au dessus des liens"
+
+#: tpl/box_page/tab_shortcode.tpl:22
+msgid ""
+"This option allows you to customize which will be displayed before the "
+"links. If you do not want to display anything before the links, just check "
+"this box without indicating any text"
+msgstr ""
+"Cette option vous permet de personnaliser ce qui sera affiché avant les "
+"liens. Si vous ne voulez rien afficher avant les liens, cochez simplement "
+"cette case sans indiquer de texte"
+
+#: tpl/box_page/tab_shortcode.tpl:25
+msgid "Text above the links"
+msgstr "Texte au dessus des liens"
+
+#: tpl/box_permalink/contained.tpl:4
+msgid "The homepage slug will be removed from the permalink"
+msgstr "Le slug de la page d'accueil sera supprimé du permalien"
+
+#: tpl/box_semantic/contained.tpl:9
+msgid "Semantic analysis"
+msgstr "Analyse sémantique"
+
+#: tpl/box_semantic/contained.tpl:16
+msgid ""
+"Search engines might understand your texts differently than you would like. "
+"We will analyze and tell you what they understand"
+msgstr ""
+"Les moteurs de recherche peuvent comprendre vos textes différemment de ce "
+"que vous souhaiteriez. Nous allons analyser et vous dire ce qu'ils "
+"comprennent"
+
+#: tpl/box_semantic/contained.tpl:19
+msgid "Perform an analysis"
+msgstr "Effectuer une analyse"
+
+#: tpl/box_synonymous/contained.tpl:9 _inc/fcnt/fcnt.locale.php:294
+msgid "Synonymous"
+msgstr "Synonyme"
+
+#: tpl/box_synonymous/contained.tpl:16
+msgid ""
+"The synonyms can find terms more adapted to the context than those used "
+"spontaneously. It also avoids a repetition of words in the same text to "
+"improve the style of its writing"
+msgstr ""
+"Les synonymes peuvent trouver des termes plus adaptés au contexte que ceux "
+"utilisés spontanément. Cela évite également une répétition de mots dans le "
+"même texte pour améliorer le style de son écriture"
+
+#: tpl/editor/contained.tpl:47
+msgid "Verification of the structure"
+msgstr "Vérification de la structure"
+
+#: tpl/editor/contained.tpl:50
+msgid ""
+"Before we move to the deployment stage we need to check your structure. Wait "
+"a few moments"
+msgstr ""
+"Avant de passer à la phase de déploiement, nous devons vérifier votre "
+"structure. Attendez quelques instants"
+
+#: tpl/editor/contained.tpl:59
+msgid "A few problems"
+msgstr "Quelques problèmes"
+
+#: tpl/editor/contained.tpl:62
+msgid ""
+"After analyzing your structure we have found that some pages do not have "
+"main keywords. Before deploying add the main keywords to your pages"
+msgstr ""
+"Après avoir analysé votre structure, nous avons constaté que certaines pages "
+"n'ont pas de mots-clés principaux. Avant le déploiement, ajoutez les mots "
+"clés principaux à vos pages"
+
+#: tpl/editor/contained.tpl:63
+msgid "List of pages with missing main keywords"
+msgstr "Liste des pages dont les mots clés principaux sont manquants"
+
+#: tpl/editor/contained.tpl:70
+msgid "Your structure is ready for deployment"
+msgstr "Votre structure est prête à être déployée"
+
+#: tpl/editor/contained.tpl:73
+msgid ""
+"After verification your structure is ready to be deployed on your wordpress"
+msgstr ""
+"Après vérification, votre structure est prête à être déployée sur votre "
+"wordpress"
+
+#: tpl/editor/contained.tpl:75
+msgid "Deploy"
+msgstr "Déployer"
+
+#: tpl/editor/contained.tpl:90
+msgid "The semantic structure is out of sync"
+msgstr "La structure sémantique est désynchronisée"
+
+#: tpl/editor/contained.tpl:94
+msgid ""
+"Currently, your diagram or semantic structure no longer corresponds to the "
+"physical tree structure of your WordPress pages. You may have changed a "
+"title or moved or even deleted pages physically"
+msgstr ""
+"Actuellement, votre diagramme ou votre structure sémantique ne correspond "
+"plus à l'arborescence physique de vos pages WordPress. Vous pouvez avoir "
+"changé un titre, déplacé ou même supprimé des pages physiquement"
+
+#: tpl/editor/contained.tpl:95
+msgid "That leaves you two possibilities"
+msgstr "Cela vous laisse deux possibilités"
+
+#: tpl/editor/contained.tpl:99
+msgid "Update your diagram to match your new current tree structure"
+msgstr ""
+"Mettez votre diagramme à jour pour qu'il corresponde à votre nouvelle "
+"arborescence actuelle"
+
+#: tpl/editor/contained.tpl:103
+msgid ""
+"Keep your diagram intact. In this case, remember that changes made to your "
+"pages will not be reflected in your diagram"
+msgstr ""
+"Gardez votre diagramme intact. Dans ce cas-là, n'oubliez pas que les "
+"modifications apportées à vos pages ne seront pas prises en compte dans "
+"votre diagramme"
+
+#: tpl/editor/contained.tpl:109
+msgid "Update your diagram"
+msgstr "Mettre à jour votre diagramme"
+
+#: tpl/editor/contained.tpl:110
+msgid "Keeping your diagram intact"
+msgstr "Garder votre diagramme intact"
+
+#: tpl/editor/str_editor.tpl:9
+msgid "Protected mode"
+msgstr "Mode protégé"
+
+#: tpl/editor/str_editor.tpl:13
+msgid "Saved structure"
+msgstr "Structure sauvegardée"
+
+#: tpl/editor/str_editor.tpl:17
+msgid "Backup in progress"
+msgstr "Sauvegarde en cours"
+
+#: tpl/editor/str_editor.tpl:21
+msgid "Unsaved structure"
+msgstr "Structure non sauvegardée"
+
+#: tpl/editor/str_search.tpl:16
+msgid "Suggestion"
+msgstr "Suggestions"
+
+#: tpl/editor/str_search.tpl:17
+msgid "Related"
+msgstr "En relation"
+
+#: tpl/editorial/contained.tpl:1
+msgid "Title 1 (H1): must contain the main keyword of the page"
+msgstr "Titre 1 (H1): doit contenir le mot clé principal de la page"
+
+#: tpl/editorial/contained.tpl:2
+msgid ""
+"This paragraph must be clear and effective. Remember that it must contain a "
+"link to the page"
+msgstr ""
+"Ce paragraphe doit être clair et efficace. Rappelez-vous qu'il doit contenir "
+"un lien vers la page"
+
+#: tpl/editorial/contained.tpl:3
+msgid ""
+"The goal here is to make your visitor want to read your article in full. "
+"Remember that it must have the main keyword in bold, like this"
+msgstr ""
+"Le but ici est de donner envie à votre visiteur de lire votre article en "
+"entier. Rappelez-vous qu'il doit avoir le mot-clé principal en gras, comme "
+"ceci"
+
+#: tpl/editorial/contained.tpl:4
+#, python-format
+msgid ""
+"Know that 95% of Internet users read a hat in full so it is not too late to "
+"do well"
+msgstr ""
+"Sachez que 95% des internautes lisent un bonnet en entier, donc il n'est pas "
+"trop tard pour bien faire"
+
+#: tpl/editorial/contained.tpl:10
+msgid "Title 4 (H4) Blabla ....."
+msgstr "Titre 4 (H4) Blabla ....."
+
+#: tpl/editorial/contained.tpl:11
+msgid ""
+"In this paragraph you will develop further and make subpoints, subtitles, "
+"sub-arguments and prove to search engines that you master all the vocabulary "
+"of your theme"
+msgstr ""
+"Dans ce paragraphe, vous allez développer davantage et faire des sous-"
+"points, sous-titres, sous-arguments et prouver aux moteurs de recherche que "
+"vous maîtrisez le vocabulaire de votre thème"
+
+#: tpl/helper/contained.tpl:9
+msgid "Identify and solve problems"
+msgstr "Identifiez et résolvez les problèmes"
+
+#: tpl/helper/contained.tpl:10
+msgid ""
+"If you have problems using our plugin, we can try to identify and fix them"
+msgstr ""
+"Si vous rencontrez des problèmes lors de l'utilisation de notre plugin, nous "
+"pouvons essayer de les identifier et de les résoudre"
+
+#: tpl/settings/contained.tpl:10
+msgid "Set up the plugin according to your needs"
+msgstr "Configurez le plugin selon vos besoins"
+
+#: tpl/settings/contained.tpl:11
+msgid ""
+"You can set the plugin according to your needs, enable or disable certain "
+"functionality"
+msgstr ""
+"Vous pouvez configurer le plugin selon vos besoins, activer ou désactiver "
+"certaines fonctionnalités"
+
+#: tpl/settings/contained.tpl:20 tpl/settings/tab_general/contained.tpl:5
+#: tpl/settings/tab_seo_settings/contained.tpl:15 _inc/fcnt/fcnt.locale.php:355
+msgid "General settings"
+msgstr "Paramètres généraux"
+
+#: tpl/settings/contained.tpl:21 tpl/settings/tab_seo_settings/contained.tpl:5
+msgid "Seo settings"
+msgstr "Paramètres SEO"
+
+#: tpl/settings/contained.tpl:22
+#: tpl/settings/tab_social_networks/contained.tpl:5
+#: _inc/fcnt/fcnt.locale.php:402
+msgid "Social networks"
+msgstr "Réseaux sociaux"
+
+#: tpl/settings/contained.tpl:23 tpl/settings/tab_tool/contained.tpl:5
+msgid "Tools"
+msgstr "Outils"
+
+#: tpl/settings/contained.tpl:40 tpl/wizard/step/setting.tpl:54
+msgid "Different backup on the cloud"
+msgstr "Sauvegarde différente sur le cloud"
+
+#: tpl/settings/contained.tpl:42 tpl/wizard/step/setting.tpl:56
+msgid ""
+"The backup of your settings in the cloud is different from your settings "
+"stored on this wordpress"
+msgstr ""
+"La sauvegarde de vos paramètres dans le cloud est différente de vos "
+"paramètres stockés sur ce wordpress"
+
+#: tpl/settings/contained.tpl:58 tpl/wizard/step/setting.tpl:72
+msgid "Use cloud data"
+msgstr "Utiliser les données du cloud"
+
+#: tpl/settings/contained.tpl:59 tpl/wizard/step/setting.tpl:73
+msgid ""
+"Deletes the data on this wordpress and replace it with the data stored in "
+"the cloud"
+msgstr ""
+"Supprime les données sur ce wordpress et les remplace par les données "
+"stockées dans le cloud"
+
+#: tpl/settings/contained.tpl:60 tpl/settings/contained.tpl:73
+#: tpl/wizard/step/setting.tpl:74 tpl/wizard/step/setting.tpl:87
+msgid "Last backup"
+msgstr "Dernière sauvegarde"
+
+#: tpl/settings/contained.tpl:70 tpl/wizard/step/setting.tpl:84
+msgid "Use the data of this wordpress"
+msgstr "Utiliser les données de ce wordpress"
+
+#: tpl/settings/contained.tpl:71 tpl/wizard/step/setting.tpl:85
+msgid ""
+"Delete your backup in the cloud and replace it with the data stored on this "
+"wordpress"
+msgstr ""
+"Supprime votre sauvegarde dans le cloud et la remplace par les données "
+"stockées sur ce wordpress"
+
+#: tpl/settings/contained.tpl:74 tpl/wizard/step/setting.tpl:88
+msgid "new installation"
+msgstr "nouvelle installation"
+
+#: tpl/settings/tab_general/contained.tpl:14
+#: tpl/settings/tab_general/tab_language.tpl:3 tpl/wizard/step/setting.tpl:10
+msgid "Language"
+msgstr "Langue du site"
+
+#: tpl/settings/tab_general/contained.tpl:15 _inc/fcnt/fcnt.locale.php:357
+msgid "Choice of language and country"
+msgstr "Choisissez le pays et la langue de votre site"
+
+#: tpl/settings/tab_general/contained.tpl:21
+#: tpl/settings/tab_general/tab_analysis.tpl:3
+msgid "Analysis"
+msgstr "Analyses"
+
+#: tpl/settings/tab_general/contained.tpl:22
+msgid "Enable or disable analyzes"
+msgstr "Activer ou désactiver les analyses"
+
+#: tpl/settings/tab_general/contained.tpl:28
+#: tpl/settings/tab_general/tab_feature.tpl:3
+msgid "Feature"
+msgstr "Fonctionnalités"
+
+#: tpl/settings/tab_general/contained.tpl:29
+msgid "Feature Options"
+msgstr "Options des fonctionnalités"
+
+#: tpl/settings/tab_general/contained.tpl:35
+#: tpl/settings/tab_general/tab_permalinks.tpl:3
+msgid "Permalinks"
+msgstr "Permaliens"
+
+#: tpl/settings/tab_general/contained.tpl:36
+msgid "Configuration of permalinks"
+msgstr "Configuration des permaliens"
+
+#: tpl/settings/tab_general/contained.tpl:42
+#: tpl/settings/tab_general/tab_sisterlinks.tpl:3
+msgid "Sister page"
+msgstr "Page sœur"
+
+#: tpl/settings/tab_general/contained.tpl:43
+msgid "Sister page limit"
+msgstr "Limitation le nombre de pages par sœur"
+
+#: tpl/settings/tab_general/contained.tpl:49
+msgid "Webmaster Tools"
+msgstr "Outils pour les webmasters"
+
+#: tpl/settings/tab_general/contained.tpl:50
+msgid "Webmaster Tools Options"
+msgstr "Options des outils pour les webmasters"
+
+#: tpl/settings/tab_general/contained.tpl:56
+#: tpl/settings/tab_general/tab_support.tpl:3 _inc/fcnt/fcnt.define.php:98
+msgid "Technical support"
+msgstr "Support technique"
+
+#: tpl/settings/tab_general/contained.tpl:57
+#: tpl/settings/tab_general/tab_support.tpl:17
+msgid "Technical support chat"
+msgstr "Chat d'assistance technique"
+
+#: tpl/settings/tab_general/tab_analysis.tpl:8
+msgid ""
+"You can enable / disable the analysis as well as the recommendation to a "
+"type of writing"
+msgstr ""
+"Vous pouvez activer / désactiver les analyses, ainsi que les recommandations "
+"pour vos rédactions"
+
+#: tpl/settings/tab_general/tab_feature.tpl:8
+msgid "You can enable / disable features"
+msgstr "Vous pouvez activer / désactiver des fonctionnalités"
+
+#: tpl/settings/tab_general/tab_feature.tpl:17
+msgid "Internal link counter (outgoing / incoming)"
+msgstr "Compteur de liens internes (sortants / entrants)"
+
+#: tpl/settings/tab_general/tab_feature.tpl:21
+msgid ""
+"This option allows you to view the number of internal links (outbound and "
+"inbound) links for your articles / pages"
+msgstr ""
+"Cette option vous permet d'afficher le nombre de liens internes (sortants et "
+"entrants) pour vos articles / pages"
+
+#: tpl/settings/tab_general/tab_feature.tpl:27
+msgid "XML Sitemaps"
+msgstr "Sitemaps XML"
+
+#: tpl/settings/tab_general/tab_feature.tpl:31
+msgid ""
+"This option allows you to generate an xml file of the site map, you can see "
+"the file by clicking on icon Eye"
+msgstr ""
+"Cette option permet de générer un fichier xml de la carte du site, vous "
+"pourrez voir le fichier en cliquant sur icon Œil"
+
+#: tpl/settings/tab_general/tab_language.tpl:7 tpl/wizard/step/setting.tpl:14
+msgid ""
+"The choice of the language and the country must correspond to your essays, "
+"our analysis will be based on these two criteria to optimize the results"
+msgstr ""
+"Le choix de la langue et du pays doivent correspondre à vos rédactions. Nos "
+"analyses et recommandations d'optimisation seront basées sur ces deux "
+"critères"
+
+#: tpl/settings/tab_general/tab_language.tpl:11 tpl/wizard/step/setting.tpl:18
+msgid "Choose language and country"
+msgstr "Choisissez la langue et le pays"
+
+#: tpl/settings/tab_general/tab_permalinks.tpl:8
+msgid ""
+"The structure of your permalinks plays an important role in the SEO of your "
+"site. It allows the reader to know where this page is in your website and "
+"its content"
+msgstr ""
+"La structure de vos permaliens joue un rôle important dans le référencement "
+"de votre site"
+
+#: tpl/settings/tab_general/tab_permalinks.tpl:13
+msgid ""
+"Be careful, enabling this option will change your permalink settings on your "
+"wordpress. You activate this option with full knowledge of the facts, we "
+"will not be liable for any damage"
+msgstr ""
+"Soyez prudent, l'activation de cette option va modifier vos réglages des "
+"permaliens de votre wordpress. Vous activez cette option en toute "
+"connaissance de cause, nous ne serons pas responsables des dommages et "
+"intérêts"
+
+#: tpl/settings/tab_general/tab_permalinks.tpl:20
+msgid "Delete the homepage in the links"
+msgstr "Supprimer la page d'accueil dans les liens"
+
+#: tpl/settings/tab_general/tab_permalinks.tpl:24
+msgid ""
+"This option allows you to not display the name of the home page in the child "
+"links"
+msgstr ""
+"Cette option vous permet de ne pas afficher le nom de la page d'accueil dans "
+"les liens enfants"
+
+#: tpl/settings/tab_general/tab_sisterlinks.tpl:8
+msgid "Configuring the display limitation of sister pages"
+msgstr "Configuration de la limite d'affichage des pages sœurs"
+
+#: tpl/settings/tab_general/tab_sisterlinks.tpl:13
+msgid ""
+"Important caveat : Increasing the display of \"sister pages\" on your pages "
+"can result in very large requests that can bring down the site. Do it only "
+"if you are sure your database hosting can handle it. Currently the limit is "
+"set to 20 links of sister pages. Do not change this configuration unless you "
+"are an expert, be aware that you are the only one responsible"
+msgstr ""
+"Mise en garde importante : L'augmentation de l'affichage des \"pages sœurs\" "
+"sur vos pages peut entraîner de très nombreuses requête qui peuvent faire "
+"tomber le site. Ne le faites que si vous êtes sûr que votre hébergement de "
+"base de données peut le supporter. Actuellement, la limite est fixée à 20 "
+"liens de pages sœurs. Ne modifiez pas cette configuration, sauf si vous êtes "
+"un expert, sachez que vous êtes le seul responsable"
+
+#: tpl/settings/tab_general/tab_support.tpl:8
+msgid ""
+"In case of problem you can reach rank4win support by chat, a technician will "
+"assist you to help you"
+msgstr ""
+"En cas de problème, vous pouvez contacter le support de rank4win par chat, "
+"un technicien vous assistera pour vous aider"
+
+#: tpl/settings/tab_general/tab_support.tpl:21
+msgid ""
+"This option allows you to activate the rank4win technical support chat in "
+"the bottom right corner of the wordpress administration"
+msgstr ""
+"Cette option vous permet d'activer le chat du support technique rank4win "
+"dans le coin inférieur droit de l'administration de wordpress"
+
+#: tpl/settings/tab_general/tab_webmaster.tpl:3
+msgid "Webmaster tools"
+msgstr "Outils pour les webmasters"
+
+#: tpl/settings/tab_general/tab_webmaster.tpl:8
+msgid ""
+"In order for your site to be properly verified by the different search "
+"engines please indicate the verification codes they provide you"
+msgstr ""
+"Pour que votre site soit correctement vérifié par les différents moteurs de "
+"recherche, veuillez indiquer les codes de vérification qu'ils vous "
+"fournissent"
+
+#: tpl/settings/tab_general/tab_webmaster.tpl:13 _inc/fcnt/fcnt.locale.php:385
+msgid "Google"
+msgstr "Google"
+
+#: tpl/settings/tab_general/tab_webmaster.tpl:22 _inc/fcnt/fcnt.locale.php:386
+msgid "Bing"
+msgstr "Bing"
+
+#: tpl/settings/tab_general/tab_webmaster.tpl:31 _inc/fcnt/fcnt.locale.php:387
+msgid "Baidu"
+msgstr "Baidu"
+
+#: tpl/settings/tab_general/tab_webmaster.tpl:40 _inc/fcnt/fcnt.locale.php:388
+msgid "Yandex"
+msgstr "Yandex"
+
+#: tpl/settings/tab_seo_settings/contained.tpl:14
+msgid "Basic configuration"
+msgstr "Configuration de base"
+
+#: tpl/settings/tab_seo_settings/contained.tpl:21
+#: tpl/settings/tab_seo_settings/loop_type.tpl:3
+#: tpl/settings/tab_tool/tab_reset.tpl:5
+msgid "Types of content"
+msgstr "Types de contenu"
+
+#: tpl/settings/tab_seo_settings/contained.tpl:22
+#: tpl/settings/tab_seo_settings/contained.tpl:29
+#: tpl/settings/tab_seo_settings/contained.tpl:36
+#: tpl/settings/tab_seo_settings/contained.tpl:43
+#: tpl/settings/tab_seo_settings/contained.tpl:50
+#: tpl/settings/tab_social_networks/contained.tpl:15
+#: tpl/settings/tab_social_networks/contained.tpl:22
+#: tpl/settings/tab_social_networks/contained.tpl:29
+#: tpl/wizard/step/setting.tpl:4 _inc/class/class.app.php:624
+#: _inc/class/class.app.php:938 _inc/class/class.app.php:939
+#: tpl/wizard/_root.php:39
+msgid "Settings"
+msgstr "Paramètres"
+
+#: tpl/settings/tab_seo_settings/contained.tpl:28 _inc/fcnt/fcnt.locale.php:395
+msgid "Taxonomies"
+msgstr "Taxonomies"
+
+#: tpl/settings/tab_seo_settings/contained.tpl:35
+msgid "Archive"
+msgstr "Archive"
+
+#: tpl/settings/tab_seo_settings/contained.tpl:42
+msgid "Special page"
+msgstr "Page spéciale"
+
+#: tpl/settings/tab_seo_settings/contained.tpl:49 _inc/fcnt/fcnt.locale.php:430
+msgid "RSS"
+msgstr "RSS"
+
+#: tpl/settings/tab_seo_settings/kg_loop_hours.tpl:10
+msgid "Opening time"
+msgstr "Horaire d'ouverture"
+
+#: tpl/settings/tab_seo_settings/kg_loop_hours.tpl:17
+msgid "Closing times"
+msgstr "Horaire de fermeture"
+
+#: tpl/settings/tab_seo_settings/loop_taxonomy.tpl:3
+#: tpl/settings/tab_tool/tab_reset.tpl:6 _inc/fcnt/fcnt.locale.php:435
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: tpl/settings/tab_seo_settings/loop_taxonomy.tpl:8
+msgid "You can customize your meta-title and the default description"
+msgstr ""
+"Vous pouvez personnaliser votre méta-titre et la méta-description par défaut"
+
+#: tpl/settings/tab_seo_settings/loop_taxonomy.tpl:19
+msgid ""
+"This option allows you to manually edit the meta title and description while "
+"writing"
+msgstr ""
+"Cette option vous permet d’éditer manuellement le titre et la description de "
+"la méta lors de la rédaction"
+
+#: tpl/settings/tab_seo_settings/loop_type.tpl:8
+msgid "You can customize your meta title and default description"
+msgstr ""
+"Vous pouvez personnaliser votre méta-titre et Méta-description par défaut"
+
+#: tpl/settings/tab_seo_settings/loop_type.tpl:19
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:66
+msgid ""
+"This option allows you to manually edit the meta title and description in "
+"the edition of the page"
+msgstr ""
+"Cette option vous permet d’éditer manuellement le méta-titre et la méta-"
+"description dans l’édition de la page"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:4
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:11
+msgid "Author archives"
+msgstr "Archives de l'auteur"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:5
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:100
+msgid "Date archives"
+msgstr "Date archives"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:16
+msgid ""
+"If a single author administers the site, we recommend that you do not "
+"display the archive, its archive page will be exactly the same as your home "
+"page"
+msgstr ""
+"Si un seul auteur administre le site, nous vous recommandons de ne pas "
+"afficher l'archive, pour éviter le contenu dupliqué"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:23
+msgid "View authors archives"
+msgstr "Voir les archives des auteurs"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:27
+msgid "This option allows you to view the authors archives"
+msgstr "Cette option vous permet de voir les archives des auteurs"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:33
+msgid "Allow search engines to index the archives with publications"
+msgstr ""
+"Autoriser les moteurs de recherche à indexer les archives avec des "
+"publications"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:37
+msgid ""
+"This option allows you to ask search engines to index the archives who have "
+"posts"
+msgstr ""
+"Cette option vous permet de demander aux moteurs de recherche d’indexer les "
+"archives qui ont des publications"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:43
+msgid "Allow search engines to follow the links in the archives who have posts"
+msgstr ""
+"Autoriser les moteurs de recherche à suivre les liens dans les archives qui "
+"ont des publications"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:47
+msgid ""
+"This option allows search engine robots to follow links from the archives "
+"who have posts"
+msgstr ""
+"Cette option permet aux robots des moteurs de recherche de suivre les liens "
+"des archives qui ont des publications"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:53
+msgid "Allow search engines to index the archives without publications"
+msgstr ""
+"Autoriser les moteurs de recherche à indexer les archives sans publications"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:57
+msgid ""
+"This option allows you to ask the search engines to index the archives who "
+"have no posts"
+msgstr ""
+"Cette option vous permet de demander aux moteurs de recherche d'indexer les "
+"archives qui n'ont pas de publications"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:63
+msgid ""
+"Allow search engines to follow the links in the archives who have no posts"
+msgstr ""
+"Autoriser les moteurs de recherche à suivre les liens dans les archives qui "
+"n'ont pas de publications"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:67
+msgid ""
+"This option allows search engine robots to follow links from the archives "
+"who have no posts"
+msgstr ""
+"Cette option permet aux robots des moteurs de recherche de suivre les liens "
+"des archives qui n'ont pas de publications"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:88
+msgid "View archives by dates"
+msgstr "Voir les archives par dates"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:93
+msgid ""
+"Date-based archives could, in some cases, also be considered duplicate "
+"content"
+msgstr ""
+"Dans certains cas, les archives datées peuvent également être considérées "
+"comme un contenu en double"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:104
+msgid "This option allows you to view the archive by date"
+msgstr "Cette option vous permet de visualiser les archives par date"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:110
+msgid "Allow search engines to index archive by dates"
+msgstr "Autoriser les moteurs de recherche à indexer les archives par dates"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:114
+msgid "This option allows you to ask search engines to index archives by dates"
+msgstr ""
+"Cette option vous permet de demander aux moteurs de recherche d'indexer les "
+"archives par dates"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:120
+msgid "Allow search engines to follow the links in archive by dates"
+msgstr ""
+"Autoriser les moteurs de recherche à suivre les liens dans les archives par "
+"dates"
+
+#: tpl/settings/tab_seo_settings/tab_archive.tpl:124
+msgid ""
+"This option allows search engine robots to follow links archive by dates"
+msgstr ""
+"Cette option permet aux robots des moteurs de recherche de suivre les "
+"archives de liens par dates"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:4
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:13
+#: tpl/wizard/step/setting.tpl:25
+msgid "Setting"
+msgstr "Réglage"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:5
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:34
+msgid "Title separator"
+msgstr "Titre séparateur"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:6
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:50
+msgid "Home page"
+msgstr "Page d'accueil"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:7
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:107
+msgid "Knowledge Graph / Schema.org"
+msgstr "Knowledge Graph / Schema.org"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:18
+#: tpl/wizard/step/setting.tpl:30
+msgid ""
+"Be careful, it is possible that some search engines decide to index your "
+"wordpress even if you block indexing"
+msgstr ""
+"Attention, il est possible que certains moteurs de recherche décident "
+"d’indexer votre WordPress, même si vous bloquez l’indexation"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:25
+#: tpl/wizard/step/setting.tpl:37
+msgid "Wordpress indexing"
+msgstr "Indexation du wordpress"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:29
+#: tpl/wizard/step/setting.tpl:41
+msgid ""
+"This option allows you to ask the search engines to index your entire "
+"wordpress"
+msgstr ""
+"Cette option vous permet de demander aux moteurs de recherche d’indexer "
+"l’ensemble de votre wordpress"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:39
+msgid ""
+"You can use a separator between the title of your publication and the name "
+"of your site"
+msgstr ""
+"Vous pouvez utiliser un séparateur entre le titre de votre publication et le "
+"nom de votre site"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:55
+msgid "You can customize your meta title and description for the home page"
+msgstr ""
+"Vous pouvez personnaliser votre méta-titre et méta-description pour la page "
+"d'accueil"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:62
+msgid "Allow editing the meta tag in homepage"
+msgstr "Autoriser la modification de la balise META dans la page d'accueil"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:72
+msgid "Allow search engines to index this home page"
+msgstr "Autoriser les moteurs de recherche à indexer la page d'accueil"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:76
+msgid "This option allows you to ask the search engines to index the home page"
+msgstr ""
+"Cette option vous permet de donner la permission aux moteurs de recherche "
+"d’indexer la page d’accueil"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:82
+msgid "Allow search engines to follow the links in the home page"
+msgstr ""
+"Autoriser les moteurs de recherche à suivre les liens de la page d'accueil"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:86
+msgid ""
+"This option allows search engine robots to follow links from the home page"
+msgstr ""
+"Cette option permet aux robots des moteurs de recherche de suivre les liens "
+"de la page d'accueil"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:112
+msgid ""
+"This feature provides users with easier access to information in search "
+"engines. This data will be displayed as metadata on your site"
+msgstr ""
+"Le Knowledge Graph est une base de connaissances utilisée par Google pour "
+"compiler les résultats de son moteur de recherche avec des informations "
+"sémantiques issues de sources diverses\n"
+"<br>\n"
+"Schema.org est un schéma de micro-données utilisé sur le Web. Les micro-"
+"données permettent aux robots d'indexation de saisir plus précisément le "
+"sens des pages indexées"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:117
+msgid "Choose a type"
+msgstr "Choisissez un type"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:121
+msgid "This option allows you to specify the type of your site"
+msgstr "Cette option vous permet de spécifier le type de votre site"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:127
+#: _inc/fcnt/fcnt.define.php:111
+msgid "Person"
+msgstr "Personne"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:130
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:255
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:332
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:388
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:477
+msgid "Name"
+msgstr "Nom"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:137
+msgid "Job title"
+msgstr "Profession"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:158
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:262
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:395
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:491
+msgid "URL"
+msgstr "URL"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:172
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:290
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:437
+msgid "Zip/Postal Code"
+msgstr "Zip/Code postal"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:179
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:283
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:430
+msgid "City"
+msgstr "Ville"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:186
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:297
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:444
+msgid "Country"
+msgstr "Pays"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:193
+msgid "Email"
+msgstr "Email"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:207
+msgid "Birth Date"
+msgstr "Date de naissance"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:216
+#: _inc/fcnt/fcnt.define.php:115 _inc/fcnt/fcnt.define.php:133
+msgid "Organization"
+msgstr "Organisation"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:220
+msgid "Choose a organization"
+msgstr "Choisissez une organisation"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:224
+msgid "This option allows you to specify the type of organization"
+msgstr "Cette option vous permet de spécifier le type d'organisation"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:230
+msgid "Logo"
+msgstr "Logo"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:269
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:353
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:402
+msgid "Description"
+msgstr "Description"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:312
+msgid "Choose a contact type"
+msgstr "Choisissez un type de contact"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:316
+msgid "This option allows you to specify the contact type"
+msgstr "Cette option vous permet de spécifier le type de contact"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:322
+#: _inc/fcnt/fcnt.define.php:41 _inc/fcnt/fcnt.locale.php:393
+msgid "Product"
+msgstr "Produit"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:325
+msgid "Brand"
+msgstr "Marque"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:360
+msgid "Rating"
+msgstr "Évaluation"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:367
+msgid "Based on how many reviews"
+msgstr "Basé sur combien de critiques"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:376
+#: _inc/fcnt/fcnt.define.php:163
+msgid "Event"
+msgstr "Événement"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:380
+msgid "Choose a event"
+msgstr "Choisissez un événement"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:384
+msgid "This option allows you to specify the type of event"
+msgstr "Cette option vous permet de spécifier le type d'événement"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:409
+msgid "Venue Name"
+msgstr "Nom de la place"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:416
+msgid "Venue URL"
+msgstr "URL du lieu"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:451
+msgid "Offer Description"
+msgstr "Description de l'offre"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:458
+msgid "Offer URL"
+msgstr "URL de l'offre"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:465
+msgid "Offer Price"
+msgstr "Prix de l'offre"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:474
+#: _inc/fcnt/fcnt.define.php:90 _inc/fcnt/fcnt.define.php:127
+msgid "Website"
+msgstr "Site Internet"
+
+#: tpl/settings/tab_seo_settings/tab_basic_config.tpl:484
+msgid "Alternate Name"
+msgstr "Nom alternatif"
+
+#: tpl/settings/tab_seo_settings/tab_rss.tpl:3
+msgid "RSS feed settings"
+msgstr "Paramètres de flux RSS"
+
+#: tpl/settings/tab_seo_settings/tab_rss.tpl:8
+msgid ""
+"This feature is used to automatically add content to your RSS feeds, helping "
+"search engines identify your site as the origin of the content"
+msgstr ""
+"Cette fonctionnalité est utilisée pour ajouter automatiquement du contenu à "
+"vos flux RSS, aidant ainsi les moteurs de recherche à identifier votre site "
+"comme étant l'origine du contenu"
+
+#: tpl/settings/tab_seo_settings/tab_rss.tpl:12
+msgid "Content to add before the article"
+msgstr "Contenu à ajouter avant l'article"
+
+#: tpl/settings/tab_seo_settings/tab_rss.tpl:20
+msgid "Content to add after the article"
+msgstr "Contenu à ajouter après l'article"
+
+#: tpl/settings/tab_seo_settings/tab_special_page.tpl:4
+#: _inc/fcnt/fcnt.locale.php:101
+msgid "Search"
+msgstr "Recherche"
+
+#: tpl/settings/tab_seo_settings/tab_special_page.tpl:5
+msgid "Error 404"
+msgstr "Erreur 404"
+
+#: tpl/settings/tab_seo_settings/tab_special_page.tpl:11
+msgid "Page : Search"
+msgstr "Page: Recherche"
+
+#: tpl/settings/tab_seo_settings/tab_special_page.tpl:16
+msgid ""
+"You can customize your meta title and default description for the search"
+msgstr ""
+"Vous pouvez personnaliser votre méta-titre et la méta-description par défaut "
+"pour la recherche"
+
+#: tpl/settings/tab_seo_settings/tab_special_page.tpl:30
+msgid "Page : Error 404"
+msgstr "Page : Erreur 404"
+
+#: tpl/settings/tab_seo_settings/tab_special_page.tpl:35
+msgid ""
+"You can customize your meta title and default description for the error 404"
+msgstr ""
+"Vous pouvez personnaliser votre méta-titre et la méta-description par défaut "
+"de l'erreur 404"
+
+#: tpl/settings/tab_social_networks/tab_facebook.tpl:13
+#: tpl/settings/tab_social_networks/tab_twitter.tpl:13
+msgid "Allow editing the meta tag in Article / Page"
+msgstr "Autoriser la modification de la balise meta dans Article / Page"
+
+#: tpl/settings/tab_social_networks/tab_facebook.tpl:17
+msgid ""
+"This option allows you to manually edit the meta title and description for "
+"facebook when writing"
+msgstr ""
+"Cette option vous permet d’éditer manuellement le titre et la description de "
+"la méta pour Facebook lors de la rédaction"
+
+#: tpl/settings/tab_social_networks/tab_facebook.tpl:21
+msgid "URL of the Facebook page"
+msgstr "URL de la page Facebook"
+
+#: tpl/settings/tab_social_networks/tab_facebook.tpl:30
+msgid "Facebook App ID"
+msgstr "Identifiant de l'application Facebook"
+
+#: tpl/settings/tab_social_networks/tab_pinterest.tpl:11
+msgid "Pinterest Page url"
+msgstr "URL Pinterest"
+
+#: tpl/settings/tab_social_networks/tab_pinterest.tpl:20
+msgid "Pinterest verification code"
+msgstr "Code de vérification Pinterest"
+
+#: tpl/settings/tab_social_networks/tab_twitter.tpl:17
+msgid ""
+"This option allows you to manually edit the meta title and description for "
+"twitter when writing"
+msgstr ""
+"Cette option vous permet d’éditer manuellement le titre et la description de "
+"la méta pour twitter lors de la rédaction"
+
+#: tpl/settings/tab_social_networks/tab_twitter.tpl:21
+msgid "Choose a card type"
+msgstr "Choisissez un type de carte"
+
+#: tpl/settings/tab_social_networks/tab_twitter.tpl:25
+msgid "This option allows you to choose how to display in social feeds"
+msgstr ""
+"Cette option vous permet de choisir le mode d'affichage dans les flux sociaux"
+
+#: tpl/settings/tab_social_networks/tab_twitter.tpl:30
+msgid "Your username"
+msgstr "Nom d'utilisateur"
+
+#: tpl/settings/tab_tool/contained.tpl:14
+msgid "Export / Import"
+msgstr "Export / Import"
+
+#: tpl/settings/tab_tool/contained.tpl:15
+msgid "Export and import settings"
+msgstr "Paramètres d'exportation et d'importation"
+
+#: tpl/settings/tab_tool/contained.tpl:21 _inc/fcnt/fcnt.locale.php:427
+msgid "File Editor"
+msgstr "Éditeur de fichier"
+
+#: tpl/settings/tab_tool/contained.tpl:22
+msgid "Tool for editing files"
+msgstr "Outil pour éditer des fichiers"
+
+#: tpl/settings/tab_tool/contained.tpl:28 _inc/fcnt/fcnt.locale.php:432
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: tpl/settings/tab_tool/contained.tpl:29
+#: tpl/settings/tab_tool/tab_reset.tpl:26
+#: tpl/settings/tab_tool/tab_reset.tpl:45
+#: tpl/settings/tab_tool/tab_reset.tpl:64
+msgid "Reset settings"
+msgstr "Réinitialiser les options"
+
+#: tpl/settings/tab_tool/tab_export_import.tpl:4 _inc/fcnt/fcnt.locale.php:417
+msgid "Export"
+msgstr "Exportation"
+
+#: tpl/settings/tab_tool/tab_export_import.tpl:5 _inc/fcnt/fcnt.locale.php:418
+msgid "Import"
+msgstr "Importation"
+
+#: tpl/settings/tab_tool/tab_export_import.tpl:12
+msgid "Export parameter configuration"
+msgstr "Configuration du paramètre d'exportation"
+
+#: tpl/settings/tab_tool/tab_export_import.tpl:17
+msgid ""
+"This option allows you to export the ran4win plugin settings, for a backup "
+"or to be imported on another wordpress"
+msgstr ""
+"Cette option vous permet d’exporter les paramètres du plugin Rank4Win, pour "
+"une sauvegarde ou pour être importé sur un autre WordPress"
+
+#: tpl/settings/tab_tool/tab_export_import.tpl:25
+msgid "Import parameter configuration"
+msgstr "Importer la configuration des paramètres"
+
+#: tpl/settings/tab_tool/tab_export_import.tpl:30
+msgid ""
+"This option allows you to import your settings that were exported by "
+"Rank4Win. Always try to have the same version between the export and import "
+"of the setting file"
+msgstr ""
+"Cette option vous permet d'importer vos paramètres exportés par Rank4Win. "
+"Essayez toujours d'avoir la même version entre l'exportation et "
+"l'importation du fichier des paramètres"
+
+#: tpl/settings/tab_tool/tab_file_editor.tpl:11
+#: tpl/settings/tab_tool/tab_file_editor.tpl:29 tpl/settings/_root.php:1240
+msgid "File"
+msgstr "Fichier"
+
+#: tpl/settings/tab_tool/tab_file_editor.tpl:16
+msgid ""
+"The \".htaccess\" file is a configuration file, which allows you to define "
+"rules on your wordpress such as the possibility to create an address "
+"structure for your permalinks and archives"
+msgstr ""
+"Le fichier \".htaccess\" est un fichier de configuration qui vous permet de "
+"définir des règles pour votre wordpress, telles que la possibilité de créer "
+"une structure d’adresses pour vos permaliens et vos archives"
+
+#: tpl/settings/tab_tool/tab_file_editor.tpl:21 tpl/settings/_root.php:1258
+msgid ""
+"Be careful when editing this file. These changes may prevent your wordpress, "
+"your themes or plugin from working properly. Make these changes only if you "
+"are safe without causing problems"
+msgstr ""
+"Soyez prudent en modifiant ce fichier. Ces changements peuvent empêcher "
+"votre WordPress, vos thèmes ou vos plugins de fonctionner correctement. Ne "
+"faites ces modifications que si vous êtes un expert. Rank4Win ne sera en "
+"aucun cas tenu responsable de tout disfonctionnement causé par vos "
+"modifications"
+
+#: tpl/settings/tab_tool/tab_file_editor.tpl:34
+msgid ""
+"The \"robots.txt\" file tells search engine crawlers the pages or files they "
+"can or can not browse from the wordpress"
+msgstr ""
+"Le fichier “robots.txt” indique aux robots d'exploration des moteurs de "
+"recherche les pages ou les fichiers qu'ils peuvent ou ne peuvent pas "
+"explorer du wordpress"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:4 _inc/fcnt/fcnt.locale.php:433
+msgid "Application"
+msgstr "Application"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:12
+msgid "Reset application options"
+msgstr "Réinitialiser les options de l'application"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:17
+msgid ""
+"Start from scratch and rediscover rank4win as in the early days, reset "
+"clears all app settings"
+msgstr ""
+"Recommencez à partir de zéro et redécouvrez Rank4Win avec ses réglages par "
+"défaut. La réinitialisation efface toutes les options du plugin"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:22
+msgid ""
+"This action is irreversible, do not forget to bring your configuration "
+"before you start in this procedure"
+msgstr ""
+"Cette action étant irréversible, n'oubliez pas d'importer votre "
+"configuration avant de vous lancer dans cette procédure"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:31
+msgid "Reset content types options"
+msgstr "Réinitialiser les options des types de contenus"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:36
+msgid "You can clear the options you have customize in content types"
+msgstr ""
+"Vous pouvez effacer les options que vous avez personnalisé dans les types de "
+"contenus"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:41
+#: tpl/settings/tab_tool/tab_reset.tpl:60
+msgid ""
+"Since this action is irreversible, do not forget to export your important "
+"data before you start this procedure"
+msgstr ""
+"Cette action étant irréversible, n'oubliez pas d'exporter vos données "
+"importantes avant de vous lancer dans cette procédure"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:50
+msgid "Reset taxonomy options"
+msgstr "Réinitialiser les options de taxonomie"
+
+#: tpl/settings/tab_tool/tab_reset.tpl:55
+msgid "You can clear the options you have customize in the taxonomy"
+msgstr ""
+"Vous pouvez effacer les options que vous avez personnalisé dans les "
+"taxonomies"
+
+#: tpl/subscription/already_subscribed.tpl:4
+msgid "Surprise"
+msgstr "Surprise"
+
+#: tpl/subscription/already_subscribed.tpl:7
+msgid "Switch User"
+msgstr "Changer d'utilisateur"
+
+#: tpl/subscription/already_subscribed.tpl:8
+msgid "Change plan"
+msgstr "Changer d'abonnement"
+
+#: tpl/subscription/stripe_preview.tpl:11
+msgid "Gift certificates and promotional codes"
+msgstr "Chèques cadeaux et codes promotionnels"
+
+#: tpl/subscription/stripe_preview.tpl:17
+msgid "Apply"
+msgstr "Appliquer"
+
+#: tpl/subscription/stripe_preview.tpl:18 tpl/tools/tab_deploy/contained.tpl:7
+#: tpl/tools/tab_str_semantic/contained.tpl:7 tpl/wizard/button.tpl:3
+msgid "Cancel"
+msgstr "Annuler"
+
+#: tpl/subscription/stripe_preview.tpl:24
+#: tpl/tools/tab_deploy/stripe_preview.tpl:8
+msgid "Credit or debit card"
+msgstr "Carte de crédit ou de débit"
+
+#: tpl/subscription/stripe_preview.tpl:27
+msgid "Use a promo code"
+msgstr "Utiliser un code promo"
+
+#: tpl/subscription/stripe_preview.tpl:30
+#: tpl/tools/tab_deploy/stripe_preview.tpl:17
+msgid "Submit Payment"
+msgstr "Soumettre le paiement"
+
+#: tpl/subscription/stripe_preview.tpl:34
+#: tpl/tools/tab_deploy/stripe_preview.tpl:14
+msgid ""
+"Please contact your bank or credit card issuer to find out why payment has "
+"not been made"
+msgstr ""
+"Veuillez contacter votre banque ou votre émetteur de carte de crédit pour "
+"savoir pourquoi le paiement n'a pas été effectué"
+
+#: tpl/subscription/stripe_preview.tpl:53
+#: tpl/tools/tab_deploy/stripe_preview.tpl:36
+msgid ""
+"You can cancel your subscription at any time. By making the payment, you "
+"confirm that you have read and accept"
+msgstr ""
+"Vous pouvez résilier votre abonnement à tout moment. En effectuant le "
+"paiement, vous confirmez avoir lu et accepté"
+
+#: tpl/subscription/stripe_preview.tpl:54
+#: tpl/tools/tab_deploy/stripe_preview.tpl:37
+msgid "our general terms and conditions of sale"
+msgstr "nos conditions générales de vente"
+
+#: tpl/subscription/stripe_preview.tpl:61
+#: tpl/tools/tab_deploy/stripe_preview.tpl:44
+msgid "ttc"
+msgstr "ttc"
+
+#: tpl/tools/contained.tpl:9
+msgid "Seo tools"
+msgstr "Outil SEO"
+
+#: tpl/tools/contained.tpl:10
+msgid "Tools for your webmarketing strategy"
+msgstr "Des outils pour votre stratégie webmarketing"
+
+#: tpl/tools/contained.tpl:19 tpl/tools/tab_str_semantic/contained.tpl:4
+#: tpl/box_page/_root.php:162
+msgid "Semantic structure"
+msgstr "Structure sémantique"
+
+#: tpl/tools/contained.tpl:20 tpl/tools/tab_deploy/list_loop.tpl:5
+msgid "Deployment"
+msgstr "Déploiements"
+
+#: tpl/tools/tab_deploy/contained.tpl:4
+msgid "Your deployments"
+msgstr "Vos déploiements"
+
+#: tpl/tools/tab_deploy/contained.tpl:6
+#: tpl/tools/tab_str_semantic/contained.tpl:6
+#: tpl/tools/tab_str_semantic/contained.tpl:63
+msgid "Create a new semantic structure"
+msgstr "Créer une nouvelle structure sémantique"
+
+#: tpl/tools/tab_deploy/contained.tpl:20
+msgid "Deploy the semantic structure on wordpress"
+msgstr "Déployer la structure sémantique sur wordpress"
+
+#: tpl/tools/tab_deploy/contained.tpl:27
+msgid ""
+"You can deploy your semantic structure on your wordpress, the pages will be "
+"created with an editorial template"
+msgstr ""
+"Vous pouvez déployer votre structure sémantique sur votre wordpress, les "
+"pages seront créées avec un modèle éditorial"
+
+#: tpl/tools/tab_deploy/contained.tpl:32
+msgid "Structure to be deployed"
+msgstr "Structure à déployer"
+
+#: tpl/tools/tab_deploy/contained.tpl:38
+msgid "How to deploy your structure"
+msgstr "Comment déployer votre structure"
+
+#: tpl/tools/tab_deploy/contained.tpl:40
+msgid "Delete and create new page"
+msgstr "Supprime et créer de nouvelles pages"
+
+#: tpl/tools/tab_deploy/contained.tpl:41
+msgid "Rearrange and create new page"
+msgstr "Réorganise et créer de nouvelle page"
+
+#: tpl/tools/tab_deploy/contained.tpl:48
+msgid ""
+"Delete existing pages and their contents before creating the pages of your "
+"semantic structure"
+msgstr ""
+"Supprime les pages existantes et leur contenu avant de créer les pages de "
+"votre structure sémantique"
+
+#: tpl/tools/tab_deploy/contained.tpl:54
+msgid ""
+"Rearrange existing pages without changing their content, new page pages will "
+"be created"
+msgstr ""
+"Réorganise les pages existantes sans en changer le contenu, les nouvelles "
+"pages seront créées"
+
+#: tpl/tools/tab_deploy/contained.tpl:60
+msgid ""
+"Create only the pages of your semantic structure, the existing pages will "
+"not delete or rearrange"
+msgstr ""
+"Créez uniquement les pages de votre structure sémantique, les pages "
+"existantes ne seront ni supprimées ni réorganisées"
+
+#: tpl/tools/tab_deploy/contained.tpl:65
+msgid "Order details"
+msgstr "Détails de la commande"
+
+#: tpl/tools/tab_deploy/contained.tpl:68
+msgid "Price per page"
+msgstr "Prix par page"
+
+#: tpl/tools/tab_deploy/contained.tpl:72
+msgid "Number of pages"
+msgstr "Nombre de pages"
+
+#: tpl/tools/tab_deploy/contained.tpl:76
+msgid "Deployment price"
+msgstr "Prix du déploiement"
+
+#: tpl/tools/tab_deploy/contained.tpl:82
+msgid "Pay and deploy"
+msgstr "Payer et déployer"
+
+#: tpl/tools/tab_deploy/contained.tpl:118
+msgid "A deployment in progress"
+msgstr "Un déploiement en cours"
+
+#: tpl/tools/tab_deploy/contained.tpl:119
+msgid ""
+"A semantic structure is being deployed on this wordpress. To avoid conflict, "
+"you must wait until the deployment is complete or stop the deployment to "
+"perform a new deployment"
+msgstr ""
+"Une structure sémantique est en cours de déploiement sur ce wordpress. Pour "
+"éviter les conflits, vous devez attendre la fin du déploiement ou arrêter le "
+"déploiement pour effectuer un nouveau déploiement"
+
+#: tpl/tools/tab_deploy/contained.tpl:120
+msgid "Stop the deployment"
+msgstr "Arrêtez le déploiement"
+
+#: tpl/tools/tab_deploy/stripe_preview.tpl:45
+msgid "Options"
+msgstr "Options"
+
+#: tpl/tools/tab_deploy/stripe_preview.tpl:47
+msgid "Number of pages to deploy"
+msgstr "Nombre de pages à déployer"
+
+#: tpl/tools/tab_deploy/stripe_preview.tpl:51
+msgid "This payment allows you to deploy your semantic srucuture only once"
+msgstr ""
+"Ce paiement vous permet de déployer votre structure sémantique une seule fois"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:20
+msgid "Rename your semantic structure"
+msgstr "Renommez votre structure sémantique"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:24
+#: tpl/tools/tab_str_semantic/contained.tpl:75
+msgid "Name of the stucture"
+msgstr "Nom de la structure"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:28 _inc/class/class.execjs.php:2071
+msgid "Rename"
+msgstr "Renommer"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:40
+msgid "Duplication of the semantic structure"
+msgstr "Duplication de la structure sémantique"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:41
+msgid "Please wait while duplicating your semantic structure"
+msgstr ""
+"Veuillez patienter pendant la duplication de votre structure sémantique"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:70
+msgid ""
+"Building a tree of pages with optimized contents answering a theme with "
+"keywords on the same subject, is the basis of the seo semantic cocoon"
+msgstr ""
+"Construisez une arborescence sémantique avec un bon maillage interne. "
+"Réalisez une optimisation des contenus sur la base d'une analyse sémantique "
+"des besoins de vos visiteurs. Ainsi, vous obtiendrez une structure "
+"sémantique parfaite"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:79
+msgid "Content of the structure"
+msgstr "Contenu de la structure"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:81
+msgid "Empty structure"
+msgstr "Structure vide"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:82
+msgid "Wordpress-based structure"
+msgstr "Structure basée sur ce WordPress"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:86
+msgid "Keyword Strategy"
+msgstr "Stratégie de mots clés"
+
+#: tpl/tools/tab_str_semantic/contained.tpl:90
+msgid "Create"
+msgstr "Créer"
+
+#: tpl/update_available/contained.tpl:13 _inc/class/class.app.php:1018
+msgid "Update available"
+msgstr "Mise à jour disponible"
+
+#: tpl/update_available/contained.tpl:14
+msgid "This release includes new features and improvements"
+msgstr "Cette version inclut de nouvelles fonctionnalités et améliorations"
+
+#: tpl/update_available/contained.tpl:15 _inc/class/class.app.php:1364
+msgid "Update now"
+msgstr "Mettre à jour maintenant"
+
+#: tpl/wizard/button.tpl:9
+msgid "Next step"
+msgstr "Prochaine étape"
+
+#: tpl/wizard/step/required.tpl:4 tpl/wizard/_root.php:35
+msgid "System requirements"
+msgstr "Configuration requise"
+
+#: tpl/wizard/step/required.tpl:8
+msgid ""
+"Here is the basic system requirements to install rank4win on your wordpress"
+msgstr ""
+"Voici la configuration de base requise pour installer rank4win sur votre "
+"wordpress"
+
+#: tpl/wizard/step/required.tpl:9
+msgid ""
+"If your hosting or WordPress does not meet this configuration, <b>you may "
+"have problems on your website</b> plus you were not getting the most out of "
+"rank4win, to continue <b> you need to upgrade your configuration</b>"
+msgstr ""
+"Si votre hébergement ou WordPress ne répond pas à cette configuration, <b>il "
+"se peut que vous aurez des soucies sur votre site internet</b> en plus vous "
+"ne tiriez pas le meilleur parti de rank4win, pour continuer <b>vous devez "
+"mettre à niveau votre configuration</b>"
+
+#: tpl/wizard/step/required.tpl:13
+msgid "Hosting and performance"
+msgstr "Hébergement et performance"
+
+#: tpl/wizard/step/required.tpl:17
+msgid "Php version required"
+msgstr "Version PHP requise"
+
+#: tpl/wizard/step/required.tpl:23
+msgid "Wordpress version required"
+msgstr "Version Wordpress requise"
+
+#: tpl/wizard/step/required.tpl:29
+msgid "Rank4win version required"
+msgstr "Version Rank4win requise"
+
+#: tpl/wizard/step/required.tpl:35
+msgid "Available domain name"
+msgstr "Nom de domaine disponible"
+
+#: tpl/wizard/step/required.tpl:41
+msgid "HTTPS protocol"
+msgstr "HTTPS protocol"
+
+#: tpl/wizard/step/required.tpl:48
+msgid "Plugin"
+msgstr "Plugin"
+
+#: tpl/wizard/step/required.tpl:51
+msgid "No conflicts with an installed plugin"
+msgstr "Aucun conflit avec un plugin installé"
+
+#: _inc/class/class.app.php:95
+msgid ""
+"Your structure is being deployed, please wait until the end of the "
+"deployment before modifying your pages"
+msgstr ""
+"Votre structure est en cours de déploiement, veuillez attendre la fin du "
+"déploiement avant de modifier vos pages"
+
+#: _inc/class/class.app.php:137
+msgid ""
+"This WordPress is not associated with your subscription! To take advantage "
+"of all the options and benefits of your subscription"
+msgstr ""
+"Ce WordPress n'est pas associé à votre abonnement ! Pour profiter de toutes "
+"les options et de tous les avantages de votre abonnement"
+
+#: _inc/class/class.app.php:137
+msgid "please, click here"
+msgstr "s'il vous plait, cliquer ici"
+
+#: _inc/class/class.app.php:218
+msgid "Rank4Win: could we help you"
+msgstr "Rank4Win : pourrions-nous vous aider"
+
+#: _inc/class/class.app.php:219
+msgid ""
+"We notice that you may need help, if this is a mistake then we wish you a "
+"pleasant day"
+msgstr ""
+"Nous remarquons que vous avez peut-être besoin d'aide, si ceci est une "
+"erreur alors nous vous souhaitons une agréable journée"
+
+#: _inc/class/class.app.php:220
+msgid ""
+"Any modification by mistake or intentional will be detected by our teams, we "
+"reserve the right to close any account that we deem suspicious without any "
+"warning or refund"
+msgstr ""
+"Toute modification par erreur ou intentionnel sera détecté par nos équipes, "
+"nous nous resservons le droit de ferme tout compte qui nous semblera suspect "
+"sans aucun avertissement ni remboursement"
+
+#: _inc/class/class.app.php:904
+msgid "Internal links"
+msgstr "Liens internes"
+
+#: _inc/class/class.app.php:922 _inc/class/class.app.php:931
+#: _inc/class/class.app.php:932
+msgid "My account"
+msgstr "Mon compte"
+
+#: _inc/class/class.app.php:946 _inc/class/class.app.php:947
+msgid "Structures"
+msgstr "Structures"
+
+#: _inc/class/class.app.php:954 _inc/class/class.app.php:955
+msgid "Positions & Analyses"
+msgstr "Positions & Analyses"
+
+#: _inc/class/class.app.php:962
+msgid "Editor"
+msgstr "Éditeur"
+
+#: _inc/class/class.app.php:970
+msgid "Login"
+msgstr "Se connecter"
+
+#: _inc/class/class.app.php:994
+msgid "Register"
+msgstr "S'inscrire"
+
+#: _inc/class/class.app.php:1002
+msgid "One-time password authentication"
+msgstr "Authentification par mot de passe à usage unique"
+
+#: _inc/class/class.app.php:1010
+msgid "Associate Wordpress"
+msgstr "Associer Wordpress"
+
+#: _inc/class/class.app.php:1026
+msgid "Export Configuration"
+msgstr "Configuration d'exportation"
+
+#: _inc/class/class.app.php:1034 _inc/class/class.execjs.php:2071
+msgid "Retrieve the image of the structure"
+msgstr "Récupérer l'image de la structure"
+
+#: _inc/class/class.app.php:1042
+msgid "Your invoice in pdf format"
+msgstr "Votre facture au format pdf"
+
+#: _inc/class/class.app.php:1050
+msgid "Configuration of rank4win"
+msgstr "Configuration de rank4win"
+
+#: _inc/class/class.app.php:1208
+msgid "All"
+msgstr "Tout"
+
+#: _inc/class/class.app.php:1209
+msgid "Any"
+msgstr "Aucun"
+
+#: _inc/class/class.app.php:1210
+msgid "Poor"
+msgstr "Mauvais"
+
+#: _inc/class/class.app.php:1211
+msgid "Good"
+msgstr "Bon"
+
+#: _inc/class/class.app.php:1212
+msgid "Perfect"
+msgstr "Parfait"
+
+#: _inc/class/class.app.php:1353
+msgid "Rank4Win is not functional, you must first make some settings"
+msgstr ""
+"Rank4Win n'est pas fonctionnel, vous devez d'abord effectuer certains "
+"réglages"
+
+#: _inc/class/class.app.php:1353 _inc/class/class.app.php:1357
+msgid "Now configure rank4win"
+msgstr "Configurez rank4win maintenant"
+
+#: _inc/class/class.app.php:1357
+msgid ""
+"Rank4Win : You must choose the language and country of your essays in the "
+"settings"
+msgstr ""
+"Rank4Win: Vous devez choisir la langue et le pays de vos rédactions dans les "
+"paramètres"
+
+#: _inc/class/class.app.php:1364
+msgid "Update is required to access the features"
+msgstr "Une mise à jour est nécessaire pour accéder aux fonctionnalités"
+
+#: _inc/class/class.app.php:1553
+msgid "To read also"
+msgstr "A lire également"
+
+#: _inc/class/class.execjs.php:17 _inc/class/class.execjs.php:27
+#: _inc/class/class.execjs.php:51
+msgid "Wrong email or password"
+msgstr "Mauvais email ou mot de passe"
+
+#: _inc/class/class.execjs.php:94 _inc/class/class.execjs.php:117
+#: _inc/class/class.execjs.php:171 _inc/class/class.execjs.php:196
+msgid "Email must be a valid email"
+msgstr "L'email doit être une adresse de courriel valide"
+
+#: _inc/class/class.execjs.php:151 _inc/class/class.execjs.php:323
+msgid "Password is a required field"
+msgstr "Mot de passe est un champ obligatoire"
+
+#: _inc/class/class.execjs.php:161 _inc/class/class.execjs.php:206
+#: _inc/class/class.execjs.php:333 _inc/class/class.execjs.php:395
+msgid "Password and confirmation must match"
+msgstr "Mot de passe et la confirmation du mot de passe doivent correspondre"
+
+#: _inc/class/class.execjs.php:216
+msgid "An account already exists with this email address"
+msgstr "Un compte existe déjà avec cette adresse email"
+
+#: _inc/class/class.execjs.php:258 _inc/class/class.execjs.php:281
+#: _inc/class/class.execjs.php:360 _inc/class/class.execjs.php:385
+msgid "Wrong verification code"
+msgstr "Mauvais code de vérification"
+
+#: _inc/class/class.execjs.php:1941
+msgid "No keyword strategy available"
+msgstr "Aucune stratégie de mot clé disponible"
+
+#: _inc/class/class.execjs.php:2053
+#, php-format
+msgid "%s page"
+msgid_plural "%s pages"
+msgstr[0] "%s page"
+msgstr[1] "%s pages"
+
+#: _inc/class/class.execjs.php:2063
+msgid "Delete structure"
+msgstr "Supprimer la structure"
+
+#: _inc/class/class.execjs.php:2066
+msgid "Remove sync"
+msgstr "Retirer la synchronisation"
+
+#: _inc/class/class.execjs.php:2071 _inc/class/class.execjs.php:2075
+msgid "Open"
+msgstr "Ouvrir"
+
+#: _inc/class/class.execjs.php:2071
+msgid "Duplicate"
+msgstr "Dupliquer"
+
+#: _inc/class/class.execjs.php:2082
+msgid ""
+"A semantic structure is synchronized with your WordPress. When you edit your "
+"pages, your semantic structure automatically updates. If you enter your "
+"semantic structure, you will have to deploy your structure again to "
+"synchronize it with your wordpress"
+msgstr ""
+"Une structure sémantique est synchronisée avec votre WordPress. Lorsque vous "
+"modifiez vos pages, votre structure sémantique est automatiquement mise à "
+"jour. Si vous entrez dans votre structure sémantique, vous devrez à nouveau "
+"déployer votre structure pour la synchroniser avec votre wordpress"
+
+#: _inc/class/class.execjs.php:2200
+msgid "Enter a word"
+msgstr "Entrez un mot"
+
+#: _inc/class/class.execjs.php:2203
+#, php-format
+msgid ""
+"This semantic structure is synchronized with %s. The backup of the changes "
+"is possible from this wordpress. You can duplicate this semantic structure "
+"if you want to save your changes"
+msgstr ""
+"Cette structure sémantique est synchronisée avec %s. La sauvegarde des "
+"modifications est possible à partir de ce WordPress. Vous pouvez dupliquer "
+"cette structure sémantique si vous souhaitez enregistrer vos modifications"
+
+#: _inc/class/class.execjs.php:2633
+msgid "Elapsed time"
+msgstr "Temps écoulé"
+
+#: _inc/class/class.execjs.php:2633 _inc/class/class.execjs.php:2640
+msgid "hours"
+msgstr "heures"
+
+#: _inc/class/class.execjs.php:2633 _inc/class/class.execjs.php:2640
+msgid "minutes"
+msgstr "minutes"
+
+#: _inc/class/class.execjs.php:2633 _inc/class/class.execjs.php:2640
+msgid "seconds"
+msgstr "secondes"
+
+#: _inc/class/class.execjs.php:2633 _inc/class/class.execjs.php:2640
+#: _inc/fcnt/fcnt.define.php:36 _inc/fcnt/fcnt.locale.php:390
+#: tpl/box_page/_root.php:273
+msgid "Page"
+msgstr "Pages"
+
+#: _inc/class/class.execjs.php:2633 _inc/class/class.execjs.php:2640
+#: _inc/class/class.execjs.php:2644 _inc/class/class.execjs.php:2648
+msgid "Status"
+msgstr "Statut"
+
+#: _inc/class/class.execjs.php:2633
+msgid "Deployment in progress"
+msgstr "Déploiement en cours"
+
+#: _inc/class/class.execjs.php:2640
+msgid "Deploy in"
+msgstr "Déployer en"
+
+#: _inc/class/class.execjs.php:2640
+msgid "Deployment complete"
+msgstr "Déploiement terminé"
+
+#: _inc/class/class.execjs.php:2644
+msgid "Your deployment has not been successful"
+msgstr "Votre déploiement n'a pas réussi"
+
+#: _inc/class/class.execjs.php:2648
+msgid "You canceled deployment"
+msgstr "Vous avez annulé le déploiement"
+
+#: _inc/class/class.execjs.php:2800
+#, php-format
+msgid ""
+"We love you too much for taking your hard earned money twice. The user %s "
+"already has a rank4win subscription"
+msgstr ""
+"Nous vous aimons trop pour prendre votre argent durement gagné deux fois. "
+"L'utilisateur %s dispose déjà d'un abonnement rank4win"
+
+#: _inc/class/class.execjs.php:2864
+msgid "Subscribe"
+msgstr "Souscrire"
+
+#: _inc/class/class.execjs.php:2904
+msgid "From 1 to 300"
+msgstr "De 1 à 300"
+
+#: _inc/class/class.execjs.php:2918
+msgid "and more"
+msgstr "et plus"
+
+#: _inc/class/class.execjs.php:2920
+msgid "to"
+msgstr "à"
+
+#: _inc/class/class.execjs.php:2922
+#, php-format
+msgid "From %s %s : %s / pages"
+msgstr "De %s %s : %s / pages"
+
+#: _inc/class/class.execjs.php:2959 _inc/fcnt/fcnt.locale.php:59
+#: _inc/fcnt/fcnt.locale.php:120 _inc/fcnt/fcnt.locale.php:259
+#: _inc/fcnt/fcnt.locale.php:436
+msgid "month"
+msgstr "mois"
+
+#: _inc/class/class.execjs.php:2962
+msgid "year"
+msgstr "ans"
+
+#: _inc/class/class.execjs.php:2976
+msgid "Number of WordPress"
+msgstr "Nombre de WordPress"
+
+#: _inc/class/class.execjs.php:2976
+msgid "Unlimited"
+msgstr "Illimité"
+
+#: _inc/class/class.execjs.php:2979
+msgid "Number of subscriptions"
+msgstr "Nombre d'abonnements"
+
+#: _inc/class/class.execjs.php:3061 _inc/fcnt/fcnt.locale.php:49
+msgid "Keywords"
+msgstr "Mots clés"
+
+#: _inc/class/class.execjs.php:3061 _inc/fcnt/fcnt.locale.php:50
+msgid "The number of keywords that bring you organic traffic"
+msgstr "Le nombre des mots clés qui vous rapportent du trafic organique"
+
+#: _inc/class/class.execjs.php:3061 _inc/fcnt/fcnt.locale.php:22
+#: _inc/fcnt/fcnt.locale.php:51
+msgid "Traffic"
+msgstr "Trafic"
+
+#: _inc/class/class.execjs.php:3061 _inc/fcnt/fcnt.locale.php:52
+msgid "Organic traffic planned for next month"
+msgstr "Trafic organique prévu pour le mois prochain"
+
+#: _inc/class/class.execjs.php:3061 _inc/fcnt/fcnt.locale.php:53
+msgid "Cost of the traffic"
+msgstr "Coût du trafic"
+
+#: _inc/class/class.execjs.php:3061 _inc/fcnt/fcnt.locale.php:54
+msgid ""
+"Savings, normally that what you should pay in Google AdWords for your traffic"
+msgstr ""
+"Les économies réalisées : Normalement c'est ce que vous devriez payer en "
+"Google AdWords pour votre trafic"
+
+#: _inc/class/class.execjs.php:3065 _inc/class/class.execjs.php:3123
+#: _inc/class/class.execjs.php:3181
+msgid "Last update"
+msgstr "Dernière mise à jour"
+
+#: _inc/class/class.execjs.php:3119 _inc/class/class.execjs.php:3177
+msgid "Sorry, no data related to your query"
+msgstr "Désolé, aucune donnée liée à votre requête"
+
+#: _inc/class/class.execjs.php:3119
+msgid "We did not find your site in the first 100 search results"
+msgstr ""
+"Nous n'avons pas trouvé votre site dans les 100 premiers résultats de "
+"recherche"
+
+#: _inc/class/class.execjs.php:3177
+msgid "We found no competitors linking to your site"
+msgstr "Nous n'avons trouvé aucun concurrent se connectant à votre site"
+
+#: _inc/class/class.execjs.php:3220 _inc/class/class.execjs.php:3260
+msgid ""
+"The connection to the rank4win server has been interrupted unexpectedly, "
+"some features may not work properly. Wait and try to refresh the page to fix "
+"the problem"
+msgstr ""
+"La connexion au serveur rank4win a été interrompue de manière inattendue, "
+"certaines fonctionnalités risquent de ne pas fonctionner correctement. "
+"Attendez et essayez d'actualiser la page pour résoudre le problème"
+
+#: _inc/class/class.execjs.php:3252
+msgid ""
+"We make improvements on this service, do not be surprised if some features "
+"do not work properly during our intervention"
+msgstr ""
+"Nous apportons des améliorations à ce service, ne soyez pas surpris si "
+"certaines fonctionnalités ne fonctionnent pas correctement lors de notre "
+"intervention"
+
+#: _inc/class/class.execjs.php:3621
+msgid "No cards added"
+msgstr "Aucune carte n'a été ajoutée"
+
+#: _inc/class/class.execjs.php:3625
+#, php-format
+msgid ""
+"Your subscription will be canceled on %s, after this date you will no longer "
+"have access to the benefit of your subscription"
+msgstr ""
+"Votre abonnement sera annulé le %s, après cette date vous ne pourrez plus "
+"accéder au avantage de votre abonnement"
+
+#: _inc/class/class.execjs.php:3639
+#, php-format
+msgid ""
+"A problem occurred during the payment of your last invoice for an amount of "
+"%s, we will represent the payment on %s, remember to update your credit card"
+msgstr ""
+"Un problème survenu lors du paiement votre dernière facture dont le montant "
+"s'élève à %s, nous représenterons le paiement le %s, pensez à mettre à jour "
+"votre carte de crédit"
+
+#: _inc/class/class.execjs.php:3656
+#, php-format
+msgid "Your %s discount will be used to pay your next bill"
+msgstr "Votre remise %s sera utilisée pour payer votre prochaine facture"
+
+#: _inc/class/class.execjs.php:3659
+#, php-format
+msgid "Your %s discount will be applied to your next bill"
+msgstr "Votre remise %s sera appliquée sur votre prochaine facture"
+
+#: _inc/class/class.execjs.php:3694
+#, php-format
+msgid "Your next bill will be %s. It will be taken on %s"
+msgstr "Votre prochaine facture sera de %s. Elle sera prélevée le %s"
+
+#: _inc/class/class.execjs.php:3696
+#, php-format
+msgid ""
+"The cancellation will be effective at the end of the current billing period, "
+"the %s"
+msgstr ""
+"L'annulation sera effective dès la fin de la période de facturation en "
+"cours, le %s"
+
+#: _inc/class/class.execjs.php:3985
+msgid "Invalid or expired coupon"
+msgstr "Coupon non valide ou expiré"
+
+#: _inc/class/class.execjs.php:4119
+msgid "No subscription"
+msgstr "Pas d'abonnement"
+
+#: _inc/class/class.execjs.php:4123
+msgid "Unlimited Wordpress"
+msgstr "Wordpress illimité"
+
+#: _inc/class/class.execjs.php:4126
+msgid "Subscription available"
+msgstr "Abonnement disponible"
+
+#: _inc/class/class.execjs.php:4146
+msgid "Remove the association from the account"
+msgstr "Supprimer l'association du compte"
+
+#: _inc/class/class.execjs.php:4154
+msgid "Delete from account"
+msgstr "Supprimer du compte"
+
+#: _inc/class/class.execjs.php:4162 _inc/fcnt/fcnt.locale.php:42
+#: _inc/fcnt/fcnt.locale.php:76 _inc/fcnt/fcnt.locale.php:161
+#: _inc/fcnt/fcnt.locale.php:180 _inc/fcnt/fcnt.locale.php:198
+#: _inc/fcnt/fcnt.locale.php:273
+msgid "Add to your subscription"
+msgstr "Ajouter à votre abonnement"
+
+#: _inc/class/class.execjs.php:4170
+msgid "Remove from your subscription"
+msgstr "Supprimer de votre abonnement"
+
+#: _inc/class/class.execjs.php:4179
+msgid ""
+"This wordpress must be associated with your account to benefit from your "
+"subscription"
+msgstr ""
+"Ce wordpress doit être associé à votre compte pour bénéficier de votre "
+"abonnement"
+
+#: _inc/class/class.execjs.php:4194
+msgid "Re-add to your subscription"
+msgstr "Réassocier à votre abonnement"
+
+#: _inc/class/class.execjs.php:4195
+msgid ""
+"On your next bill, this wordpress will no longer be associated with your "
+"subscription"
+msgstr ""
+"Lors de votre prochaine facture, ce wordpress ne sera plus associé à votre "
+"abonnement"
+
+#: _inc/class/class.execjs.php:4203
+msgid "You are on this wordpress"
+msgstr "Vous êtes sur ce wordpress"
+
+#: _inc/class/class.execjs.php:4232
+msgid "Sorry, no wordpress available"
+msgstr "Désolé, pas de wordpress disponible"
+
+#: _inc/class/class.execjs.php:4232
+msgid "when you connect to a wordpress it will appear in this list"
+msgstr ""
+"lorsque vous vous connectez à un wordpress, il apparaîtra dans cette liste"
+
+#: _inc/class/class.execjs.php:4487 _inc/class/class.execjs.php:4490
+msgid "First name"
+msgstr "Prénom"
+
+#: _inc/class/class.execjs.php:4487 _inc/class/class.execjs.php:4490
+msgid "Last name"
+msgstr "Nom"
+
+#: _inc/class/class.execjs.php:4497
+msgid "E-mail"
+msgstr "Email"
+
+#: _inc/class/class.process.php:333
+#, php-format
+msgid "Every %d Minutes"
+msgstr "Toutes les %d minutes"
+
+#: _inc/fcnt/fcnt.date.php:9 _inc/fcnt/fcnt.define.php:494
+msgid "Monday"
+msgstr "Lundi"
+
+#: _inc/fcnt/fcnt.date.php:12 _inc/fcnt/fcnt.define.php:495
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: _inc/fcnt/fcnt.date.php:15 _inc/fcnt/fcnt.define.php:496
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: _inc/fcnt/fcnt.date.php:18 _inc/fcnt/fcnt.define.php:497
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: _inc/fcnt/fcnt.date.php:21 _inc/fcnt/fcnt.define.php:498
+msgid "Friday"
+msgstr "Vendredi"
+
+#: _inc/fcnt/fcnt.date.php:24 _inc/fcnt/fcnt.define.php:499
+msgid "Saturday"
+msgstr "Samedi"
+
+#: _inc/fcnt/fcnt.date.php:27 _inc/fcnt/fcnt.define.php:500
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: _inc/fcnt/fcnt.date.php:40
+msgid "January"
+msgstr "Janvier"
+
+#: _inc/fcnt/fcnt.date.php:43
+msgid "February"
+msgstr "Février"
+
+#: _inc/fcnt/fcnt.date.php:46
+msgid "March"
+msgstr "Mars"
+
+#: _inc/fcnt/fcnt.date.php:49
+msgid "April"
+msgstr "Avril"
+
+#: _inc/fcnt/fcnt.date.php:52
+msgid "May"
+msgstr "Mai"
+
+#: _inc/fcnt/fcnt.date.php:55
+msgid "June"
+msgstr "Juin"
+
+#: _inc/fcnt/fcnt.date.php:58
+msgid "July"
+msgstr "Juillet"
+
+#: _inc/fcnt/fcnt.date.php:61
+msgid "August"
+msgstr "Août"
+
+#: _inc/fcnt/fcnt.date.php:64
+msgid "September"
+msgstr "Septembre"
+
+#: _inc/fcnt/fcnt.date.php:67
+msgid "October"
+msgstr "Octobre"
+
+#: _inc/fcnt/fcnt.date.php:70
+msgid "November"
+msgstr "Novembre"
+
+#: _inc/fcnt/fcnt.date.php:73
+msgid "December"
+msgstr "Décembre"
+
+#: _inc/fcnt/fcnt.define.php:31 _inc/fcnt/fcnt.define.php:78
+#: _inc/fcnt/fcnt.locale.php:391
+msgid "Article"
+msgstr "Articles"
+
+#: _inc/fcnt/fcnt.define.php:46 _inc/fcnt/fcnt.locale.php:392
+msgid "Portfolio"
+msgstr "Portfolios"
+
+#: _inc/fcnt/fcnt.define.php:68
+msgid "Summarize with an image"
+msgstr "Résumer avec une image"
+
+#: _inc/fcnt/fcnt.define.php:72
+msgid "Summarize without image"
+msgstr "Résumer sans image"
+
+#: _inc/fcnt/fcnt.define.php:82
+msgid "Book"
+msgstr "Livre"
+
+#: _inc/fcnt/fcnt.define.php:86
+msgid "Profile"
+msgstr "Profil"
+
+#: _inc/fcnt/fcnt.define.php:97
+msgid "Customer support"
+msgstr "Service client"
+
+#: _inc/fcnt/fcnt.define.php:99
+msgid "Billing support"
+msgstr "Support de facturation"
+
+#: _inc/fcnt/fcnt.define.php:100
+msgid "Bill payment"
+msgstr "Paiement de factures"
+
+#: _inc/fcnt/fcnt.define.php:101
+msgid "Sales"
+msgstr "Ventes"
+
+#: _inc/fcnt/fcnt.define.php:102
+msgid "Reservations"
+msgstr "Réservations"
+
+#: _inc/fcnt/fcnt.define.php:103
+msgid "Credit card support"
+msgstr "Support de carte de crédit"
+
+#: _inc/fcnt/fcnt.define.php:104
+msgid "Emergency"
+msgstr "Urgences"
+
+#: _inc/fcnt/fcnt.define.php:105
+msgid "Baggage tracking"
+msgstr "Suivi des bagages"
+
+#: _inc/fcnt/fcnt.define.php:106
+msgid "Roadside assistance"
+msgstr "Assistance routière"
+
+#: _inc/fcnt/fcnt.define.php:107
+msgid "Package tracking"
+msgstr "Suivi des colis"
+
+#: _inc/fcnt/fcnt.define.php:137
+msgid "Corporation"
+msgstr "Société"
+
+#: _inc/fcnt/fcnt.define.php:141
+msgid "Educational Organization"
+msgstr "Organisation éducative"
+
+#: _inc/fcnt/fcnt.define.php:145
+msgid "Government Organization"
+msgstr "Organisation gouvernementale"
+
+#: _inc/fcnt/fcnt.define.php:149
+msgid "Non-Governmental Organization (NGO)"
+msgstr "Organisation non gouvernementale (ONG)"
+
+#: _inc/fcnt/fcnt.define.php:153
+msgid "Performing Group"
+msgstr "Groupe performant"
+
+#: _inc/fcnt/fcnt.define.php:157
+msgid "Sports Team"
+msgstr "Équipe de sport"
+
+#: _inc/fcnt/fcnt.define.php:167
+msgid "Business Event"
+msgstr "Événement d'affaires"
+
+#: _inc/fcnt/fcnt.define.php:171
+msgid "Childrens Event"
+msgstr "Événement pour enfants"
+
+#: _inc/fcnt/fcnt.define.php:175
+msgid "Comedy Event"
+msgstr "Comédie"
+
+#: _inc/fcnt/fcnt.define.php:179
+msgid "Dance Event"
+msgstr "Événement de danse"
+
+#: _inc/fcnt/fcnt.define.php:183
+msgid "Educational Event"
+msgstr "Événement éducatif"
+
+#: _inc/fcnt/fcnt.define.php:187
+msgid "Festival"
+msgstr "Festival"
+
+#: _inc/fcnt/fcnt.define.php:191
+msgid "Food Event"
+msgstr "Événement alimentaire"
+
+#: _inc/fcnt/fcnt.define.php:195
+msgid "Literary Event"
+msgstr "Événement littéraire"
+
+#: _inc/fcnt/fcnt.define.php:199
+msgid "Music Event"
+msgstr "Événement de musique"
+
+#: _inc/fcnt/fcnt.define.php:203
+msgid "Sales Event"
+msgstr "Événement de vente"
+
+#: _inc/fcnt/fcnt.define.php:207
+msgid "Social Event"
+msgstr "Événement social"
+
+#: _inc/fcnt/fcnt.define.php:211
+msgid "Theater Event"
+msgstr "Événement de théâtre"
+
+#: _inc/fcnt/fcnt.define.php:215
+msgid "User Interaction"
+msgstr "Interaction de l'utilisateur"
+
+#: _inc/fcnt/fcnt.define.php:219
+msgid "Visual Arts Event"
+msgstr "Événement d'arts visuels"
+
+#: _inc/fcnt/fcnt.define.php:231 _inc/fcnt/fcnt.define.php:310
+msgid "Date of publication"
+msgstr "Date de publication"
+
+#: _inc/fcnt/fcnt.define.php:235 _inc/fcnt/fcnt.define.php:314
+msgid "Title of the publication"
+msgstr "Titre de la publication"
+
+#: _inc/fcnt/fcnt.define.php:239 _inc/fcnt/fcnt.define.php:318
+msgid "Title of the parent page"
+msgstr "Titre de la page parente"
+
+#: _inc/fcnt/fcnt.define.php:243 _inc/fcnt/fcnt.define.php:269
+#: _inc/fcnt/fcnt.define.php:285 _inc/fcnt/fcnt.define.php:295
+#: _inc/fcnt/fcnt.define.php:322 _inc/fcnt/fcnt.define.php:348
+#: _inc/fcnt/fcnt.define.php:363 _inc/fcnt/fcnt.define.php:388
+#: _inc/fcnt/fcnt.define.php:402 _inc/fcnt/fcnt.define.php:418
+#: _inc/fcnt/fcnt.define.php:432
+msgid "Name of the site"
+msgstr "Nom du site"
+
+#: _inc/fcnt/fcnt.define.php:247 _inc/fcnt/fcnt.define.php:273
+#: _inc/fcnt/fcnt.define.php:289 _inc/fcnt/fcnt.define.php:299
+#: _inc/fcnt/fcnt.define.php:326 _inc/fcnt/fcnt.define.php:352
+#: _inc/fcnt/fcnt.define.php:367 _inc/fcnt/fcnt.define.php:392
+#: _inc/fcnt/fcnt.define.php:406 _inc/fcnt/fcnt.define.php:422
+#: _inc/fcnt/fcnt.define.php:436
+msgid "Separator defined in the configuration"
+msgstr "Séparateur défini dans la configuration"
+
+#: _inc/fcnt/fcnt.define.php:253 _inc/fcnt/fcnt.define.php:332
+msgid "Slogan of the site"
+msgstr "Slogan du site"
+
+#: _inc/fcnt/fcnt.define.php:257 _inc/fcnt/fcnt.define.php:336
+msgid "Extract from the publication or auto-generated"
+msgstr "Extrait de la publication ou généré automatiquement"
+
+#: _inc/fcnt/fcnt.define.php:261 _inc/fcnt/fcnt.define.php:340
+msgid "Extract from the publication without auto-generated"
+msgstr "Extrait de la publication sans génération automatique"
+
+#: _inc/fcnt/fcnt.define.php:265 _inc/fcnt/fcnt.define.php:344
+msgid "Modification time"
+msgstr "Heure de modification"
+
+#: _inc/fcnt/fcnt.define.php:281
+msgid "Product Name"
+msgstr "Nom du produit"
+
+#: _inc/fcnt/fcnt.define.php:380
+msgid "Name of the author"
+msgstr "Nom de l'auteur"
+
+#: _inc/fcnt/fcnt.define.php:384
+msgid "author ID"
+msgstr "identifiant de l'auteur"
+
+#: _inc/fcnt/fcnt.define.php:398
+msgid "Biographical information"
+msgstr "Informations biographiques"
+
+#: _inc/fcnt/fcnt.define.php:414 _inc/fcnt/fcnt.define.php:428
+msgid "Date of the archive"
+msgstr "Date de l'archive"
+
+#: _inc/fcnt/fcnt.define.php:446
+msgid "Search phrase"
+msgstr "Phrase rechercher"
+
+#: _inc/fcnt/fcnt.define.php:450 _inc/fcnt/fcnt.define.php:463
+msgid "Wordpress name"
+msgstr "Nom du wordpress"
+
+#: _inc/fcnt/fcnt.define.php:454 _inc/fcnt/fcnt.define.php:467
+msgid "Separator"
+msgstr "Séparateur"
+
+#: _inc/fcnt/fcnt.define.php:476
+msgid "Link to the authors archives"
+msgstr "Lien vers les archives des auteurs"
+
+#: _inc/fcnt/fcnt.define.php:480
+msgid "Link to the publication"
+msgstr "Lien vers la publication"
+
+#: _inc/fcnt/fcnt.define.php:484
+msgid "Link to the wordpress"
+msgstr "Lien vers le wordpress"
+
+#: _inc/fcnt/fcnt.define.php:488
+msgid "Link to the wordpress with the description"
+msgstr "Lien vers le wordpress avec la description"
+
+#: _inc/fcnt/fcnt.define.php:503
+msgid "This feature requires a subscription for is available"
+msgstr "Cette fonctionnalité nécessite un abonnement pour être disponible"
+
+#: _inc/fcnt/fcnt.editorial_content.php:25
+#, php-format
+msgid "Title 2 (H2): Must contain the secondary keyword %s"
+msgstr "Titre 2 (H2): Doit contenir le mot-clé secondaire %s"
+
+#: _inc/fcnt/fcnt.editorial_content.php:26
+#: _inc/fcnt/fcnt.editorial_content.php:30
+msgid ""
+"In these paragraphs you will start to argue and set up your editorial "
+"strength, feel free to use a rich vocabulary, you have the synonyms, the "
+"complementary keywords too, made so to meet the expectations of the reader"
+msgstr ""
+"Dans ces paragraphes, vous allez commencer à argumenter et à mettre en place "
+"votre force éditoriale, n'hésitez pas à utiliser un vocabulaire enrichi, "
+"vous avez les synonymes, les mots clés complémentaires aussi, afin de "
+"répondre aux attentes du lecteur"
+
+#: _inc/fcnt/fcnt.editorial_content.php:29
+msgid "Title 2 (H2): Must contain the secondary keyword of the page"
+msgstr "Titre 2 (H2): Doit contenir le mot-clé secondaire de la page"
+
+#: _inc/fcnt/fcnt.editorial_content.php:57
+#, php-format
+msgid "Title 3 (H3): must contain the lexical keyword %s"
+msgstr "Titre 3 (H3): doit contenir le mot-clé lexical %s"
+
+#: _inc/fcnt/fcnt.editorial_content.php:58
+#, php-format
+msgid ""
+"Write a paragraph of 150 words minimum, which summarizes all the content of "
+"the page %s this reinforces this page lexically and will be a semantic "
+"gateway to the child page"
+msgstr ""
+"Écrivez un paragraphe de 150 mots minimum, qui résume tout le contenu de la "
+"page %s, ce qui renforce cette page lexicalement et constituera une "
+"passerelle sémantique vers la page enfant"
+
+#: _inc/fcnt/fcnt.editorial_content.php:62
+msgid "Title 3 (H3): must contain the lexical keyword of the page"
+msgstr "Titre 3 (H3): doit contenir le mot clé lexical de la page"
+
+#: _inc/fcnt/fcnt.editorial_content.php:63
+msgid ""
+"Write a paragraph of 150 words minimum, which summarizes all the content of "
+"the page lexical this reinforces this page lexically and will be a semantic "
+"gateway to the child page"
+msgstr ""
+"Écrivez un paragraphe de 150 mots minimum, qui résume tout le contenu de la "
+"page lexical, ce qui renforce cette page lexicalement et constituera une "
+"passerelle sémantique vers la page enfant"
+
+#: _inc/fcnt/fcnt.locale.php:18
+msgid "Domain"
+msgstr "Domaine"
+
+#: _inc/fcnt/fcnt.locale.php:19
+msgid "Level of competition"
+msgstr "Niveau de compétition"
+
+#: _inc/fcnt/fcnt.locale.php:20
+msgid "Common keywords"
+msgstr "Mots-clés communs"
+
+#: _inc/fcnt/fcnt.locale.php:21
+msgid "Seo Keywords"
+msgstr "Mots-clés seo"
+
+#: _inc/fcnt/fcnt.locale.php:23
+msgid "Costs"
+msgstr "Coût"
+
+#: _inc/fcnt/fcnt.locale.php:24 _inc/fcnt/fcnt.locale.php:60
+#: _inc/fcnt/fcnt.locale.php:121
+msgid "Keyword"
+msgstr "Mot-clé"
+
+#: _inc/fcnt/fcnt.locale.php:25
+msgid "Position acquired"
+msgstr "Position acquise"
+
+#: _inc/fcnt/fcnt.locale.php:26
+msgid "Difficulty"
+msgstr "Difficulté"
+
+#: _inc/fcnt/fcnt.locale.php:27 _inc/fcnt/fcnt.locale.php:61
+#: _inc/fcnt/fcnt.locale.php:122
+msgid "Volume"
+msgstr "Volume"
+
+#: _inc/fcnt/fcnt.locale.php:28 _inc/fcnt/fcnt.locale.php:64
+#: _inc/fcnt/fcnt.locale.php:125
+msgid "Cpc"
+msgstr "Cpc"
+
+#: _inc/fcnt/fcnt.locale.php:38 _inc/fcnt/fcnt.locale.php:267
+msgid "Not available with your subscription"
+msgstr "Non disponible avec votre abonnement"
+
+#: _inc/fcnt/fcnt.locale.php:39 _inc/fcnt/fcnt.locale.php:268
+msgid ""
+"Your subscription does not include these tools, if you wish you can change "
+"offer to benefit from this tools"
+msgstr ""
+"Votre abonnement n'inclut pas ces outils, si vous le souhaitez, vous pouvez "
+"modifier l'offre pour pouvoir bénéficier de ces outils"
+
+#: _inc/fcnt/fcnt.locale.php:40 _inc/fcnt/fcnt.locale.php:74
+#: _inc/fcnt/fcnt.locale.php:159 _inc/fcnt/fcnt.locale.php:178
+#: _inc/fcnt/fcnt.locale.php:196 _inc/fcnt/fcnt.locale.php:271
+msgid "Waiting for subscription renewal"
+msgstr "Attendre le renouvellement de l'abonnement"
+
+#: _inc/fcnt/fcnt.locale.php:41 _inc/fcnt/fcnt.locale.php:75
+#: _inc/fcnt/fcnt.locale.php:160 _inc/fcnt/fcnt.locale.php:179
+#: _inc/fcnt/fcnt.locale.php:197 _inc/fcnt/fcnt.locale.php:272
+msgid ""
+"You have used the number of searches available in your offer, you must wait "
+"for your next billing to receive additional searches"
+msgstr ""
+"Vous avez utilisé le nombre de recherches disponibles dans votre offre, vous "
+"devez attendre votre prochaine facturation pour recevoir des recherches "
+"supplémentaires"
+
+#: _inc/fcnt/fcnt.locale.php:43 _inc/fcnt/fcnt.locale.php:77
+#: _inc/fcnt/fcnt.locale.php:162 _inc/fcnt/fcnt.locale.php:181
+#: _inc/fcnt/fcnt.locale.php:199 _inc/fcnt/fcnt.locale.php:274
+msgid ""
+"If you still have wordpress available in your subscription you can this "
+"wordpress and benefit benefits prenium"
+msgstr ""
+"Si vous avez des wordpress disponible dans votre abonnement, vous pouvez "
+"ajouter ce wordpress et bénéficier d'avantages prenium"
+
+#: _inc/fcnt/fcnt.locale.php:44 _inc/fcnt/fcnt.locale.php:78
+#: _inc/fcnt/fcnt.locale.php:163 _inc/fcnt/fcnt.locale.php:182
+#: _inc/fcnt/fcnt.locale.php:200 _inc/fcnt/fcnt.locale.php:275
+msgid "Associated with your subscription"
+msgstr "Associé à votre abonnement"
+
+#: _inc/fcnt/fcnt.locale.php:46 _inc/fcnt/fcnt.locale.php:80
+#: _inc/fcnt/fcnt.locale.php:165 _inc/fcnt/fcnt.locale.php:184
+#: _inc/fcnt/fcnt.locale.php:202 _inc/fcnt/fcnt.locale.php:277
+msgid ""
+"Upgrade to the higher version by choosing a subscription, you will have the "
+"advantages prenium in addition to your deployments"
+msgstr ""
+"Passez à la version supérieure en choisissant un abonnement, vous "
+"bénéficierez des avantages premium en plus de vos déploiements"
+
+#: _inc/fcnt/fcnt.locale.php:48 _inc/fcnt/fcnt.locale.php:84
+#: _inc/fcnt/fcnt.locale.php:167 _inc/fcnt/fcnt.locale.php:186
+#: _inc/fcnt/fcnt.locale.php:204 _inc/fcnt/fcnt.locale.php:279
+#: _inc/fcnt/fcnt.locale.php:341
+msgid "It is well tempted"
+msgstr "C'est bien tenté"
+
+#: _inc/fcnt/fcnt.locale.php:62 _inc/fcnt/fcnt.locale.php:123
+msgid "Serp"
+msgstr "Serp"
+
+#: _inc/fcnt/fcnt.locale.php:63 _inc/fcnt/fcnt.locale.php:124
+#: _inc/fcnt/fcnt.locale.php:260
+msgid "Feasibility"
+msgstr "Faisabilité"
+
+#: _inc/fcnt/fcnt.locale.php:65
+msgid "We have no results for the moment regarding this keyword"
+msgstr "Nous n'avons aucun résultat pour le moment concernant ce mot clé"
+
+#: _inc/fcnt/fcnt.locale.php:66
+msgid "Deploy the structure"
+msgstr "Déployer la structure"
+
+#: _inc/fcnt/fcnt.locale.php:72 _inc/fcnt/fcnt.locale.php:269
+msgid "Daily search exceeded"
+msgstr "Recherche quotidienne dépassée"
+
+#: _inc/fcnt/fcnt.locale.php:73 _inc/fcnt/fcnt.locale.php:270
+msgid ""
+"You have exceeded the number of authorized searches, you will be able to "
+"carry out new research as of tomorrow"
+msgstr ""
+"Vous avez dépassé le nombre de recherches autorisées, vous pourrez effectuer "
+"de nouvelles recherches à partir de demain"
+
+#: _inc/fcnt/fcnt.locale.php:81
+msgid "Display limits"
+msgstr "Limites d'affichage"
+
+#: _inc/fcnt/fcnt.locale.php:82
+msgid ""
+"As you do not have a subscription, the number of results is limited, so you "
+"can remove this limit by choosing a subscription"
+msgstr ""
+"Comme vous n'avez pas d'abonnement, le nombre de résultats est limité, vous "
+"pouvez supprimer cette limite en choisissant un abonnement"
+
+#: _inc/fcnt/fcnt.locale.php:85 _inc/fcnt/fcnt.locale.php:140
+msgid "Add a new keyword"
+msgstr "Ajouter un nouveau mot clé"
+
+#: _inc/fcnt/fcnt.locale.php:86
+msgid "Page Title"
+msgstr "Titre de la page"
+
+#: _inc/fcnt/fcnt.locale.php:88 _inc/fcnt/fcnt.locale.php:289
+#: _inc/fcnt/fcnt.locale.php:316 tpl/columns_keywords/_root.php:32
+#: tpl/columns_keywords/_root.php:41
+msgid "Secondary keyword"
+msgstr "Mot-clé secondaire"
+
+#: _inc/fcnt/fcnt.locale.php:89 _inc/fcnt/fcnt.locale.php:290
+#: _inc/fcnt/fcnt.locale.php:317
+msgid "Lexical keyword"
+msgstr "Mot-clé lexical"
+
+#: _inc/fcnt/fcnt.locale.php:90
+msgid "Import keywords"
+msgstr "Importer des mots-clés"
+
+#: _inc/fcnt/fcnt.locale.php:91
+msgid "Enriching this branch"
+msgstr "Enrichir cette branche"
+
+#: _inc/fcnt/fcnt.locale.php:92
+msgid "Insert your list of keywords"
+msgstr "Insérez votre liste de mots-clés"
+
+#: _inc/fcnt/fcnt.locale.php:93
+msgid "1st keyword"
+msgstr "1er mot-clé"
+
+#: _inc/fcnt/fcnt.locale.php:94
+msgid "2nd keyword"
+msgstr "2ème mot-clé"
+
+#: _inc/fcnt/fcnt.locale.php:95
+msgid "Close"
+msgstr "Fermer"
+
+#: _inc/fcnt/fcnt.locale.php:100
+msgid "Ongoing treatment"
+msgstr "Traitement en cours"
+
+#: _inc/fcnt/fcnt.locale.php:102
+msgid "Show _MENU_"
+msgstr "Afficher _MENU_"
+
+#: _inc/fcnt/fcnt.locale.php:103
+msgid "Showing _START_ to _END_ on _TOTAL_ items"
+msgstr "Affichage de _START_ à _END_ sur _TOTAL_ éléments"
+
+#: _inc/fcnt/fcnt.locale.php:104
+msgid "Showing item 0 to 0 of 0 items"
+msgstr "Affiche les articles de 0 à 0 sur 0"
+
+#: _inc/fcnt/fcnt.locale.php:105
+msgid "(filtered from _MAX_ total items)"
+msgstr "(filtré à partir du nombre d'éléments _MAX_)"
+
+#: _inc/fcnt/fcnt.locale.php:107
+msgid "Loading"
+msgstr "Chargement en cours"
+
+#: _inc/fcnt/fcnt.locale.php:108
+msgid "No items to display"
+msgstr "Aucun élément à afficher"
+
+#: _inc/fcnt/fcnt.locale.php:109
+msgid "No data available in the table"
+msgstr "Aucune donnée disponible dans le tableau"
+
+#: _inc/fcnt/fcnt.locale.php:110
+msgid "First"
+msgstr "Premier"
+
+#: _inc/fcnt/fcnt.locale.php:111
+msgid "Previous"
+msgstr "Précédent"
+
+#: _inc/fcnt/fcnt.locale.php:112
+msgid "Next"
+msgstr "Suivant"
+
+#: _inc/fcnt/fcnt.locale.php:113
+msgid "Latest"
+msgstr "Dernier"
+
+#: _inc/fcnt/fcnt.locale.php:114
+msgid "activate to sort the column in ascending order"
+msgstr "activer pour trier la colonne par ordre croissant"
+
+#: _inc/fcnt/fcnt.locale.php:115
+msgid "activate to sort the column in descending order"
+msgstr "activer pour trier la colonne par ordre décroissant"
+
+#: _inc/fcnt/fcnt.locale.php:130
+msgid "Included in your subscription"
+msgstr "Inclus dans votre abonnement"
+
+#: _inc/fcnt/fcnt.locale.php:141
+msgid "You must add your main keyword"
+msgstr "Vous devez ajouter votre mot clé principal"
+
+#: _inc/fcnt/fcnt.locale.php:146
+msgid ""
+"Unfortunately, we cannot provide you with content ideas. Your keyword has "
+"little result or the language of your document does not match your keyword"
+msgstr ""
+"Malheureusement, nous ne pouvons pas vous fournir d'idées de contenu. Votre "
+"mot clé a peu de résultats ou la langue de votre document ne correspond pas "
+"à votre mot clé"
+
+#: _inc/fcnt/fcnt.locale.php:147
+msgid "We did not find any synonym"
+msgstr "Nous n'avons trouvé aucun synonyme"
+
+#: _inc/fcnt/fcnt.locale.php:148
+msgid ""
+"Unfortunately, we can not say what the search engines understood from your "
+"text. The content of your text is not enough or the language of your account "
+"does not match your text"
+msgstr ""
+"Malheureusement, nous ne pouvons pas dire ce que les moteurs de recherche "
+"ont compris dans votre texte. Le contenu de votre texte ne suffit pas ou la "
+"langue de votre compte ne correspond pas à votre texte"
+
+#: _inc/fcnt/fcnt.locale.php:153
+msgid "We have no questions available at the moment"
+msgstr "Nous n'avons aucun questionnement disponible pour le moment"
+
+#: _inc/fcnt/fcnt.locale.php:172
+msgid "We have no synonymous available at the moment"
+msgstr "Nous n'avons pas de synonyme disponible pour le moment"
+
+#: _inc/fcnt/fcnt.locale.php:205
+msgid "Which corresponds to the lexical field"
+msgstr "Ce qui correspond au champ lexical"
+
+#: _inc/fcnt/fcnt.locale.php:210
+msgid "The length of the title is too short"
+msgstr "La longueur du titre est trop courte"
+
+#: _inc/fcnt/fcnt.locale.php:211
+msgid "The length of the title is a little short"
+msgstr "La longueur du titre est un peu courte"
+
+#: _inc/fcnt/fcnt.locale.php:212
+msgid "The length of the title is perfect"
+msgstr "La longueur du titre est parfaite"
+
+#: _inc/fcnt/fcnt.locale.php:213
+msgid "The length of the title is too long"
+msgstr "La longueur du titre est trop longue"
+
+#: _inc/fcnt/fcnt.locale.php:214
+msgid "The length of the description is too short"
+msgstr "La longueur de la description est trop courte"
+
+#: _inc/fcnt/fcnt.locale.php:215
+msgid "The length of the description is a little short"
+msgstr "La longueur de la description est un peu courte"
+
+#: _inc/fcnt/fcnt.locale.php:216
+msgid "The length of the description is perfect"
+msgstr "La longueur de la description est parfaite"
+
+#: _inc/fcnt/fcnt.locale.php:217
+msgid "The length of the description is too long"
+msgstr "La longueur de la description est trop longue"
+
+#: _inc/fcnt/fcnt.locale.php:224
+msgid "Saved successfully"
+msgstr "Enregistré avec succès"
+
+#: _inc/fcnt/fcnt.locale.php:225
+msgid "Your settings have been saved"
+msgstr "Vos réglages ont été sauvegardés"
+
+#: _inc/fcnt/fcnt.locale.php:226
+msgid "Saved failed"
+msgstr "Enregistré a échoué"
+
+#: _inc/fcnt/fcnt.locale.php:227
+msgid "Your settings have not been saved, please try again"
+msgstr "Vos paramètres n'ont pas été enregistrés. Veuillez réessayer"
+
+#: _inc/fcnt/fcnt.locale.php:228
+msgid "File edit successfully"
+msgstr "Fichier modifier avec succès"
+
+#: _inc/fcnt/fcnt.locale.php:229
+msgid "Modification of the file has been saved"
+msgstr "La modification du fichier a été sauvegardée"
+
+#: _inc/fcnt/fcnt.locale.php:230
+msgid "File edit failed"
+msgstr "Modification du fichier échoué"
+
+#: _inc/fcnt/fcnt.locale.php:231
+msgid "The changes to the file have not been saved, please try again"
+msgstr ""
+"Les modifications apportées au fichier n'ont pas été enregistrées. Veuillez "
+"réessayer"
+
+#: _inc/fcnt/fcnt.locale.php:232
+msgid "Successful reset"
+msgstr "Réinitialisation réussie"
+
+#: _inc/fcnt/fcnt.locale.php:233
+msgid "Reset options have been completed"
+msgstr "La réinitialisation des options à été effectué"
+
+#: _inc/fcnt/fcnt.locale.php:234
+msgid "Reset failed"
+msgstr "La réinitialisation a échoué"
+
+#: _inc/fcnt/fcnt.locale.php:235
+msgid "Reset options has not been done, please try again"
+msgstr ""
+"La réinitialisation des options n'a pas été effectuées, veuillez réessayer"
+
+#: _inc/fcnt/fcnt.locale.php:236
+msgid "Successful import"
+msgstr "Importation réussie"
+
+#: _inc/fcnt/fcnt.locale.php:237
+msgid "Your settings have been successfully imported"
+msgstr "Vos paramètres ont été importés avec succès"
+
+#: _inc/fcnt/fcnt.locale.php:238
+msgid "Import failed"
+msgstr "Échec de l'importation"
+
+#: _inc/fcnt/fcnt.locale.php:239
+msgid "The import of your settings has not been done, please try again"
+msgstr ""
+"L'importation de vos paramètres n'a pas été effectuée. Veuillez réessayer"
+
+#: _inc/fcnt/fcnt.locale.php:240
+msgid "Successful keyword add"
+msgstr "Ajout de mot clé réussi"
+
+#: _inc/fcnt/fcnt.locale.php:241
+msgid "The keyword has been added in your strategy"
+msgstr "Le mot clé a été ajouté dans votre stratégie"
+
+#: _inc/fcnt/fcnt.locale.php:242
+msgid "Keyword add failed"
+msgstr "Echec de l'ajout du mot clé"
+
+#: _inc/fcnt/fcnt.locale.php:243
+msgid "Can not add the keyword in your strategy, please try again"
+msgstr ""
+"Impossible d'ajouter le mot clé dans votre stratégie, veuillez réessayer"
+
+#: _inc/fcnt/fcnt.locale.php:244
+msgid "Successful keyword remove"
+msgstr "Suppression du mot clé réussi"
+
+#: _inc/fcnt/fcnt.locale.php:245
+msgid "The keyword has been removed from your strategy"
+msgstr "Le mot clé a été supprimé de votre stratégie"
+
+#: _inc/fcnt/fcnt.locale.php:246
+msgid "Keyword remove failed"
+msgstr "Suppression du mot clé a échoué"
+
+#: _inc/fcnt/fcnt.locale.php:247
+msgid "Unable to remove the keyword from your strategy, please try again"
+msgstr ""
+"Impossible de supprimer le mot clé de votre stratégie, veuillez réessayer"
+
+#: _inc/fcnt/fcnt.locale.php:248
+msgid "Successful Updated name"
+msgstr "Nom mis à jour avec succès"
+
+#: _inc/fcnt/fcnt.locale.php:249
+msgid "The name of your strategy has been updated"
+msgstr "Le nom de votre stratégie a été mis à jour"
+
+#: _inc/fcnt/fcnt.locale.php:250
+msgid "Updated name failed"
+msgstr "Mis à jour du nom a échoué"
+
+#: _inc/fcnt/fcnt.locale.php:251
+msgid "Unable to update the name of your strategy, please try again"
+msgstr ""
+"Impossible de mettre à jour le nom de votre stratégie, veuillez réessayer"
+
+#: _inc/fcnt/fcnt.locale.php:256
+msgid "No keyword suggestions are currently available for your main keyword"
+msgstr ""
+"Aucune suggestion de mot clé n'est actuellement disponible pour votre mot "
+"clé principal"
+
+#: _inc/fcnt/fcnt.locale.php:257
+msgid "Please, insert your expression, query or keyword"
+msgstr "S'il vous plaît, insérez votre expression, requête ou mot clé"
+
+#: _inc/fcnt/fcnt.locale.php:258
+msgid "volume"
+msgstr "volume"
+
+#: _inc/fcnt/fcnt.locale.php:284
+msgid "Analysis tools in maintenance"
+msgstr "Outils d'analyse en maintenance"
+
+#: _inc/fcnt/fcnt.locale.php:285
+msgid ""
+"In order to always be able to provide you with quality service, we are "
+"currently performing maintenance operations"
+msgstr ""
+"Afin de toujours être en mesure de vous apporter un service de qualité, nous "
+"effectuons en ce moment des opérations de maintenance"
+
+#: _inc/fcnt/fcnt.locale.php:286
+msgid "We can not analyze this document"
+msgstr "Nous ne pouvons pas analyser ce document"
+
+#: _inc/fcnt/fcnt.locale.php:287
+msgid ""
+"The information transmitted is incorrect and no longer guarantees the "
+"results. This document is lock for analysis, you can contact rank4win for "
+"more information"
+msgstr ""
+"Les informations transmises sont erronées et ne garantissent plus les "
+"résultats. Ce document est verrouiller pour les analyse, vous pouvez "
+"contacter rank4win pour plus d'information"
+
+#: _inc/fcnt/fcnt.locale.php:291
+msgid "Overall Score"
+msgstr "Score global"
+
+#: _inc/fcnt/fcnt.locale.php:293
+msgid "Analyzes semantics"
+msgstr "Analyse sémantique"
+
+#: _inc/fcnt/fcnt.locale.php:295
+msgid "Easily understood by an average 4th-grade student or lower"
+msgstr "Facilement compris par un élève moyen de CM1 ou moins"
+
+#: _inc/fcnt/fcnt.locale.php:296
+msgid "Easily understood by an average 5th or 6th-grade student"
+msgstr ""
+"Facilement compris par un élève moyen de CM2 ou un collégien de sixième"
+
+#: _inc/fcnt/fcnt.locale.php:297
+msgid "Easily understood by an average 7th or 8th-grade student"
+msgstr "Facilement compris par un collégien de cinquième ou quatrième"
+
+#: _inc/fcnt/fcnt.locale.php:298
+msgid "Easily understood by an average 9th or 10th-grade student"
+msgstr ""
+"Facilement compris par un collégien de troisième ou un lycéen de seconde"
+
+#: _inc/fcnt/fcnt.locale.php:299
+msgid "Easily understood by an average 11th or 12th-grade student"
+msgstr "Facilement compris par un lycéen de première ou de terminale"
+
+#: _inc/fcnt/fcnt.locale.php:300
+msgid "Easily understood by an average 13th to 15th-grade (college) student"
+msgstr "Facilement compris par un étudiant en faculté ou en université"
+
+#: _inc/fcnt/fcnt.locale.php:301
+msgid "Easily understood by an average college graduate"
+msgstr "Facilement compris par un diplômé de faculté ou d'une université"
+
+#: _inc/fcnt/fcnt.locale.php:302
+msgid "Very difficult"
+msgstr "Très difficile"
+
+#: _inc/fcnt/fcnt.locale.php:303
+msgid "Difficult"
+msgstr "Difficile"
+
+#: _inc/fcnt/fcnt.locale.php:304
+msgid "Quite difficult"
+msgstr "Assez difficile"
+
+#: _inc/fcnt/fcnt.locale.php:305
+msgid "Easily understandable"
+msgstr "Facilement compréhensible"
+
+#: _inc/fcnt/fcnt.locale.php:306
+msgid "Easy enough"
+msgstr "Assez facile"
+
+#: _inc/fcnt/fcnt.locale.php:307
+msgid "Easy"
+msgstr "Facile"
+
+#: _inc/fcnt/fcnt.locale.php:308
+msgid "Very easy"
+msgstr "Très facile"
+
+#: _inc/fcnt/fcnt.locale.php:309 _inc/fcnt/fcnt.locale.php:374
+msgid "Number of words"
+msgstr "Nombre de mots"
+
+#: _inc/fcnt/fcnt.locale.php:310
+msgid "Goal"
+msgstr "Objectif"
+
+#: _inc/fcnt/fcnt.locale.php:311 _inc/fcnt/fcnt.locale.php:375
+msgid "Reading time"
+msgstr "Temps de lecture"
+
+#: _inc/fcnt/fcnt.locale.php:312 _inc/fcnt/fcnt.locale.php:376
+msgid "Difficulty reading"
+msgstr "Difficulté de lecture"
+
+#: _inc/fcnt/fcnt.locale.php:314
+msgid "Target Keywords"
+msgstr "Mots-clés cibles"
+
+#: _inc/fcnt/fcnt.locale.php:318
+msgid "Title structures"
+msgstr "Structures de titre"
+
+#: _inc/fcnt/fcnt.locale.php:319 _inc/fcnt/fcnt.locale.php:335
+msgid "Main keyword in title"
+msgstr "Mot clé principal dans le titre"
+
+#: _inc/fcnt/fcnt.locale.php:320
+msgid "The title has a good length"
+msgstr "Le titre a une bonne longueur"
+
+#: _inc/fcnt/fcnt.locale.php:321
+msgid "Text structures"
+msgstr "Structures de texte"
+
+#: _inc/fcnt/fcnt.locale.php:322
+msgid "Main keyword in H1 tag"
+msgstr "Mot clé principal dans la balise H1"
+
+#: _inc/fcnt/fcnt.locale.php:323
+msgid "Secondary Keywords in H2 tags"
+msgstr "Mots-clés secondaires dans les balises H2"
+
+#: _inc/fcnt/fcnt.locale.php:324
+msgid "Lexical keywords in H3 tags"
+msgstr "Mots-clés lexicaux dans les balises H3"
+
+#: _inc/fcnt/fcnt.locale.php:325
+msgid "Some keywords in H4 / H5 / H6 tags"
+msgstr "Quelques mots-clés dans les balises H4 / H5 / H6"
+
+#: _inc/fcnt/fcnt.locale.php:326
+msgid "Main keyword in the hat"
+msgstr "Mot clé dans le chapeau"
+
+#: _inc/fcnt/fcnt.locale.php:327
+msgid "Number of words in your paragraph"
+msgstr "Nombre de mots dans votre paragraphe"
+
+#: _inc/fcnt/fcnt.locale.php:328
+msgid "Presence rate of the main keyword"
+msgstr "Taux de présence du mot clé principal"
+
+#: _inc/fcnt/fcnt.locale.php:329
+msgid "Rate of sentences with a transition word"
+msgstr "Taux de phrases avec un mot de transition"
+
+#: _inc/fcnt/fcnt.locale.php:330
+msgid "The average of your sentences have a good length"
+msgstr "La moyenne des phrases a une bonne longueur"
+
+#: _inc/fcnt/fcnt.locale.php:331
+msgid "Main keyword in bold in a paragraph"
+msgstr "Mot clé principal en gras dans un paragraphe"
+
+#: _inc/fcnt/fcnt.locale.php:332
+msgid "Presence of an image in the text"
+msgstr "Présence d'une image dans le texte"
+
+#: _inc/fcnt/fcnt.locale.php:333
+msgid "Main keyword in alt tag"
+msgstr "Mot clé principal dans la balise alt"
+
+#: _inc/fcnt/fcnt.locale.php:334
+msgid "Length of the text"
+msgstr "Longueur du texte"
+
+#: _inc/fcnt/fcnt.locale.php:336 _inc/fcnt/fcnt.locale.php:373
+msgid "Title length"
+msgstr "Longueur du titre"
+
+#: _inc/fcnt/fcnt.locale.php:337
+msgid "Title length too short"
+msgstr "Longueur du titre trop court"
+
+#: _inc/fcnt/fcnt.locale.php:338
+msgid "Title length too long"
+msgstr "Longueur du titre trop long"
+
+#: _inc/fcnt/fcnt.locale.php:348
+msgid "unlimited"
+msgstr "illimité"
+
+#: _inc/fcnt/fcnt.locale.php:349
+msgid "limited"
+msgstr "limitée"
+
+#: _inc/fcnt/fcnt.locale.php:350
+msgid "Free Offer"
+msgstr "Offre gratuite"
+
+#: _inc/fcnt/fcnt.locale.php:351
+msgid "Light Offer"
+msgstr "Offre Light"
+
+#: _inc/fcnt/fcnt.locale.php:352
+msgid "Pro Offer"
+msgstr "Offre Pro"
+
+#: _inc/fcnt/fcnt.locale.php:353
+msgid "Pre-sale Offer"
+msgstr "Offre Pré-vente"
+
+#: _inc/fcnt/fcnt.locale.php:354
+msgid "Agency Offer"
+msgstr "Offre Agence"
+
+#: _inc/fcnt/fcnt.locale.php:356
+msgid "Number of wordpress"
+msgstr "Nombre de wordpress"
+
+#: _inc/fcnt/fcnt.locale.php:358
+msgid "Analysis of the writings"
+msgstr "Analyse des rédactions"
+
+#: _inc/fcnt/fcnt.locale.php:359
+msgid "SEO Parameters Configuration"
+msgstr "Paramètres de référencement Configuration"
+
+#: _inc/fcnt/fcnt.locale.php:360
+msgid "Setting (block indexing)"
+msgstr "Réglage (bloquer l’indexation)"
+
+#: _inc/fcnt/fcnt.locale.php:361
+msgid "Separator title"
+msgstr "Titre séparateur"
+
+#: _inc/fcnt/fcnt.locale.php:362
+msgid "Homepage"
+msgstr "Page d’accueil"
+
+#: _inc/fcnt/fcnt.locale.php:363
+msgid "Knowledge Graphs"
+msgstr "Knowledge Graphs"
+
+#: _inc/fcnt/fcnt.locale.php:364
+msgid "Suggested keyword"
+msgstr "Suggestion de mot-clé"
+
+#: _inc/fcnt/fcnt.locale.php:365
+msgid "Add keywords manually"
+msgstr "Ajouter des mots-clés manuellement"
+
+#: _inc/fcnt/fcnt.locale.php:366
+msgid "Automatically suggest main keyword"
+msgstr "Suggestion automatique du mot-clé principal"
+
+#: _inc/fcnt/fcnt.locale.php:367
+msgid "Automatically suggest secondary keyword"
+msgstr "Suggestion automatique du mot-clé secondaire"
+
+#: _inc/fcnt/fcnt.locale.php:368
+msgid "Automatically suggest lexical keyword"
+msgstr "Suggestion automatique du mot-clé lexical"
+
+#: _inc/fcnt/fcnt.locale.php:369
+msgid "Features"
+msgstr "Fonctionnalités"
+
+#: _inc/fcnt/fcnt.locale.php:370
+msgid "Internal Link Counter"
+msgstr "Compteur de liens internes"
+
+#: _inc/fcnt/fcnt.locale.php:371
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#: _inc/fcnt/fcnt.locale.php:372
+msgid "Primary keyword in the title"
+msgstr "Mot clé principal dans le titre"
+
+#: _inc/fcnt/fcnt.locale.php:379
+msgid "Synonym search engine"
+msgstr "Moteur de recherche de synonymes"
+
+#: _inc/fcnt/fcnt.locale.php:380
+msgid "Semantic Analysis"
+msgstr "Analyse Sémantique"
+
+#: _inc/fcnt/fcnt.locale.php:381
+msgid "Target keywords"
+msgstr "Mots-clés cibles"
+
+#: _inc/fcnt/fcnt.locale.php:382
+msgid "Title Structure"
+msgstr "Structure de titre"
+
+#: _inc/fcnt/fcnt.locale.php:383
+msgid "Text structure"
+msgstr "Structure de texte"
+
+#: _inc/fcnt/fcnt.locale.php:384
+msgid "Tools for webmasters"
+msgstr "Outils pour les webmaster"
+
+#: _inc/fcnt/fcnt.locale.php:389
+msgid "Type of content"
+msgstr "Type de contenu"
+
+#: _inc/fcnt/fcnt.locale.php:394 _inc/fcnt/fcnt.locale.php:401
+msgid "Other"
+msgstr "Autre"
+
+#: _inc/fcnt/fcnt.locale.php:396
+msgid "Categories"
+msgstr "Catégories"
+
+#: _inc/fcnt/fcnt.locale.php:397
+msgid "Tags"
+msgstr "Mots clés"
+
+#: _inc/fcnt/fcnt.locale.php:398
+msgid "Formats"
+msgstr "Les formats"
+
+#: _inc/fcnt/fcnt.locale.php:399
+msgid "Projects categories"
+msgstr "Projects catégories"
+
+#: _inc/fcnt/fcnt.locale.php:400
+msgid "Projects Attributes"
+msgstr "Projects Attributes"
+
+#: _inc/fcnt/fcnt.locale.php:403 tpl/box_page/_root.php:356
+msgid "Facebook"
+msgstr "Facebook"
+
+#: _inc/fcnt/fcnt.locale.php:404 tpl/box_page/_root.php:408
+msgid "Twitter"
+msgstr "Twitter"
+
+#: _inc/fcnt/fcnt.locale.php:405
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: _inc/fcnt/fcnt.locale.php:406
+msgid "Overview of social networks"
+msgstr "Aperçu des réseaux sociaux"
+
+#: _inc/fcnt/fcnt.locale.php:407
+msgid "Archives"
+msgstr "Archives"
+
+#: _inc/fcnt/fcnt.locale.php:408
+msgid "Author Archives"
+msgstr "Archives de l’auteur"
+
+#: _inc/fcnt/fcnt.locale.php:409
+msgid "Dates Archives"
+msgstr "Dates Archives"
+
+#: _inc/fcnt/fcnt.locale.php:410
+msgid "Creation of semantic structure"
+msgstr "Création de structure sémantique"
+
+#: _inc/fcnt/fcnt.locale.php:411
+msgid "Creating a new structure"
+msgstr "Création d’une nouvelle structure"
+
+#: _inc/fcnt/fcnt.locale.php:412
+msgid "Reorganization of your site"
+msgstr "Réorganisation de votre site"
+
+#: _inc/fcnt/fcnt.locale.php:413
+msgid "Deployment of the structure"
+msgstr "Déploiement de la structure"
+
+#: _inc/fcnt/fcnt.locale.php:414
+msgid "Number of searches"
+msgstr "Nombre de recherche"
+
+#: _inc/fcnt/fcnt.locale.php:415
+msgid "Number of results"
+msgstr "Nombre de résultats"
+
+#: _inc/fcnt/fcnt.locale.php:416
+msgid "Export / Import Tools"
+msgstr "Outils Export / Import"
+
+#: _inc/fcnt/fcnt.locale.php:419
+msgid "Special pages"
+msgstr "Pages spéciales"
+
+#: _inc/fcnt/fcnt.locale.php:420
+msgid "Search page"
+msgstr "Page recherche"
+
+#: _inc/fcnt/fcnt.locale.php:421
+msgid "Page Error 404"
+msgstr "Page Erreur 404"
+
+#: _inc/fcnt/fcnt.locale.php:422
+msgid "Tracking the positioning of the site"
+msgstr "Suivi du positionnement du site"
+
+#: _inc/fcnt/fcnt.locale.php:424
+msgid "Site Analysis"
+msgstr "Analyse du site"
+
+#: _inc/fcnt/fcnt.locale.php:425
+msgid "Analysis of organic research"
+msgstr "Analyse de la recherche organique"
+
+#: _inc/fcnt/fcnt.locale.php:426
+msgid "Competition Analysis"
+msgstr "Analyse de la concurrence"
+
+#: _inc/fcnt/fcnt.locale.php:428
+msgid "Htaccess"
+msgstr "Htaccess"
+
+#: _inc/fcnt/fcnt.locale.php:429
+msgid "Robots.txt"
+msgstr "Robots.txt"
+
+#: _inc/fcnt/fcnt.locale.php:431
+msgid "Add content before and after"
+msgstr "Ajout de contenu avant et après"
+
+#: _inc/fcnt/fcnt.locale.php:434
+msgid "Content type"
+msgstr "Type de contenu"
+
+#: _inc/fcnt/fcnt.locale.php:437
+msgid "days"
+msgstr "jours"
+
+#: _inc/fcnt/fcnt.locale.php:438
+msgid "Beyond that, payment per page"
+msgstr "Au delà, paiement à la page"
+
+#: _inc/fcnt/fcnt.locale.php:439
+msgid "results"
+msgstr "résultats"
+
+#: _inc/fcnt/fcnt.stripe.php:22
+msgid "per day"
+msgstr "par jour"
+
+#: _inc/fcnt/fcnt.stripe.php:25
+msgid "per week"
+msgstr "par semaine"
+
+#: _inc/fcnt/fcnt.stripe.php:28
+msgid "per month"
+msgstr "par mois"
+
+#: _inc/fcnt/fcnt.stripe.php:31
+msgid "per year"
+msgstr "par an"
+
+#: tpl/analysis/_root.php:50
+#, php-format
+msgid "Score %s"
+msgstr "Score %s"
+
+#: tpl/auth_login/_root.php:4 tpl/auth_otp/_root.php:12
+#: tpl/auth_register/_root.php:4
+msgid "password"
+msgstr "mot de passe"
+
+#: tpl/auth_otp/_root.php:4
+msgid ""
+"Before you can change your password, you must enter the verification code "
+"received by e-mail"
+msgstr ""
+"Avant de pouvoir changer votre mot de passe, vous devez entrer le code de "
+"vérification reçu par e-mail"
+
+#: tpl/auth_otp/_root.php:8
+msgid ""
+"Before you can use your account you must, please enter the verification code "
+"received by e-mail"
+msgstr ""
+"Avant de pouvoir utiliser votre compte, vous devez saisir le code de "
+"vérification reçu par e-mail"
+
+#: tpl/auth_otp/_root.php:13 tpl/auth_register/_root.php:5
+msgid "confirm password"
+msgstr "confirmation du mot de passe"
+
+#: tpl/box_page/_root.php:166
+msgid "No image"
+msgstr "Pas d'image"
+
+#: tpl/box_page/_root.php:168
+msgid "No link"
+msgstr "Aucun lien"
+
+#: tpl/box_page/_root.php:169
+msgid "No note"
+msgstr "Aucune note"
+
+#: tpl/box_page/_root.php:171 tpl/box_page/_root.php:236
+msgid "No progression"
+msgstr "Pas de progression"
+
+#: tpl/box_page/_root.php:172 tpl/box_page/_root.php:204
+msgid "No priority"
+msgstr "Pas de priorité"
+
+#: tpl/box_page/_root.php:294 tpl/settings/_root.php:958
+#, php-format
+msgid "Name of %s"
+msgstr "Nom %s"
+
+#: tpl/box_page/_root.php:301 tpl/settings/_root.php:965
+msgid "Parent category"
+msgstr "Catégorie parente"
+
+#: tpl/box_page/_root.php:310 tpl/settings/_root.php:975
+#, php-format
+msgid "Description of %s"
+msgstr "Description %s"
+
+#: tpl/box_page/_root.php:462
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: tpl/editor/_root.php:33
+msgid "By default"
+msgstr "Par défaut"
+
+#: tpl/settings/_root.php:176 tpl/wizard/_root.php:233
+msgid "No information"
+msgstr "Aucune information"
+
+#: tpl/settings/_root.php:243
+#, php-format
+msgid "This option allows you to enable the analysis in %s"
+msgstr "Cette option vous permet d'activer l'analyse dans vos %s"
+
+#: tpl/settings/_root.php:337
+msgid "No limit"
+msgstr "Aucune limite"
+
+#: tpl/settings/_root.php:878 tpl/settings/_root.php:946
+#, php-format
+msgid "Replace the meta tag %s"
+msgstr "Remplacer la balise meta %s"
+
+#: tpl/settings/_root.php:879 tpl/settings/_root.php:947
+#, php-format
+msgid "Allow editing the meta tag in %s"
+msgstr "Autoriser la modification de la balise META dans %s"
+
+#: tpl/settings/_root.php:880 tpl/settings/_root.php:948
+#, php-format
+msgid "Allow search engines to index this %s"
+msgstr "Autoriser les moteurs de recherche à indexer %s"
+
+#: tpl/settings/_root.php:881 tpl/settings/_root.php:949
+#, php-format
+msgid "This option allows you to ask the search engines to index the %s"
+msgstr ""
+"Cette option vous permet de demander aux moteurs de recherche d’indexer %s"
+
+#: tpl/settings/_root.php:882 tpl/settings/_root.php:950
+#, php-format
+msgid "Allow search engines to follow the links in the %s"
+msgstr "Autoriser les moteurs de recherche à suivre les liens dans %s"
+
+#: tpl/settings/_root.php:883 tpl/settings/_root.php:951
+#, php-format
+msgid "This option allows search engine robots to follow links from the %s"
+msgstr ""
+"Cette option permet aux robots des moteurs de recherche de suivre les liens "
+"%s"
+
+#: tpl/settings/_root.php:1238
+msgid "Download the configuration file"
+msgstr "Télécharger le fichier de configuration"
+
+#: tpl/settings/_root.php:1239
+msgid "Import the configuration file"
+msgstr "Importer le fichier de configuration"
+
+#: tpl/settings/_root.php:1240
+msgid "Configuration file"
+msgstr "Fichier de configuration"
+
+#: tpl/settings/_root.php:1259 tpl/settings/_root.php:1278
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: tpl/settings/_root.php:1260 tpl/settings/_root.php:1279
+msgid "File content"
+msgstr "Contenu du fichier"
+
+#: tpl/wizard/_root.php:31
+msgid "Identification"
+msgstr "Identification"
+
+#: tpl/wizard/_root.php:32
+msgid "You need an account to use rank4win login or create an account"
+msgstr ""
+"Vous avez besoin d'un compte pour utiliser rank4win login ou créer un compte"
+
+#: tpl/wizard/_root.php:36
+msgid "Lets check if your wordpress is compatible to run rank4win"
+msgstr "Vérifions si votre wordpress est compatible avec rank4win"
+
+#: tpl/wizard/_root.php:40
+msgid "Set up your site and rank4win options"
+msgstr "Configurez votre site et les options de rank4win"
+
+#: tpl/wizard/_root.php:92
+msgid "Identification in progress, please wait..."
+msgstr "Identification en cours, veuillez patienter...."
+
+#: tpl/wizard/_root.php:134 tpl/wizard/_root.php:136
+msgid "No"
+msgstr "Non"
+
+#: tpl/wizard/_root.php:153 tpl/wizard/_root.php:159
+msgid "or higher"
+msgstr "ou plus"
+
+#: tpl/wizard/_root.php:170 tpl/wizard/_root.php:177
+msgid "Yes"
+msgstr "Oui"
+
+#: tpl/wizard/_root.php:183
+msgid ""
+"Congratulations, your configuration allows you to use rank4win correctly. "
+"You can move on to the next step"
+msgstr ""
+"Félicitations, votre configuration vous permet d'utiliser rank4win "
+"correctement. Vous pouvez passer à l'étape suivante"
+
+#: tpl/wizard/_root.php:186
+msgid ""
+"Your configuration does not allow you to use rank4win, to continue you must "
+"upgrade your configuration"
+msgstr ""
+"Votre configuration ne vous permet pas d'utiliser rank4win, pour continuer "
+"vous devez mettre à jour votre configuration"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Rank4win"
+msgstr "Rank4win"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://rank4win.fr"
+msgstr "https://rank4win.fr"
+
+#. Description of the plugin/theme
+msgid ""
+"Rank4Win is an ultra powerful new generation SEO tool & helps you multiply "
+"your traffic. All you need to reach the first page of Google! We created "
+"Rank4win, a WordPress SEO plugin, to make it easier for every website owner "
+"to build keyword strategy, to create a Semantic Structure to reinforce the "
+"natrual SEO of their site, to have help with Optimizing Content Writing and "
+"Enrichment lexicalment and semantically."
+msgstr ""
+"Rank4Win est un outil de référencement de nouvelle génération ultra puissant "
+"qui vous aide à multiplier votre trafic. Tout ce dont vous avez besoin pour "
+"atteindre la première page de Google! Nous avons créé Rank4win, un plugin "
+"SEO WordPress, pour permettre à chaque propriétaire de site Web de créer "
+"plus facilement une stratégie de mots clés, de créer une structure "
+"sémantique afin de renforcer le référencement naturel de leur site, afin de "
+"vous aider à optimiser la rédaction et l'enrichissement lexicalement et la "
+"gestion sémantique."
+
+#~ msgid "This feature is not yet available"
+#~ msgstr "Cette fonction n'est pas encore disponible"
+
+#~ msgid ""
+#~ "Currently, your semantic structure no longer corresponds to your "
+#~ "wordpress pages"
+#~ msgstr ""
+#~ "Actuellement, votre structure sémantique ne correspond plus à vos pages "
+#~ "wordpress"
+
+#~ msgid ""
+#~ "You have the possibility to replace your structure by your wordpress "
+#~ "pages or to keep your structure intact"
+#~ msgstr ""
+#~ "Vous avez la possibilité de remplacer votre structure par vos pages "
+#~ "wordpress ou de garder votre structure intacte"
+
+#~ msgid "Replace"
+#~ msgstr "Replace"
+
+#~ msgid "keep intact"
+#~ msgstr "Garder intact"
+
+#~ msgid "Keep"
+#~ msgstr "Gardez"
+
+#~ msgid "Validate"
+#~ msgstr "Valider"
+
+#, fuzzy
+#~| msgid "Import failed"
+#~ msgid "Import overview"
+#~ msgstr "Échec de l'importation"
+
+#~ msgid "Edit the author of this page"
+#~ msgstr "Modifier l'auteur de cette page"
+
+#~ msgid "Select an author"
+#~ msgstr "Sélectionnez un auteur"
+
+#, fuzzy
+#~| msgid "Title 3 (H3): must contain the lexical keyword %s"
+#~ msgid "Title 3 (H3): must contain the lexical keyword"
+#~ msgstr "Titre 3 (H3): doit contenir le mot-clé lexical %s"
+
+#~ msgid "Model to follow"
+#~ msgstr "Modèle à suivre"
+
+#~ msgid "Editorial"
+#~ msgstr "Éditorial"
+
+#~ msgid "Adding main keyword manually"
+#~ msgstr "Ajout du mot clé principal manuellement"
+
+#~ msgid "Adding secondary keyword manually"
+#~ msgstr "Ajout du mot clé secondaire manuellement"
+
+#~ msgid "day"
+#~ msgstr "jour"
+
+#~ msgid "search"
+#~ msgstr "recherche"
+
+#~ msgid "Keyword Strategy Creation"
+#~ msgstr "Création de stratégie de mots clés"
+
+#~ msgid "Number of strategies"
+#~ msgstr "Nombre de stratégies"
+
+#~ msgid "Additional deployment"
+#~ msgstr "Déploiement supplémentaire"
+
+#~ msgid ""
+#~ "Each additional deployment is valid only once for a single semantic "
+#~ "structure"
+#~ msgstr ""
+#~ "Chaque déploiement supplémentaire est valide une seule fois pour une "
+#~ "seule structure sémantique"
+
+#~ msgid "You have no deployment available"
+#~ msgstr "Vous n'avez pas de déploiement disponible"
+
+#~ msgid "Please choose one of the following options"
+#~ msgstr "Veuillez choisir l'une des options suivantes"
+
+#~ msgid ""
+#~ "You will have an additional deployment, valid only once for a single "
+#~ "semantic structure"
+#~ msgstr ""
+#~ "Vous aurez un déploiement supplémentaire, valable une seule fois pour une "
+#~ "seule structure sémantique"
+
+#~ msgid ""
+#~ "You have used your deployments available in your offer, you must wait for "
+#~ "your next billing to receive additional deployments"
+#~ msgstr ""
+#~ "Vous avez utilisé vos déploiements disponibles dans votre offre, vous "
+#~ "devez attendre votre prochaine facturation pour recevoir des déploiements "
+#~ "supplémentaires"
+
+#~ msgid "Keyword strategy"
+#~ msgstr "Stratégie de mot clé"
+
+#~ msgid "Create a new strategy"
+#~ msgstr "Créer une nouvelle stratégie"
+
+#~ msgid "Please wait while creating your semantic structure"
+#~ msgstr ""
+#~ "Veuillez patienter pendant la création de votre structure sémantique"
+
+#~ msgid "Edit"
+#~ msgstr "Modifier"
+
+#~ msgid "Deleted"
+#~ msgstr "Supprimer"
+
+#~ msgid "This service is not available at the moment"
+#~ msgstr "Ce service n'est pas disponible pour le moment"
+
+#~ msgid "Creating pages in wordpress"
+#~ msgstr "Création des pages dans wordpress"
+
+#~ msgid ""
+#~ "Please wait while we create your pages, this may take several minutes"
+#~ msgstr ""
+#~ "Veuillez patienter pendant que nous créons vos pages, cela peut prendre "
+#~ "plusieurs minutes"
+
+#~ msgid "See the pages"
+#~ msgstr "Voir les pages"
+
+#~ msgid ""
+#~ "A user has just taken hold of this semantic structure, what would you "
+#~ "like to do ?"
+#~ msgstr ""
+#~ "Un utilisateur vient de s'emparer de cette structure sémantique, que "
+#~ "souhaitez-vous faire?"
+
+#~ msgid "Leave the hand"
+#~ msgstr "Laisser la main"
+
+#~ msgid "Take the hand"
+#~ msgstr "Prendre la main"
+
+#~ msgid ""
+#~ "In making the payment, you confirm that you have read and accept the "
+#~ "terms and conditions of sale"
+#~ msgstr ""
+#~ "En effectuant le paiement, vous confirmez que vous avez lu et accepté les "
+#~ "conditions générales de vente (CGV)"
+
+#~ msgid "Rank4win warning"
+#~ msgstr "Rank4win avertissement"
+
+#~ msgid "Be careful, this is a browser feature designed for developers"
+#~ msgstr ""
+#~ "Soyez prudent, il s'agit d'une fonctionnalité de navigateur conçue pour "
+#~ "les développeurs"
+
+#~ msgid ""
+#~ "We do not approve or authorize the interception and modification of our "
+#~ "requests"
+#~ msgstr ""
+#~ "Nous n'approuvons ni n'autorisons l'interception et la modification de "
+#~ "nos requêtes"
+
+#~ msgid ""
+#~ "On the one hand, their modification can cause big problems, and then we "
+#~ "would not put ourselves in a situation where we would encourage the use "
+#~ "of things that can make your site inaccessible"
+#~ msgstr ""
+#~ "D'une part, leur modification peut causer de gros problèmes, et ensuite "
+#~ "nous ne nous mettrions pas dans une situation où nous encouragerions "
+#~ "l'utilisation de choses qui peuvent rendre votre site inaccessible"
+
+#~ msgid ""
+#~ "So, in addition to not giving any technical support to those who perform "
+#~ "these actions, we will be inclined to close the account of anyone who is "
+#~ "detected to collect, modify or exploit (a flaw) the plugin"
+#~ msgstr ""
+#~ "Ainsi, en plus de ne pas donner de support technique à ceux qui "
+#~ "effectuent ces actions, nous serons enclins à fermer le compte de "
+#~ "quiconque est détecté pour collecter, modifier ou exploiter (un défaut) "
+#~ "du plugin"
+
+#~ msgid "Now, you cant say we didnt warn you"
+#~ msgstr "Vous ne pouvez pas dire qu'on ne vous a pas prévenu"
+
+#~ msgid ""
+#~ "For rank4win to work correctly, check if you have the required system "
+#~ "requirements"
+#~ msgstr ""
+#~ "Pour que rank4win fonctionne correctement, vérifier si vous disposez de "
+#~ "la configuration système requise"
+
+#~ msgid "Configuration minimale requise "
+#~ msgstr "Configuration minimale requise "
+
+#~ msgid "Wordpress configuration"
+#~ msgstr "Configuration Wordpress"
+
+#~ msgid ""
+#~ "To confirm the cancellation of your subscription, please click on "
+#~ "Complete Cancellation below"
+#~ msgstr ""
+#~ "Pour confirmer l'annulation de votre abonnement, veuillez cliquer sur "
+#~ "Compléter l'annulation ci-dessous"
+
+#~ msgid "Manage your subscription"
+#~ msgstr "Gérer votre abonnement"
+
+#~ msgid "Description length too long"
+#~ msgstr "Longueur de la description trop long"
+
+#, fuzzy
+#~| msgid "Latest"
+#~ msgid "Let"
+#~ msgstr "Dernier"
+
+#~ msgid "Please check the system requirements"
+#~ msgstr "Veuillez vérifier la configuration requise"
+
+#~ msgid "Live technical support"
+#~ msgstr "Support technique en direct"
+
+#~ msgid "Idea of content"
+#~ msgstr "Idée de contenu"
+
+#~ msgid "OTP"
+#~ msgstr "Authentification par mot de passe à usage unique"
+
+#~ msgid "Tout les outils rank4win adapter pour wordpress"
+#~ msgstr "Tout les outils rank4win adapter pour wordpress"
+
+#~ msgid "Dailycom Agency"
+#~ msgstr "Dailycom Agency"
+
+#~ msgid "https://dailycom.fr"
+#~ msgstr "https://dailycom.fr"
+
+#, fuzzy
+#~| msgid "Client details"
+#~ msgid "Content Ideas"
+#~ msgstr "Détails du client"
+
+#~ msgid "Block the indexing of the wordpress"
+#~ msgstr "Bloquer l'indexation du WordPress"
+
+#, fuzzy
+#~| msgid "Tools"
+#~ msgid "Tool seo"
+#~ msgstr "Outils"
+
+#~ msgid "Essential tools"
+#~ msgstr "Les outils indispensables"
+
+#~ msgid "Helper"
+#~ msgstr "Assistant"
+
+#~ msgid "What do you want to do"
+#~ msgstr "Qu'est-ce que vous souhaitez faire"
+
+#~ msgid "Price"
+#~ msgstr "Prix"
+
+#~ msgid "Unit price"
+#~ msgstr "Prix unitaire"
+
+#~ msgid "Wordpress"
+#~ msgstr "Wordpress"
+
+#~ msgid "Billed monthly"
+#~ msgstr "Facturé mensuellement"
+
+#~ msgid "Billed annually"
+#~ msgstr "Facturé annuellement"
+
+#~ msgid "Add a wordpress to your subscription"
+#~ msgstr "Ajouter un wordpress à votre abonnement"
+
+#~ msgid "Associate this WordPress so that your subscription is functional"
+#~ msgstr "Associez ce wordpress pour que votre abonnement soit fonctionnel"
+
+#~ msgid "Lists of wordpress linked to your account"
+#~ msgstr "Listes des wordpress liées à votre compte"
+
+#~ msgid ""
+#~ "You have reached the limit of your subscription for the deployment of "
+#~ "your semantic structures. Wait for your subscription to renew or buy an "
+#~ "additional deployment"
+#~ msgstr ""
+#~ "Vous avez atteint la limite de votre abonnement pour le déploiement de "
+#~ "vos structures sémantiques. Attendez que votre abonnement soit renouvelé "
+#~ "ou achetez un déploiement supplémentaire"
+
+#~ msgid ""
+#~ "You have no available deployments, subscribe to a subscription, or "
+#~ "purchase an additional deployment"
+#~ msgstr ""
+#~ "Vous n'avez aucun déploiement disponible, souscrivez à un abonnement ou "
+#~ "achetez un déploiement supplémentaire"
+
+#~ msgid "Subscribe and receive deployments and much more"
+#~ msgstr "Abonnez-vous et recevez des déploiements et bien plus encore"
+
+#~ msgid "A new version is available"
+#~ msgstr "Une nouvelle mise à jour est disponible"
+
+#~ msgid "You need to update the plugin to continue using it"
+#~ msgstr "Vous devez mettre à jour le plugin pour continuer à l'utiliser"
+
+#~ msgid ""
+#~ "Update is mandatory to continue using the plugin it includes new "
+#~ "features, improvements and stability"
+#~ msgstr ""
+#~ "La mise à jour est obligatoire pour continuer à utiliser le plugin car il "
+#~ "inclut de nouvelles fonctionnalités, des améliorations et une stabilité"
+
+#~ msgid "performance and stability improvements"
+#~ msgstr "amélioration de la performance et de la stabilité"
+
+#~ msgid "Select the subscription that suits you"
+#~ msgstr "Sélectionnez l'abonnement qui vous convient"
+
+#~ msgid "Payment"
+#~ msgstr "Paiement"
+
+#~ msgid "Next payment"
+#~ msgstr "Prochain paiement"
+
+#~ msgid ""
+#~ "You do not have enough, you want more. You can subscribe and manage your "
+#~ "subscriptions"
+#~ msgstr ""
+#~ "Vous n'en avez pas assez, vous en voulez plus. Vous pouvez vous abonner "
+#~ "et gérer vos abonnements"
+
+#~ msgid "Overall score Dashboard"
+#~ msgstr "Tableau de bord score global des rédactions"
+
+#~ msgid ""
+#~ "This option allows to display on the dashboard the overall score of pages "
+#~ "and articles"
+#~ msgstr ""
+#~ "Cette option permet d'afficher sur le tableau de bord le score global des "
+#~ "rédactions"
+
+#~ msgid "Indexability Dashboard"
+#~ msgstr "Tableau de bord indexabilité"
+
+#~ msgid ""
+#~ "This option makes it possible to display on the dashboard the "
+#~ "indexability of pages and articles"
+#~ msgstr ""
+#~ "Cette option permet d'afficher sur le tableau de bord l'indexabilité des "
+#~ "pages et des articles"
+
+#~ msgid "Indexability"
+#~ msgstr "Indexabilité"
+
+#~ msgid "Peoples questions"
+#~ msgstr "Questions des gens"
+
+#~ msgid "Idea Content"
+#~ msgstr "Contenu de l'idée"
+
+#~ msgid "Latitude"
+#~ msgstr "Latitude"
+
+#~ msgid "Longitude"
+#~ msgstr "Longitude"
+
+#~ msgid "Local Business"
+#~ msgstr "Entreprise locale"
+
+#~ msgid "Please enter a password"
+#~ msgstr "Veuillez entrer un mot de passe"
+
+#, fuzzy
+#~| msgid "Password is a required field"
+#~ msgid "Password is empty or invalid"
+#~ msgstr "Mot de passe est un champ obligatoire"
+
+#~ msgid "Select keywords for your strategy"
+#~ msgstr "Sélectionnez des mots-clés pour votre stratégie"
+
+#~ msgid "The user already exists"
+#~ msgstr "L'utilisateur existe déjà"
+
+#~ msgid "Image structure"
+#~ msgstr "Structure en image"
+
+#~ msgid "Download your structure in image"
+#~ msgstr "Téléchargez votre structure en image"
+
+#~ msgid "Backup disabled"
+#~ msgstr "Sauvegarde désactivée"
+
+#~ msgid ""
+#~ "Allows you to change the display name for sister pages links that are "
+#~ "used by the shortcode"
+#~ msgstr ""
+#~ "Vous permet de changer le nom d'affichage des liens des pages sœurs "
+#~ "utilisés par le shortcode"
+
+#~ msgid "Currently the semantic structure is used"
+#~ msgstr "Actuellement, la structure sémantique est utilisée"
+
+#~ msgid "Delete sync"
+#~ msgstr "Supprimer la synchronisation"
+
+#~ msgid "Create only new pages"
+#~ msgstr "Créer uniquement de nouvelles pages"
+
+#~ msgid "Structure based on a strategy"
+#~ msgstr "Structure basée sur une stratégie"
+
+#~ msgid "Add only"
+#~ msgstr "Ajouter seulement"
+
+#~ msgid "Keyword Research"
+#~ msgstr "Recherche par mot clé"
+
+#~ msgid ""
+#~ "Enter a keyword and well find keyword suggestions, related keywords and "
+#~ "content ideas to enrich your semantic structure"
+#~ msgstr ""
+#~ "Entrez un mot clé et trouvez des suggestions de mots clés, des mots clés "
+#~ "associés et des idées de contenu pour enrichir votre structure sémantique"
+
+#~ msgid "Start entering a keyword, we will then show you the results"
+#~ msgstr ""
+#~ "Commencez à entrer un mot clé, nous vous montrerons ensuite les résultats"
+
+#~ msgid "Create a strategy"
+#~ msgstr "Créer une stratégie"
+
+#~ msgid "Validate the strategy"
+#~ msgstr "Valider la stratégie"
+
+#~ msgid "Name of your strategy"
+#~ msgstr "Nom de votre stratégie"
+
+#~ msgid "Selected keywords"
+#~ msgstr "Mots-clés sélectionnés"
+
+#~ msgid "Edit the strategy"
+#~ msgstr "Modifier la stratégie"
+
+#~ msgid ""
+#~ "Please select the type of document you wish to create for this keyword"
+#~ msgstr ""
+#~ "Veuillez sélectionner le type de document que vous souhaitez créer pour "
+#~ "ce mot clé"
+
+#~ msgid "Create document"
+#~ msgstr "Créer un document"
+
+#~ msgid "Statut"
+#~ msgstr "Statut"
+
+#~ msgid "Name of the strategy"
+#~ msgstr "Nom de la stratégie"
+
+#~ msgid "No strategy"
+#~ msgstr "Aucune stratégie"
+
+#~ msgid "You have not yet created a strategy"
+#~ msgstr "Vous n'avez pas encore créé de stratégie"
+
+#~ msgid "Strategy"
+#~ msgstr "Stratégie"
+
+#~ msgid "You have not added any keywords in your strategy"
+#~ msgstr "Vous n'avez ajouté aucun mot clé dans votre stratégie"
+
+#~ msgid "See"
+#~ msgstr "Voir"
+
+#~ msgid "Semantic cocoon"
+#~ msgstr "Cocon sémantique"
+
+#~ msgid "Analyser"
+#~ msgstr "Analyseur"
+
+#, fuzzy
+#~| msgid "Setting"
+#~ msgid "Score writing"
+#~ msgstr "Réglage"
+
+#~ msgid "Keyword Analysis"
+#~ msgstr "Analyse de mots clés"
+
+#~ msgid "Domain name analysis"
+#~ msgstr "Analyse de nom de domaine"
+
+#~ msgid "We welcome you to the world of winners"
+#~ msgstr "Bienvenue dans le monde des gagnants"
+
+#~ msgid ""
+#~ "You just install the plugin that will boost your news and your visibility "
+#~ "on the internet. Our tools and our know-how will guide you to achieve a "
+#~ "single objective, the first position"
+#~ msgstr ""
+#~ "Vous venez d’installer le plugin qui va booster vos pages, articles et "
+#~ "votre visibilité sur Internet. Nos outils et notre savoir-faire vous "
+#~ "guideront vers un seul objectif, la première position"
+
+#, fuzzy
+#~| msgid "Overall score of articles"
+#~ msgid "overall score of your documents"
+#~ msgstr "Score global des articles"
+
+#~ msgid "Dashboard"
+#~ msgstr "Tableau de bord"
+
+#~ msgid "Validate the keywords"
+#~ msgstr "Valider les mots-clés"
+
+#~ msgid "Articles"
+#~ msgstr "Articles"
+
+#~ msgid "This option tells you if a page or article is indexed or not"
+#~ msgstr ""
+#~ "Cette option vous indique si une page ou un article est indexé ou non"
+
+#~ msgid "Overall score of the pages"
+#~ msgstr "Score global des pages"
+
+#, fuzzy
+#~| msgid "author ID"
+#~ msgid "Name author"
+#~ msgstr "ID de l'auteur"
+
+#~ msgid "Title of archive"
+#~ msgstr "Titre de l'archive"
+
+#~ msgid "Description of the keyword"
+#~ msgstr "Description du mot clé"
+
+#~ msgid "Description of the term"
+#~ msgstr "Description du terme"
+
+#~ msgid "You can clear the options you have customize in the archive"
+#~ msgstr ""
+#~ "Vous pouvez effacer les options que vous avez personnaliser dans les "
+#~ "archives"
+
+#~ msgid "Searched phrase"
+#~ msgstr "Phrase recherchée"
+
+#~ msgid "Set language and country"
+#~ msgstr "Définir la langue et le pays"
+
+#~ msgid "Text to be translated"
+#~ msgstr "ddddd"
+
+#~ msgid "Wrong email or passwordxxxx"
+#~ msgstr "ttt"
+
+#~ msgid "Wrong email or passwordaaaa"
+#~ msgstr "bbb"
+
+#~ msgid "from"
+#~ msgstr "de"
+
+#~ msgid "Recover every day the best price of each destination add"
+#~ msgstr ""
+#~ "Récupérez chaque jour le meilleur prix de chaque destinations ajoutée"
+
+#~ msgid "Place of departure"
+#~ msgstr "Lieu de départ"
+
+#~ msgid "Add"
+#~ msgstr "Ajouter"
+
+#~ msgid "Today from"
+#~ msgstr "Aujourd'hui à partir de"
+
+#~ msgid "Unknown http method"
+#~ msgstr "Méthode http inconnue"
+
+#~ msgid "You must choose a place of departure"
+#~ msgstr "Vous devez choisir un lieu de départ"
+
+#~ msgid "You must choose a place of arrival"
+#~ msgstr "Vous devez choisir un lieu d'arrivée"
+
+#~ msgid "No added destinations"
+#~ msgstr "Aucune destination ajoutée"
+
+#, fuzzy
+#~| msgid "Lists of your flights tracking"
+#~ msgid "No flight tracking created"
+#~ msgstr "Listes de suivi de vos vols"
+
+#~ msgid "Follow the evolution of the flights"
+#~ msgstr "Suivez l'évolution des vols"
+
+#~ msgid ""
+#~ "Track the best fare for a trip, and receive price alerts and travel tips "
+#~ "via email"
+#~ msgstr ""
+#~ "Suivez le meilleur tarif pour un voyage et recevez des alertes de prix et "
+#~ "des conseils de voyage par e-mail."
